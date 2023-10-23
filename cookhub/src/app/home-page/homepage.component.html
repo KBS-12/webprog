@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <title>Startseite</title>
+  <style>
+    h2 {
+      font-size: 24px; 
+      font-family: 'Roboto', sans-serif;
+      color: #12CDD4;
+      font-weight: bold;
+      text-align: center;
+      margin-top: 10px; /* Ändere den oberen Abstand */
+    }
+  </style>
+</head>
+<body>
+
+<!-- Titelbild -->
+<div class="jumbotron text-center">
+  <img src="assets/images/frontpage.png" alt="Titelbild" class="img-fluid" style="width: 50%; height: auto;">
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 offset-md-3">
+      <div class="input-group mb-3">
+        <input type="text" class="form-control form-control-lg" placeholder="Suche..." aria-label="Suche" aria-describedby="basic-addon2">
+        <div class="input-group-append">
+          <button class="btn btn-primary btn-lg" type="button" style="background-color: #12CDD4; border: #12CDD4;" >Suchen</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 offset-md-3">
+      <h2 >Noch keine Ideen?</h2>
+      <h2>Lass dich inspirieren...</h2>
+    </div>
+  </div>
+</div>
+
+<div class="container" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr)); gap: 1rem;">
+  <div class="card" style="width: 18rem;">
+    <img class="card-img-top" src="assets/images/essen.png" alt="Card image cap">
+    <div class="card-body">
+      <p class="card-text">Gesundes unter 5€</p>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img class="card-img-top" src="assets/images/essen.png" alt="Card image cap">
+    <div class="card-body">
+      <p class="card-text">Rezept des Tages</p>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img class="card-img-top" src="assets/images/essen.png" alt="Card image cap">
+    <div class="card-body">
+      <p class="card-text">Für den schnellen Hunger</p>
+    </div>
+  </div>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
