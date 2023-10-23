@@ -8,6 +8,8 @@ import { ProfileComponent } from './profile-page/profile.component';
 import { LoginpageComponent } from './login-page/loginpage.component';
 import { SearchPageComponent } from './search-page/search-page.component';
 import { RecipePageComponent } from './recipe-page/recipe-page.component';
+import { RegisterPageComponent } from './register-page/register-page.component';
+import { NewUserPageComponent } from './new-user-page/new-user-page.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { RecipePageComponent } from './recipe-page/recipe-page.component';
     ProfileComponent,
     LoginpageComponent,
     SearchPageComponent,
-    RecipePageComponent
+    RecipePageComponent,
+    RegisterPageComponent,
+    NewUserPageComponent
   ],
   imports: [
     BrowserModule
