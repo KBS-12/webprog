@@ -7,9 +7,9 @@
       "id": 1
     },
     {
-      "name": "test",
-      "email": "test",
-      "password": "halloasdooas",
+      "name": "Tino",
+      "email": "test@test.de",
+      "password": "test",
       "id": 2
     },
     {
@@ -17,32 +17,64 @@
       "email": "paul@paul.de",
       "password": "PAULPAUL",
       "id": 3
+    },
+    {
+      "name": "hallo",
+      "email": "hallo@hallo.de",
+      "password": "Hallohallo",
+      "id": 4
     }
   ],
   "recipe": [
     {
-      "difficulty": "easy",
-      "cookingtime": 20,
-      "cost": 1,
-      "ingredientsquantity": "blabla",
-      "preparation": "blablabla2",
-      "id": 1
-    },
-    {
-      "difficulty": "2",
-      "cookingtime": 4,
-      "cost": 4,
-      "ingredientsquantity": "dd",
-      "preparation": "dd",
+      "name": "",
+      "price": 2,
+      "cookingtime": 1,
+      "ingredientsquantity": "a",
+      "imageUrl": "assets/images/food/lachs.jpg",
+      "preparation": "q",
+      "difficulty": "1",
       "id": 2
     },
     {
-      "difficulty": "2",
-      "cookingtime": 4,
-      "cost": 4,
-      "ingredientsquantity": "dd",
-      "preparation": "tinooooooooo",
+      "name": "Lachs",
+      "price": 20,
+      "cookingtime": 20,
+      "ingredientsquantity": "a",
+      "imageUrl": "assets/images/food/lachs.jpg",
+      "preparation": "ahsdisaksjdksadjsakdjaskdjasdkjsakdjasd",
+      "difficulty": "Schwer",
+      "id": 2
+    },
+    {
+      "name": "BackofenFisch",
+      "price": 10,
+      "cookingtime": 5,
+      "ingredientsquantity": "kjakasjdksajdksajdkasjdsak",
+      "imageUrl": "",
+      "preparation": "kjsadjsahfasdjsadhsjakd",
+      "difficulty": "1",
       "id": 3
+    },
+    {
+      "name": "Pizza",
+      "price": 20,
+      "cookingtime": 5,
+      "ingredientsquantity": "",
+      "imageUrl": "",
+      "preparation": "",
+      "difficulty": "3",
+      "id": 4
+    },
+    {
+      "name": "",
+      "price": 10,
+      "cookingtime": 20,
+      "ingredientsquantity": "kjkajsdk",
+      "imageUrl": "",
+      "preparation": "askdjsajdhasjkdsad",
+      "difficulty": "1",
+      "id": 5
     }
   ]
 }

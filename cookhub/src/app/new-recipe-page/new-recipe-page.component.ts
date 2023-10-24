@@ -16,11 +16,13 @@ export class NewRecipePageComponent {
   }
 
     recipeform = new FormGroup({
-    difficulty: new FormControl(''),
+    name: new FormControl(''),
+    price: new FormControl(''),
     cookingtime: new FormControl(''),
-    cost: new FormControl(''),
     ingredientsquantity: new FormControl(''),
+    imageUrl: new FormControl(''),
     preparation: new FormControl(''),
+    difficulty: new FormControl(''),
 
   });
 
