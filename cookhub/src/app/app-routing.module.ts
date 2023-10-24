@@ -7,12 +7,13 @@ import { RegisterPageComponent } from './register-page/register-page.component';
 import { ProfileComponent } from './profile-page/profile.component';
 import { RecipePageComponent } from './recipe-page/recipe-page.component';
 import { SearchPageComponent } from './search-page/search-page.component';
+import { AuthGuard } from './guard/auth.guard';
 
 const routes: Routes = [
  {component:LoginpageComponent,path:'login-page'},
  {component:RegisterPageComponent,path:'register-page'},
- {component:HomepageComponent,path:'home-page'},
- {component:ProfileComponent,path:'profile-page'},
+ {component:HomepageComponent, path:'home-page'},
+ {component:ProfileComponent,canActivate:[AuthGuard], path:'profile-page'},
  {component:RecipePageComponent,path:'receipt-page'},
  {component:SearchPageComponent,path:'search-page'},
 ];
