@@ -1,1 +1,155 @@
-<p>new-recipe-page works!</p>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <title>Nicht mehr Startseite</title>
+  <style>
+    h1 {
+      font-size: 30px;
+      font-family: 'Roboto', sans-serif;
+      color: #12CDD4;
+      font-weight: bold;
+      text-align: center;
+      margin-top: 10px;
+    }
+
+    .form-card {
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 offset-md-3">
+        <h1>Füge dein Rezept hinzu</h1>
+      </div>
+    </div>
+  </div>
+
+  <div class="container text-center mb-4">
+    <input type="file" id="fileUpload" style="display: none;">
+    <label for="fileUpload" style="display: inline-block; cursor: pointer;">
+        <img src="/assets/images/addphoto.jpg" alt="Bild öffnen" style="width: 400px; height: 300px; border: 1px solid #DFDFDF; border-radius: 10px;">
+    </label>
+</div>
+<script>
+    document.querySelector('label[for="fileUpload"]').addEventListener('click', function () {
+        document.getElementById('fileUpload').click();
+    });
+</script>
+
+
+
+
+<div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="form-card">
+          <div class="card">
+            <div class="card-body">
+              <p class="card-title font-weight-bold">Schwierigkeit</p>
+              <div class="form-group">
+                <div class="dropdown">
+                  <select class="form-control" id="difficulty">
+                    <option value="1">Einfach</option>
+                    <option value="2">Mittel</option>
+                    <option value="3">Schwer</option>
+                  </select>
+                  <i class="fa fa-chevron-down dropdown-icon"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="form-card">
+          <div class="card">
+            <div class="card-body">
+              <p class="card-title font-weight-bold">Portionen</p>
+              <div class="form-group">
+                <div class="input-group">
+                  <input type="number" class="form-control" id="portion" min="1" max="60">
+                  <div class="input-group-append">
+                    <span class="input-group-text">Anzahl</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="form-card">
+          <div class="card">
+            <div class="card-body">
+              <p class="card-title font-weight-bold">Koch/Backzeit</p>
+              <div class="form-group">
+                <div class="input-group">
+                  <input type="number" class="form-control" id="minutes" min="1" max="60">
+                  <div class="input-group-append">
+                    <span class="input-group-text">Minuten</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="form-card">
+          <div class="card">
+            <div class="card-body">
+              <p class="card-title font-weight-bold">Kosten</p>
+              <div class="form-group">
+                <div class="input-group">
+                  <input type="number" class="form-control" id="cost" min="1" max="60">
+                  <div class="input-group-append">
+                    <span class="input-group-text">Euro</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="form-card">
+          <div class="card">
+            <div class="card-body">
+              <p class="card-title font-weight-bold">Zutaten & Menge</p>
+              <div class="form-group">
+                <div class="input-group">
+                  <textarea class="form-control" id="preparation" placeholder="Zutaten hinzufügen...." rows="4"></textarea>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="form-card">
+          <div class="card">
+              <div class="card-body">
+                  <p class="card-title font-weight-bold">Zubereitung</p>
+                  <div class="form-group">
+                      <div class="input-group">
+                          <textarea class="form-control" id="preparation" placeholder="Beschreibung hinzufügen...." rows="4"></textarea>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+        <div class="form-card text-center d-flex justify-content-center">
+          <button type="button" class="btn btn-primary" style="background-color: #12CDD4; color: white; margin-right: 10px;">Rezept speichern</button>
+          <button type="button" class="btn btn-primary" style="background-color: #12CDD4; color: white; margin-left: 10px;">Abbrechen</button>
+      </div>      
+      </div>
+    </div>
+  </div>
+  
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
