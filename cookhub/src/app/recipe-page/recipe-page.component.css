@@ -1,0 +1,68 @@
+div#content h2 {
+    text-align: center;
+    
+ }
+
+ #Liste {
+    margin-left: 72px;
+    margin-right: 72px;
+    margin-bottom: 16px;
+ }
+
+
+
+ 
+        h1 {
+        font-size: 50px; 
+        font-family: 'Roboto', sans-serif;
+        color: #12CDD4;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 30px; /* Ändere den oberen Abstand */
+        margin-bottom: 30px;
+      }
+
+      h2 {
+        font-size: 30px; 
+        font-family: 'Roboto', sans-serif;
+        color: black;
+        font-weight: bold;
+        text-align: left;
+        margin-top: 30px; /* Ändere den oberen Abstand */
+        margin-bottom: 20px;
+      }
+   
+      table {
+        width: 20%;
+        font-family: 'Roboto', sans-serif;
+        
+    }
+
+    tr:first-child th {
+        font-weight: normal;
+    }
+
+    footer {
+        
+        color: white;
+        text-align: center;
+        padding: 10px;
+    }
+
+    /* Stil für die Buttons */
+    .button {
+        background-color: #12CDD4;
+        font-family: 'Roboto', sans-serif;
+        color: black;
+        border: none;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 5px;
+        cursor: pointer;
+        border-radius: 10px;
+        width: 250px;
+    }
+    
