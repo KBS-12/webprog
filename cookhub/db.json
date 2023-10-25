@@ -11,6 +11,12 @@
       "email": "tino@tst.de",
       "password": "halloasdooas",
       "id": 2
+    },
+    {
+      "name": "Paul",
+      "email": "paul@paul.de",
+      "password": "PAULPAUL",
+      "id": 3
     }
   ]
 }
