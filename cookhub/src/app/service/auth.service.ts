@@ -23,16 +23,7 @@ export class AuthService {
   updateuser(email:any,inputdata:any){
     return this.http.put(this.apiurl+'/'+email,inputdata);
   }
-  getuserrole(){
-    return this.http.get('http://localhost:3000/role');
-  }
   isloggedin(){
     return sessionStorage.getItem('name')!=null;
-  }
-  getrole(){
-    return sessionStorage.getItem('role')!=null?sessionStorage.getItem('role')?.toString():'';
-  }
-  Getaccessbyrole(role:any,menu:any){
-    return this.http.get('http://localhost:3000/roleaccess?role='+role+'&menu='+menu)
   }
 }

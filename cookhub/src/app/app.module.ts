@@ -37,8 +37,7 @@ import { MatTableModule } from '@angular/material/table';
     NewRecipePageComponent,
     NotFoundComponent,
     FoodPageComponent,
-    SearchComponent
-    NewUserPageComponent,
+    SearchComponent,
     NewRecipePageComponent,
     NewRecipeDatatableComponent,
   ],
