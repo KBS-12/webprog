@@ -5,6 +5,12 @@
       "email": "tino@test.de",
       "password": "administrator",
       "id": 1
+    },
+    {
+      "name": "tinoijhk",
+      "email": "tino@tst.de",
+      "password": "halloasdooas",
+      "id": 2
     }
   ]
 }
