@@ -1,0 +1,22 @@
+{
+  "user": [
+    {
+      "name": "tino",
+      "email": "tino@test.de",
+      "password": "administrator",
+      "id": 1
+    },
+    {
+      "name": "tinoijhk",
+      "email": "tino@tst.de",
+      "password": "halloasdooas",
+      "id": 2
+    },
+    {
+      "name": "Paul",
+      "email": "paul@paul.de",
+      "password": "PAULPAUL",
+      "id": 3
+    }
+  ]
+}
