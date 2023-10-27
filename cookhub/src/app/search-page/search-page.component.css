@@ -1,0 +1,14 @@
+.mb-3 {
+    padding-top: 20px;
+}
+
+.input-group .btn {
+    margin-left: 10px;
+}
+
+.input-group:not(.has-validation)>:not(:last-child):not(.dropdown-toggle):not(.dropdown-menu):not(.form-floating) {
+    border-radius: 15px;
+}
+div{
+    cursor: pointer;
+}
