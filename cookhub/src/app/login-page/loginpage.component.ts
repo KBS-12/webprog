@@ -3,6 +3,7 @@ import { FormBuilder,Validators} from '@angular/forms';
 import { ToastrService} from 'ngx-toastr';
 import { AuthService } from '../service/auth.service';
 import { Router } from '@angular/router';
+import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-loginpage',
@@ -11,7 +12,7 @@ import { Router } from '@angular/router';
 })
 export class LoginpageComponent {
 
-  constructor(private builder: FormBuilder, private toastr: ToastrService, private service:AuthService, private router:Router ){
+  constructor(private builder: FormBuilder, private toastr: ToastrService, private service:AuthService, private router:Router, http:HttpClient ){
     sessionStorage.clear();
   }
   result: any;
@@ -23,20 +24,20 @@ export class LoginpageComponent {
   });
 
   proceedlogin() {
+    debugger;
     if (this.loginform.valid) {
       this.service.GetUserbyCode(this.loginform.value).subscribe(item => {
         this.result = item;
-        debugger;
         if (this.result.password === this.loginform.value.password) {
-          debugger;
             sessionStorage.setItem('name',this.result.name);
             this.router.navigate(['home-page']);
+            debugger;
           }else {
-          this.toastr.error('Email oder Passwort ist Falsch');
+          this.toastr.error('Email oder Passwort ist falsch');
         }
       });
     } else {
-      this.toastr.warning('Bitte gib Valide Daten ein.')
+      this.toastr.warning('Bitte gib valide Daten ein.')
     }
   }
 }
