@@ -1,0 +1,29 @@
+<app-not-found [visible]="!food" notFoundMessage="Gericht wurde nicht gefunden!"
+resetLinkText="Zurück zur Homepage"></app-not-found>
+
+<div *ngIf="food" class="container">
+    <img [src]="food.imageUrl" [alt]="food.name" />
+
+    <div class="details">
+        <div class="header">
+            <span class="name">
+                {{food.name}}
+            </span>
+        </div>
+
+        <div class="tags">
+            <app-tags [foodPageTags]="food.tags" justifyContent="start"></app-tags>
+        </div>
+
+        <div class="cook-time">
+            <span>
+                Kochzeit beträgt circa <strong>{{food.cookTime}}</strong> minuten
+            </span>
+        </div>
+
+        <div class="price">
+            <span>{{food.price|currency:'EUR'}}</span>
+        </div>
+    </div>
+
+</div>

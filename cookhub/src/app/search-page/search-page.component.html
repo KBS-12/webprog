@@ -1,37 +1,31 @@
-<app-header></app-header>
-
-
-     <div name="searchbox" class="container">
-          <div class="row">
-               <div class="col-md-6 offset-md-3">
-                    <div class="input-group mb-3">
-                         <input type="text" class="form-control form-control-lg" placeholder="Suche..." aria-label="Suche" aria-describedby="basic-addon2">
-                         <div class="input-group-append">
-                              <button class="btn btn-primary btn-lg" type="button" style="background-color: #12CDD4; border: #12CDD4; " routerLink="/recipe-page">Suchen</button>
-                         </div>
+<app-search></app-search>
+<app-tags></app-tags>
+<app-not-found [visible]="!foods || foods.length <= 0" resetLinkText="Reset Search"></app-not-found>
+<ul>
+    <li *ngFor="let food of foods">
+        <a routerLink="/food/{{food.id}}">
+            <img src="{{food.imageUrl}}" alt="">
+            <div class="content">
+                <div class="name">
+                   {{food.name}}
+                </div>
+                <div class="product-item-footer">
+                    <div class="origins">
+                        <span *ngFor="let origin of food.origins">
+                             {{origin}}
+                        </span>
                     </div>
-               </div>
-          </div>
-
-          <p>3 Rezepte</p>
-
-          <div name="anzeige_rezepte" class="container" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr)); gap: 20px;">
-               <div class="card" style="width: 18rem;" routerLink="/recipe-page">
-                    <img class="card-img-top" src="assets/images/essen.png" alt="Card image cap">
-                    <div class="card-body">
-                         <p class="card-text">Gesundes unter 5€</p>
+                    <div class="cook-time">
+                        <span>🕒</span>
+                        {{food.cookTime}}
                     </div>
-               </div>
-               <div class="card" style="width: 18rem;" routerLink="/recipe-page">
-                    <img class="card-img-top" src="assets/images/essen.png" alt="Card image cap">
-                    <div class="card-body">
-                         <p class="card-text">Rezept des Tages</p>
-                    </div>
-               </div>
-               <div class="card" style="width: 18rem;" routerLink="/recipe-page">
-                    <img class="card-img-top" src="assets/images/essen.png" alt="Card image cap">
-                    <div class="card-body">
-                         <p class="card-text">Für den schnellen Hunger</p>
-                    </div>
-               </div>
-
+                </div>
+                <div class="price">
+                    <span>
+                        {{food.price|currency:'EUR'}}
+                    </span>
+                </div>
+            </div>
+        </a>
+    </li>
+</ul>

@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { HomepageComponent } from './home-page/homepage.component';
@@ -12,10 +11,14 @@ import { RegisterPageComponent } from './register-page/register-page.component';
 import { NewRecipePageComponent } from './new-recipe-page/new-recipe-page.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from 'src/material.module';
-import { ReactiveFormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
-import {ToastrModule} from 'ngx-toastr';
+import { ToastrModule} from 'ngx-toastr';
 import { AppRoutingModule } from './app-routing.module';
+import { TagsComponent } from './tags/tags.component';
+import { FoodPageComponent } from './food-page/food-page.component';
+import { NotFoundComponent } from './not-found/not-found.component';
+import { SearchComponent } from './search/search.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +30,11 @@ import { AppRoutingModule } from './app-routing.module';
     SearchPageComponent,
     RecipePageComponent,
     RegisterPageComponent,
-    NewRecipePageComponent
+    TagsComponent,
+    NewRecipePageComponent,
+    NotFoundComponent,
+    FoodPageComponent,
+    SearchComponent
   ],
   imports: [
     BrowserModule,
@@ -35,6 +42,7 @@ import { AppRoutingModule } from './app-routing.module';
     BrowserAnimationsModule,
     MaterialModule,
     ReactiveFormsModule,
+    FormsModule,
     HttpClientModule,
     ToastrModule.forRoot()
   ],
