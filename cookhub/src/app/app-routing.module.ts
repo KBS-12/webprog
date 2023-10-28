@@ -10,6 +10,9 @@ import { SearchPageComponent } from './search-page/search-page.component';
 import { AuthGuard } from './guard/auth.guard';
 import { NewRecipePageComponent } from './new-recipe-page/new-recipe-page.component';
 
+import { NewRecipeDatatableComponent } from './new-recipe-datatable/new-recipe-datatable.component';
+
+
 const routes: Routes = [
  {component:LoginpageComponent,path:'login-page'},
  {component:RegisterPageComponent,path:'register-page'},
@@ -17,7 +20,9 @@ const routes: Routes = [
  {component:ProfileComponent, path:'profile-page'},
  {component:RecipePageComponent,path:'recipe-page'},
  {component:SearchPageComponent,path:'search-page'},
- {component:NewRecipePageComponent, path:'new-recipe-page'}
+
+ {component:NewRecipePageComponent,path:'new-recipe-page'},
+ {component:NewRecipeDatatableComponent,path:'new-recipe-datatable'},
 ];
 
 @NgModule({

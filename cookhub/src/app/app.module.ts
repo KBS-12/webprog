@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import { ReactiveFormsModule } from '@angular/forms'
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { HomepageComponent } from './home-page/homepage.component';
@@ -12,10 +12,11 @@ import { RegisterPageComponent } from './register-page/register-page.component';
 import { NewRecipePageComponent } from './new-recipe-page/new-recipe-page.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from 'src/material.module';
-import { ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import {ToastrModule} from 'ngx-toastr';
 import { AppRoutingModule } from './app-routing.module';
+import { NewRecipeDatatableComponent } from './new-recipe-datatable/new-recipe-datatable.component';
+import { MatTableModule } from '@angular/material/table';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,10 @@ import { AppRoutingModule } from './app-routing.module';
     SearchPageComponent,
     RecipePageComponent,
     RegisterPageComponent,
-    NewRecipePageComponent
+    NewUserPageComponent,
+    NewRecipePageComponent,
+    NewRecipeDatatableComponent,
+
   ],
   imports: [
     BrowserModule,
@@ -36,7 +40,8 @@ import { AppRoutingModule } from './app-routing.module';
     MaterialModule,
     ReactiveFormsModule,
     HttpClientModule,
-    ToastrModule.forRoot()
+    ToastrModule.forRoot(),
+    MatTableModule
   ],
   providers: [],
   bootstrap: [AppComponent]
