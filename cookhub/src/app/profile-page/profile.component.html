@@ -1,1 +1,101 @@
-<p>profile works!</p>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title> Benutzerprofil Cookhub </title>
+        <link rel="profile.component.css" href="profile.component.css">
+        <style>
+            button{
+    background-color: #12CDD4;
+    border: none;
+    color: black;
+    text-align: center;
+    font-family: roboto, sans-serif;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 12px;
+    margin: 5px;
+}
+table {
+    font-family: roboto, sans-serif;
+    padding-left: 5%; 
+    margin: 5px;
+    width: 100%;
+}
+tr{
+    border-spacing: 40px;
+           
+}
+th{
+    text-align: left;
+    font-family: roboto, sans-serif;
+    font-size: normal;
+            
+}
+td{
+    font-family: roboto, sans-serif;
+    font-size:x-small;
+    text-align: left;
+    padding-bottom: 10px;
+    width: 30%;
+    height: auto;
+}
+h1{
+    text-align: center;
+    font-weight: bold;
+    font-family: roboto, sans-serif;
+}
+h2{
+    text-align: left;
+    font-weight: bold;
+    font-family: roboto, sans-serif;
+    color: #12CDD4;
+}
+
+        </style>
+    </head>
+    <body>
+        <div align="center">
+                <img class="img-responsive" src="assets/images/Benutzer.png" alt="Benutzer">
+                <h1>Benutzername</h1>
+            <br>
+                <button type="button" id="Rezept" onclick="alert('weiterleitung recipe page')">Rezept hinzufügen</button>
+                <button type="button" id="Abmelden" onclick="alert('weiterleitung login page')">Abmelden</button>
+        </div>
+        <br>
+        <br>    
+
+        <table>
+            <tr>
+                <th><h2> Deine Eigenkreationen</h2></th>
+            </tr>  
+            <tr>
+                <td><a href="recipe-page.html"><img class="img-responsive" src="assets/images/SpaghettiBolognese.png" alt="SpaghettiBolognese"></a></td>
+                <td><a href="recipe-page.html"><img class="img-responsive" src="assets/images/MuttisBolognese.png" alt="MuttisBolognese"></a></td>
+            </tr>  
+            <tr>
+                <th>Spaghetti Bolognese</th>
+                <th> Muttis Bolognese</th>
+            </tr>
+            <tr>
+                <td>Zubereitungszeit: 25 Min. | Schwierigkeit: normal | Kosten 5€</td>
+                <td>Zubereitungszeit: 25 Min. | Schwierigkeit: schwer | Kosten 25€</td>
+            </tr>
+            <tr>
+                <td><a href="recipe-page.html"><img class="img-responsive" src="assets/images/SchnelleSpaghetti.png" alt="SchnelleSpaghetti"></a></td>
+                <td><a href="recipe-page.html"><img class="img-responsive" src="assets/images/ItalienischeBolognese.png" alt="ItalienischeBolognese"></a></td>
+            </tr>  
+            <tr>
+                <th> Schnelle Spaghetti</th>
+                <th> Italienische Bolognese</th>
+            </tr>
+            <tr>
+                <td>Zubereitungszeit: 10 Min. | Schwierigkeit: leicht | Kosten 10€</td>
+                <td>Zubereitungszeit: 20 Min. | Schwierigkeit: normal | Kosten 35€</td>
+            </tr>
+        </table>
+    </body>
+</html>
