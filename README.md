@@ -1,9 +1,11 @@
-WEBPROGRAMMIERUNG COOKHUB
+# WEBPROGRAMMIERUNG COOKHUB
+
+## BESCHREIBUNG
+
+Cookhub ist eine Webseite zum Anschauen von verschiedenen Kochrezepten und bietet ebenfalls die Möglichkeit Repze über das eigene Konto hochzuladen und auch wieder zu Löschen.
 
 
-BESCHREIBUNG
-
-VERSIONEN
+## VERSIONEN
 Services in Benutzung für dieses Projekt:
 
 angular v. 16.2.7
@@ -14,26 +16,59 @@ angular/material 16.2.9
 json-server v. 0.17.
 
 
-INSTALLATIONEN
+## INSTALLATIONEN
+### Node.js
+[NodeJS Download](https://nodejs.org/en/download)
+Bitte aktuellste Version
+### NPM
+```terminal
+$ npm install 
+```
+### Angular
+```terminal
+$ npm install -g @angular/cli 
+```
+Angular-Materials wird mit Folgenen Befehl hinzugefügt:
+```terminal
+$ ng add @angular/material 
+```
+Guides und Verschiedene Komponenten für Angular sind hier zu finden: [Angular Material](https://material.angular.io/) 
 
-
-Fake Rest-APi with json-server v. 0.17.4  -----> für benutzung " npm install -g json-server" oder "npm i json-server"
+### Rest-Api
+Fake Rest-Api with json-server v. 0.17.4
+```terminal
+$ npm install -g json-server
+```
+oder
+```terminal
+$ npm i json-server
+```
 Der Json-Server läuft über die IP/Port lochalhost:3000 
-Um die JSON Datei auszuwählen die von dem Json-Server Überwacht wird, muss der Befehl "json-server --watch db.json"
+Ebenfalls muss die JSON Datei ausgewählt werden, die von dem Json-Server Überwacht wird
+```terminal
+$ json-server --watch db.json
+```
 Hier wird die db.json die im Projekt liegt und als Datenbank benutzt wird, ausgewählt.
 Zum Starten der Webanwenung muss im Terminal "ng serve" ausgehührt werden.
 
- Angular-Materials wird mit Folgenen Befehl hinzugefügt: "ng add @angular/material" 
- Guides und Verschiedene Komponenten für Angular sind hier zu finden: https://material.angular.io/ 
+### ngx-toastr
+```terminal
+$ npm install ngx-toastr
+```
+Toastr wird gebnutzt um Notifikationen und Fehlermeldungen über Angular anzuzeigen
 
+## START DER ANWENDUNG
+Hierdurch wird der Webservice gestartet
+```terminal
+$ ng serve  
+```
+Hierdurch wird der Json Server für die Rest-Api gestartet
+```terminal
+$ ng json-server --watch db.json
+```
+   
+Im Browser deiner Wahl nun [Localhost:4200](http://localhost:4200/home-page) öffnen.
 
-START DER ANWENDUNG
-
-ng serve                                -> Hierdurch wird der Webservice gestartet
-ng json-server --watch db.json          -> Hierdurch wird der Json Server für die Rest-Api gestartet
-
-Im Browser deiner Wahl nun http://localhost:4200/home-page öffnen.
-
- AUTHOREN
+ ## AUTHOREN
 
  Tino Stojanoski
