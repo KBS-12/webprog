@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import {FormBuilder, FormControl, FormGroup} from '@angular/forms';
 import { RestapiService } from '../service/restapi.service';
 import {Router} from "@angular/router";
+import {HttpClient} from "@angular/common/http";
 
 @Component({
   selector: 'app-new-recipe-page',
@@ -11,20 +12,22 @@ import {Router} from "@angular/router";
 
 export class NewRecipePageComponent {
 
-  constructor(private builder: FormBuilder ,private service:RestapiService, private router:Router) {
-
+  constructor(private recipe: RestapiService) {
   }
 
-  recipeform=this.builder.group({
+    recipeform = new FormGroup({
+    difficulty: new FormControl(''),
+    cookingtime: new FormControl(''),
+    cost: new FormControl(''),
+    ingredientsquantity: new FormControl(''),
+    preparation: new FormControl(''),
 
-      difficulty:this.builder.control(''),
-      cookingtime:this.builder.control(''),
-      cost:this.builder.control(''),
-      ingredientsquantity:this.builder.control(''),
-      preparation:this.builder.control('')
+  });
+
+  addRecipe() {
+    this.recipe.addRecipeData(this.recipeform.value).subscribe((result) =>{
+      console.log(result);
     });
 
-  addRecipe(){
-    this.service.AddRecipe(this.recipeform.value)  }
-
+  }
 }
