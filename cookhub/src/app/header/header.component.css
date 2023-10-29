@@ -1,0 +1,30 @@
+header{
+    background: white;
+    padding: 0;
+    border-bottom: 1px solid #12CDD4;
+}
+
+a{
+    color:#12CDD4
+}
+
+a:hover{
+    background: #12CDD4;
+    color: white;
+}
+
+.container{
+    margin: 0 auto;
+    display: flex;
+    justify-content:space-between;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+}
+
+nav ul li a {
+    padding: 1em;
+    display: inline-block;
+}
