@@ -9,11 +9,13 @@ import { RecipePageComponent } from './recipe-page/recipe-page.component';
 import { SearchPageComponent } from './search-page/search-page.component';
 import { AuthGuard } from './guard/auth.guard';
 import { NewRecipePageComponent } from './new-recipe-page/new-recipe-page.component';
+import { FoodPageComponent } from './food-page/food-page.component';
 
 import { NewRecipeDatatableComponent } from './new-recipe-datatable/new-recipe-datatable.component';
 
 
 const routes: Routes = [
+ {path: '', redirectTo: 'home-page', pathMatch: 'full' }, //default route
  {component:LoginpageComponent,path:'login-page'},
  {component:RegisterPageComponent,path:'register-page'},
  {component:HomepageComponent, path:'home-page'},
@@ -21,8 +23,11 @@ const routes: Routes = [
  {component:RecipePageComponent,path:'recipe-page'},
  {component:SearchPageComponent,path:'search-page'},
 
- {component:NewRecipePageComponent,path:'new-recipe-page'},
- {component:NewRecipeDatatableComponent,path:'new-recipe-datatable'},
+ {component:NewRecipePageComponent, path:'new-recipe-page'},
+ {component:SearchPageComponent, path:'search/:searchTerm'},
+ {component:SearchPageComponent, path:'tag/:tag'},
+ {component:FoodPageComponent, path: 'food/:id'}
+
 ];
 
 @NgModule({
