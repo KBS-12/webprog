@@ -19,7 +19,6 @@ import { TagsComponent } from './tags/tags.component';
 import { FoodPageComponent } from './food-page/food-page.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { SearchComponent } from './search/search.component';
-import { NewRecipeDatatableComponent } from './new-recipe-datatable/new-recipe-datatable.component';
 import { MatTableModule } from '@angular/material/table';
 
 
@@ -37,10 +36,8 @@ import { MatTableModule } from '@angular/material/table';
     NewRecipePageComponent,
     NotFoundComponent,
     FoodPageComponent,
-    SearchComponent
-    NewUserPageComponent,
+    SearchComponent,
     NewRecipePageComponent,
-    NewRecipeDatatableComponent,
   ],
   imports: [
     BrowserModule,

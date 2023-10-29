@@ -11,7 +11,6 @@ import { AuthGuard } from './guard/auth.guard';
 import { NewRecipePageComponent } from './new-recipe-page/new-recipe-page.component';
 import { FoodPageComponent } from './food-page/food-page.component';
 
-import { NewRecipeDatatableComponent } from './new-recipe-datatable/new-recipe-datatable.component';
 
 
 const routes: Routes = [
