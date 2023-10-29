@@ -19,6 +19,9 @@ import { TagsComponent } from './tags/tags.component';
 import { FoodPageComponent } from './food-page/food-page.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { SearchComponent } from './search/search.component';
+import { NewRecipeDatatableComponent } from './new-recipe-datatable/new-recipe-datatable.component';
+import { MatTableModule } from '@angular/material/table';
+
 
 @NgModule({
   declarations: [
@@ -35,6 +38,9 @@ import { SearchComponent } from './search/search.component';
     NotFoundComponent,
     FoodPageComponent,
     SearchComponent
+    NewUserPageComponent,
+    NewRecipePageComponent,
+    NewRecipeDatatableComponent,
   ],
   imports: [
     BrowserModule,
@@ -44,7 +50,8 @@ import { SearchComponent } from './search/search.component';
     ReactiveFormsModule,
     FormsModule,
     HttpClientModule,
-    ToastrModule.forRoot()
+    ToastrModule.forRoot(),
+    MatTableModule
   ],
   providers: [],
   bootstrap: [AppComponent]

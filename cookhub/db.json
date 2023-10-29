@@ -18,5 +18,14 @@
       "password": "PAULPAUL",
       "id": 3
     }
-  ]
+  ],
+    "recipe": [
+      {
+        "difficulty": "easy",
+        "cookingtime": 20,
+        "cost": 1,
+        "ingredientsquantity": "blabla",
+        "preparation": "blablabla2"
+      }
+    ]
 }
