@@ -19,12 +19,8 @@ export class FoodService {
     return [
       { name: 'All', count: 6 },
       { name: 'unter 10 Euro', count: 4 },
-      { name: 'unter 20min', count: 2 },
-      { name: 'Kalte Speisen', count: 3 },
-      { name: 'Gerichte unter 5 Euro', count: 2 },
+      { name: 'Für den schnellen Hunger', count: 2 },
       { name: 'Rezept des Tages', count: 1 },
-      { name: 'AllTimeKlassiker', count: 1 },
-      { name: 'AdminsFavorite', count: 1 },
     ];
   }
 
