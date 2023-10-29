@@ -1,6 +1,5 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { Observable } from 'rxjs';
 
 
 @Injectable({
@@ -8,16 +7,13 @@ import { Observable } from 'rxjs';
 })
 export class RestapiService {
 
-  constructor(private http:HttpClient) { }
+  constructor(private http:HttpClient) {
 
-  GetAllRecipes(){
-    return this.http.get("http://localhost:3000/recipe");
   }
 
-  private apiUrl = 'http://localhost:3000/recipe'; 
+  apiurl='http://localhost:3000/recipe';
 
-  addRecipe(recipeData: any): Observable<any> {
-    return this.http.post(this.apiUrl, recipeData);
+  AddRecipe(inputdata:any){
+    return this.http.post(this.apiurl,inputdata)
   }
-
 }

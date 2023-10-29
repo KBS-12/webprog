@@ -15,7 +15,6 @@ import { MaterialModule } from 'src/material.module';
 import { HttpClientModule } from '@angular/common/http';
 import {ToastrModule} from 'ngx-toastr';
 import { AppRoutingModule } from './app-routing.module';
-import { NewRecipeDatatableComponent } from './new-recipe-datatable/new-recipe-datatable.component';
 import { MatTableModule } from '@angular/material/table';
 
 @NgModule({
@@ -28,9 +27,7 @@ import { MatTableModule } from '@angular/material/table';
     SearchPageComponent,
     RecipePageComponent,
     RegisterPageComponent,
-    NewUserPageComponent,
     NewRecipePageComponent,
-    NewRecipeDatatableComponent,
 
   ],
   imports: [
