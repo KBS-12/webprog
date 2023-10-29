@@ -17,14 +17,14 @@ export class FoodService {
   }
   getAllTags(): Tag[] {
     return [
-      { name: 'All ', count: 14 },
-      { name: 'unter 10 Euro ', count: 4 },
-      { name: 'unter 20min ', count: 2 },
-      { name: 'Kalte Speisen ', count: 3 },
-      { name: 'Gerichte unter 5 Euro ', count: 2 },
-      { name: 'Rezept des Tages ', count: 1 },
-      { name: 'AllTimeKlassiker ', count: 1 },
-      { name: 'AdminsFavorite ', count: 1 },
+      { name: 'All', count: 6 },
+      { name: 'unter 10 Euro', count: 4 },
+      { name: 'unter 20min', count: 2 },
+      { name: 'Kalte Speisen', count: 3 },
+      { name: 'Gerichte unter 5 Euro', count: 2 },
+      { name: 'Rezept des Tages', count: 1 },
+      { name: 'AllTimeKlassiker', count: 1 },
+      { name: 'AdminsFavorite', count: 1 },
     ];
   }
 
@@ -58,7 +58,7 @@ export class FoodService {
         price: 5,
         cookTime: '10-15',
         imageUrl: '/assets/images/food/lachs.jpg',
-        tags: ['FastFood', 'Hamburger'],
+        tags: ['FastFood','Hamburger'],
       },
       {
         id: 4,
@@ -66,7 +66,7 @@ export class FoodService {
         price: 2,
         cookTime: '15-20',
         imageUrl: '/assets/images/food/lachs.jpg',
-        tags: ['FastFood', 'Fry'],
+        tags: ['unter 10 Euro','FastFood','Fry'],
       },
       {
         id: 5,
@@ -82,7 +82,7 @@ export class FoodService {
         price: 9,
         cookTime: '40-50',
         imageUrl: '/assets/images/food/lachs.jpg',
-        tags: ['FastFood', 'Pizza', 'Lunch'],
+        tags: ['unter 10 Euro', 'FastFood', 'Pizza', 'Lunch'],
       },
     ];
   }
