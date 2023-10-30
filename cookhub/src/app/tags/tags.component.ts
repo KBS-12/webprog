@@ -11,7 +11,6 @@ export class TagsComponent implements OnInit {
 
   @Input()
   foodPageTags?:string[];
-
   @Input()
   justifyContent:string = 'center';
 
