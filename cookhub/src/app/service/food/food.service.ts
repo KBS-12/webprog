@@ -10,6 +10,9 @@ export class FoodService {
   getFoodById(id: number): Food{
     return this.getAll().find(food => food.id == id)!;
   }
+  getTagByName(name: string): Tag{
+    return this.getAllTags().find(tag => tag.name = name)!;
+  }
   
   getAllFoodsBySearchTerm(searchTerm:string) :Food[]{
     return  this.getAll().filter(food =>
@@ -18,9 +21,9 @@ export class FoodService {
   getAllTags(): Tag[] {
     return [
       { name: 'All', count: 6 },
-      { name: 'unter 10 Euro', count: 4 },
-      { name: 'Für den schnellen Hunger', count: 2 },
-      { name: 'Rezept des Tages', count: 1 },
+      { name: 'unter10Euro', count: 4 },
+      { name: 'FürDenSchnellenHunger', count: 2 },
+      { name: 'RezeptDesTages', count: 1 },
     ];
   }
 
@@ -38,7 +41,7 @@ export class FoodService {
         cookTime: '10-20',
         price: 10,
         imageUrl: '/assets/images/food/lachs.jpg',
-        tags: ['unter 10 Euro', 'unter 20min', 'Gerichte unter 5 Euro'],
+        tags: ['unter10Euro', 'unter 20min', 'Gerichte unter 5 Euro'],
       },
       {
         id: 2,
@@ -46,7 +49,7 @@ export class FoodService {
         price: 5,
         cookTime: '20-30',
         imageUrl: '/assets/images/food/Leberkäse.jpg',
-        tags: ['AdminsFavorite', 'Lunch'],
+        tags: ['unter10Euro', 'Lunch'],
       },
       {
         id: 3,
@@ -54,7 +57,7 @@ export class FoodService {
         price: 5,
         cookTime: '10-15',
         imageUrl: '/assets/images/food/lachs.jpg',
-        tags: ['FastFood','Hamburger'],
+        tags: ['unter10Euro','Hamburger'],
       },
       {
         id: 4,
@@ -62,7 +65,7 @@ export class FoodService {
         price: 2,
         cookTime: '15-20',
         imageUrl: '/assets/images/food/lachs.jpg',
-        tags: ['unter 10 Euro','FastFood','Fry'],
+        tags: ['unter10Euro','FastFood','Fry'],
       },
       {
         id: 5,
