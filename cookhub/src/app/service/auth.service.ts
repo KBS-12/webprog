@@ -26,4 +26,4 @@ export class AuthService {
   }
   isloggedin(){
     return sessionStorage.getItem('name')!=null;
-  }
+  }}
