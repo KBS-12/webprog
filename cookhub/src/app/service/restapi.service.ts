@@ -1,23 +1,21 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { Observable } from 'rxjs';
-
 
 @Injectable({
   providedIn: 'root'
 })
+
 export class RestapiService {
 
-  constructor(private http:HttpClient) { }
+  url='http://localhost:3000/recipe';
+  constructor(private http: HttpClient) { }
 
-  GetAllRecipes(){
-    return this.http.get("http://localhost:3000/recipe");
+  getAllRecipes() {
+    return this.http.get(this.url)
   }
 
-  private apiUrl = 'http://localhost:3000/recipe'; 
-
-  addRecipe(recipeData: any): Observable<any> {
-    return this.http.post(this.apiUrl, recipeData);
+  addRecipeData(data:any) {
+    console.log(data);
+    return this.http.post(this.url,data);
   }
-
 }

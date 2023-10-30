@@ -6,9 +6,10 @@ import { Injectable } from '@angular/core';
 })
 export class AuthService {
 
-  constructor(private http:HttpClient) { 
+  constructor(private http:HttpClient) {
 
   }
+
   apiurl='http://localhost:3000/user';
 
   RegisterUser(inputdata:any){
@@ -26,4 +27,3 @@ export class AuthService {
   isloggedin(){
     return sessionStorage.getItem('name')!=null;
   }
-}

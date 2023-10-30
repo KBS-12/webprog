@@ -1,7 +1,8 @@
-import { Component } from '@angular/core';
-import { FormBuilder, FormGroup, Validators } from '@angular/forms';
-import { ToastrService } from 'ngx-toastr';
+import { Component, OnInit } from '@angular/core';
+import {FormBuilder, FormControl, FormGroup} from '@angular/forms';
 import { RestapiService } from '../service/restapi.service';
+import {Router} from "@angular/router";
+import {HttpClient} from "@angular/common/http";
 
 @Component({
   selector: 'app-new-recipe-page',
@@ -10,37 +11,23 @@ import { RestapiService } from '../service/restapi.service';
 })
 
 export class NewRecipePageComponent {
-  addRecipe: FormGroup;
 
-  constructor(
-    private builder: FormBuilder,
-    private toastr: ToastrService,
-    private restapiService: RestapiService
-  ) {
-    
-    this.addRecipe = this.builder.group({
-      difficulty: ['', Validators.required],
-      cookingtime: ['', Validators.required],
-      cost: ['', Validators.required],
-      ingredientsquantity: ['', Validators.required],
-      preparation: ['', Validators.required]
-    });
+  constructor(private recipe: RestapiService) {
   }
 
-  saveData() {
-    if (this.addRecipe.valid) {
-      const recipeData = this.addRecipe.value;
-      this.restapiService.addRecipe(recipeData).subscribe(
-        (response) => {
-          this.toastr.success('Rezept wurde erfolgreich gespeichert.');
-          // Optional: Hier kannst du zur Erfolgsseite navigieren oder andere Aktionen durchführen.
-        },
-        (error) => {
-          this.toastr.error('Fehler beim Speichern des Rezepts.');
-        }
-      );
-    } else {
-      this.toastr.error('Bitte füllen Sie alle erforderlichen Felder aus.');
-    }
+    recipeform = new FormGroup({
+    difficulty: new FormControl(''),
+    cookingtime: new FormControl(''),
+    cost: new FormControl(''),
+    ingredientsquantity: new FormControl(''),
+    preparation: new FormControl(''),
+
+  });
+
+  addRecipe() {
+    this.recipe.addRecipeData(this.recipeform.value).subscribe((result) =>{
+      console.log(result);
+    });
+
   }
 }
