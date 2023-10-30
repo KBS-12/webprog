@@ -30,11 +30,12 @@
 </div>
 
 <div class="container text-center mb-4">
-  <input type="file" id="fileUpload" style="display: none;">
+  <input type="file" id="fileUpload" style="display: none;" (change)="previewImage($event)">
   <label for="fileUpload" style="display: inline-block; cursor: pointer;">
-    <img src="/assets/images/addphoto.jpg" alt="Bild öffnen" style="width: 400px; height: 300px; border: 1px solid #DFDFDF; border-radius: 10px;">
+    <img src="/assets/images/addphoto.jpg" alt="Bild öffnen" style="width: 400px; height: 300px; border: 1px solid #DFDFDF; border-radius: 10px;" id="imagePreview">
   </label>
 </div>
+
 
 <div class="container">
   <form [formGroup]="recipeform" (ngSubmit)="addRecipe()">
@@ -50,6 +51,16 @@
                   <option value="2">Mittel</option>
                   <option value="3">Schwer</option>
                 </select>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="form-card">
+          <div class="card">
+            <div class="card-body">
+              <p class="card-title font-weight-bold">Titel</p>
+              <div class="form-group">
+                <input type="string" class="form-control" id="minutes" min="1" max="60" placeholder="0" formControlName="title">
               </div>
             </div>
           </div>
@@ -96,6 +107,9 @@
             </div>
           </div>
         </div>
+
+
+        
         <div class="form-card text-center d-flex justify-content-center">
           <button type="submit" class="btn btn-primary" style="background-color: #12CDD4; color: white; margin-right: 10px;">Rezept speichern</button>
           <button type="reset" class="btn btn-primary" style="background-color: #12CDD4; color: white; margin-left: 10px;">Abbrechen</button>

@@ -27,22 +27,6 @@
       "ingredientsquantity": "blabla",
       "preparation": "blablabla2",
       "id": 1
-    },
-    {
-      "difficulty": "2",
-      "cookingtime": 4,
-      "cost": 4,
-      "ingredientsquantity": "dd",
-      "preparation": "dd",
-      "id": 2
-    },
-    {
-      "difficulty": "2",
-      "cookingtime": 4,
-      "cost": 4,
-      "ingredientsquantity": "dd",
-      "preparation": "tinooooooooo",
-      "id": 3
     }
   ]
 }
