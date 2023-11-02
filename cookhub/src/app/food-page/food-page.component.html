@@ -1,78 +1,100 @@
-<app-not-found [visible]="!food" notFoundMessage="Gericht wurde nicht gefunden!"
-resetLinkText="Zurück zur Homepage"></app-not-found>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <title>Rezeptseite</title>
+    <style>
+        .container {
+            margin-top: 50px;
+        }
+    
+        .card {
+            margin-bottom: 20px;
+            width: 300px ;      
+          }
+    
+        .small-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+    
+        .cook-time {
+            margin-bottom: 10px;
+        }
+    
+        .price {
+            margin-bottom: 10px;
+        }
+    
+        .tags {
+            margin-bottom: 10px;
+        }
+    
+        .button {
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
 
-<div *ngIf="food" class="container">
-    <img [src]="food.imageUrl" [alt]="food.name" />
+    <app-not-found [visible]="!food" notFoundMessage="Gericht wurde nicht gefunden!" resetLinkText="Zurück zur Homepage"></app-not-found>
 
-    <div class="details">
-        <div class="header">
-            <span class="name">
-                {{food.name}}
-            </span>
+
+    <div *ngIf="food" class="container">
+        <div class="card" id="left">
+            <img [src]="food.imageUrl" [alt]="food.name" class="card-img-top small-image" />
+    
+            <div class="card-body">
+                <div class="cook-time">
+                    <span class="card-text">Kochzeit beträgt circa <strong>{{food.cookTime}}</strong> Minuten</span>
+                </div>
+    
+                <div class="price">
+                    <span class="card-text">{{food.price | currency: 'EUR'}}</span>
+                </div>
+    
+                <div class="tags">
+                    <app-tags [foodPageTags]="food.tags" justifyContent="start"></app-tags>
+                </div>
+            </div>
         </div>
-
-        <div class="tags">
-            <app-tags [foodPageTags]="food.tags" justifyContent="start"></app-tags>
+    
+        <div class="card">
+            <div class="card-body" id="Zutaten">
+                <h2 class="card-title">Zutaten</h2>
+    
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">• 500gr Spaghetti</li>
+                    <li class="list-group-item">• 250gr Hackfleisch</li>
+                    <li class="list-group-item">• 1 Knoblauchzehe</li>
+                    <li class="list-group-item">• 1 Zwiebel</li>
+                    <li class="list-group-item">• 1 EL Tomatenmark</li>
+                    <li class="list-group-item">• 1 EL Gemüsebrühe</li>
+                </ul>
+    
+                <h2 class="card-title">Zubereitung</h2>
+    
+                <ol class="list-group list-group-flush">
+                    <li class="list-group-item">Hackfleisch in die Pfanne geben, langsam erhitzen und im eigenen Fett unter Rühren anbraten. Salzen und pfeffern. Zwiebeln, Knoblauch und Möhren dazugeben und kurz mitbraten. Mit der Brühe ablöschen. Dann Tomatenmark, Oregano, die stückigen Tomaten und Tomatenketchup unterrühren. Etwa 40 Minuten einkochen lassen.</li>
+                </ol>
+            </div>
         </div>
-
-        <div class="cook-time">
-            <span>
-                Kochzeit beträgt circa <strong>{{food.cookTime}}</strong> minuten
-            </span>
-        </div>
-
-        <div class="price">
-            <span>{{food.price|currency:'EUR'}}</span>
-        </div>
-
-        <div id="Zutaten">
-            <h2>Zutaten</h2>
-            
-            <table>
-                <tr>
-                    <th>• 500gr</th>
-                    <th>Spaghetti</th>
-                </tr>
-                <tr>
-                    <td>• 250gr</td>
-                    <td>Hackfleisch</td>
-                </tr>
-                <tr>
-                    <td>• 1</td>
-                    <td>Knoblauchzehe</td>
-                </tr>
-                <tr>
-                    <td>• 1</td>
-                    <td>Zwiebel</td>
-                </tr>
-                <tr>
-                    <td>• 1 EL</td>
-                    <td>Tomatenmark</td>
-                </tr>
-                <tr>
-                    <td>• 1 EL</td>
-                    <td>Gemüsebrühe</td>
-                </tr>
-            </table>
-        
-            <h2>Zubereitung</h2>
-         
-            <ol>
-                <li>Zwiebel und Knoblauch schälen und in feine Würfel schneiden.</li>
-                <li>Hackfleisch in die Pfanne geben, langsam erhitzen und im eigenen Fett unter Rühren anbraten. Salzen und pfeffern. Zwiebeln, Knoblauch und Möhren dazugeben und kurz mitbraten. Mit der Brühe ablöschen. Dann Tomatenmark, Oregano, die stückigen Tomaten und Tomatenketchup unterrühren. Etwa 40 Minuten einkochen lassen.</li>
-                <li>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</li>
-                <li>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</li>
-            </ol>
-        </div>
-        
-        <footer>
-            <button class="button" routerLink='/new-recipe-page'>Rezept bearbeiten</button>
-            <button class="button">Rezept löschen</button>
-        </footer>
-
-
     </div>
+    
+<footer class="text-center mt-4">
+    <div class="button">
+        <button class="btn btn-primary" routerLink='/new-recipe-page'>Rezept bearbeiten</button>
+        <button class="btn btn-danger ml-2">Rezept löschen</button>
+    </div>
+</footer>
 
     
+    
+    
 
-</div>
+</body>
+</html>

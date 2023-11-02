@@ -29,6 +29,7 @@ export class NewRecipePageComponent {
   addRecipe() {
     this.recipe.addRecipeData(this.recipeform.value).subscribe((result) =>{
       console.log(result);
+      this.recipeform.reset(); 
     });
 
   }
