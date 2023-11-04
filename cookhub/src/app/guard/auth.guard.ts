@@ -15,10 +15,13 @@ export class AuthGuard implements CanActivate {
    
     if (this.service.isloggedin()) {
       if (route.url.length > 0) {
+        debugger;
         let menu = route.url[0].path;
         if (menu == 'name') {
+          debugger;
          return true;
         }else{
+          debugger;
           this.router.navigate(['home-page']);
               this.tostr.warning('You dont have access.')
             return false;

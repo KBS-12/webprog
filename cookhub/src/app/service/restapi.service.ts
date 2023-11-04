@@ -18,4 +18,9 @@ export class RestapiService {
     console.log(data);
     return this.http.post(this.url,data);
   }
+  deleteRecipeData(params:any){
+    debugger;
+  return this.http.delete(this.url+'/'+params).subscribe(data => {
+    console.log(data);
+  })}
 }

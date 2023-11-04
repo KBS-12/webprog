@@ -34,7 +34,7 @@
       "imageUrl": "assets/images/food/lachs.jpg",
       "preparation": "q",
       "difficulty": "1",
-      "id": 2
+      "id": 1
     },
     {
       "name": "Lachs",
@@ -67,14 +67,25 @@
       "id": 4
     },
     {
-      "name": "",
-      "price": 10,
+      "name": "Lachs",
+      "price": 20,
       "cookingtime": 20,
-      "ingredientsquantity": "kjkajsdk",
-      "imageUrl": "",
-      "preparation": "askdjsajdhasjkdsad",
-      "difficulty": "1",
+      "ingredientsquantity": "a",
+      "imageUrl": "assets/images/food/lachs.jpg",
+      "preparation": "ahsdisaksjdksadjsakdjaskdjasdkjsakdjasd",
+      "difficulty": "Schwer",
       "id": 5
+    },
+    {
+      "name": "Lachs",
+      "price": 20,
+      "cookingtime": 20,
+      "ingredientsquantity": "a",
+      "imageUrl": "assets/images/food/lachs.jpg",
+      "preparation": "ahsdisaksjdksadjsakdjaskdjasdkjsakdjasd",
+      "difficulty": "Schwer",
+      "id": 6
     }
+
   ]
 }

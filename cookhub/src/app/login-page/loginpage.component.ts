@@ -31,7 +31,6 @@ export class LoginpageComponent {
         if (this.result.password === this.loginform.value.password) {
             sessionStorage.setItem('name',this.result.name);
             this.router.navigate(['home-page']);
-            debugger;
           }else {
           this.toastr.error('Email oder Passwort ist falsch');
         }
