@@ -85,7 +85,26 @@
       "preparation": "ahsdisaksjdksadjsakdjaskdjasdkjsakdjasd",
       "difficulty": "Schwer",
       "id": 6
+    },
+    {
+      "name": "",
+      "price": 231,
+      "cookingtime": 23,
+      "ingredientsquantity": "asdasdasdasd",
+      "imageUrl": "",
+      "preparation": "asdasdasdads",
+      "difficulty": "2",
+      "id": 7
+    },
+    {
+      "name": "",
+      "price": 2,
+      "cookingtime": 2,
+      "ingredientsquantity": "update",
+      "imageUrl": "",
+      "preparation": "update",
+      "difficulty": "2",
+      "id": 8
     }
-
   ]
 }

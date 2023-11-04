@@ -24,9 +24,8 @@ export class LoginpageComponent {
   });
 
   proceedlogin() {
-    debugger;
     if (this.loginform.valid) {
-      this.service.GetUserbyCode(this.loginform.value).subscribe(item => {
+      this.service.GetUserbyCode(this.loginform.value.email).subscribe(item => {
         this.result = item;
         if (this.result.password === this.loginform.value.password) {
             sessionStorage.setItem('name',this.result.name);

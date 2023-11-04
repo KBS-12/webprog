@@ -9,4 +9,7 @@ export class ProfileComponent {
   get(){
     return sessionStorage.getItem('name');
   }
+  deleteSessionStorage(){
+    sessionStorage.clear();
+  }
 }

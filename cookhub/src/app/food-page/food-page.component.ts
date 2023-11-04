@@ -3,6 +3,8 @@ import { ActivatedRoute, Router } from '@angular/router';
 import { RestapiService } from '../service/restapi.service';
 import { FoodService } from '../service/food/food.service';
 import { Food } from '../models/Food';
+import { NewRecipePageComponent } from '../new-recipe-page/new-recipe-page.component';
+import { Optional } from '@angular/core';
 
 @Component({
   selector: 'app-food-page',
@@ -13,7 +15,7 @@ export class FoodPageComponent implements OnInit {
 
   food!: Food;
   params!: ''; 
-  constructor(private activatedRoute:ActivatedRoute, private foodService: FoodService, private router: Router, private recipe: RestapiService) { 
+  constructor(private activatedRoute:ActivatedRoute, private foodService: FoodService, private router: Router, private recipe: RestapiService, @Optional() private newrecipe: NewRecipePageComponent) { 
     activatedRoute.params.subscribe((params) => {
       if(params.id)
       this.food = foodService.getFoodById(params.id);
@@ -22,11 +24,14 @@ export class FoodPageComponent implements OnInit {
 
   }
   deleteRecipe() {
-    debugger;
     this.recipe.deleteRecipeData(this.params)
-    
   }
-  
+  updateRecipe(){
+    debugger;
+    this.recipe.updateRecipeData(this.newrecipe.updateRecipe(),this.params)
+    debugger;
+  }
+
   ngOnInit(): void {
   }
 

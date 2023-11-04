@@ -9,31 +9,17 @@ import { AuthService } from '../service/auth.service';
 })
 export class AuthGuard implements CanActivate {
   constructor(private service: AuthService, private router: Router,private tostr:ToastrService) { }
+  
   canActivate(
-    route: ActivatedRouteSnapshot,
-    state: RouterStateSnapshot): Observable<boolean | UrlTree> | Promise<boolean | UrlTree> | boolean | UrlTree {
-   
-    if (this.service.isloggedin()) {
-      if (route.url.length > 0) {
-        debugger;
-        let menu = route.url[0].path;
-        if (menu == 'name') {
-          debugger;
-         return true;
-        }else{
-          debugger;
-          this.router.navigate(['home-page']);
-              this.tostr.warning('You dont have access.')
-            return false;
-        }
-      } else {
-        return true;
-      }
-    }
-    else {
-      this.router.navigate(['login-page']);
-      return false;
-    }
+    route: ActivatedRouteSnapshot) {
+      if (this.service.isloggedin()) {
+           return true;
+     }
+     else {
+        this.tostr.warning('Bitte Loggen sie sich erst ein!')
+       this.router.navigate(['login-page']);
+       return false;
+     }
   }
 
 }
