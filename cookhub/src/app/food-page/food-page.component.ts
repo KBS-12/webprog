@@ -26,10 +26,9 @@ export class FoodPageComponent implements OnInit {
   deleteRecipe() {
     this.recipe.deleteRecipeData(this.params)
   }
+  //TODO: UpdateRecipe (Eventuell neue NewRecipeSeite mit Get ausgefüllten Inputfeldern)
   updateRecipe(){
-    debugger;
     this.recipe.updateRecipeData(this.newrecipe.updateRecipe(),this.params)
-    debugger;
   }
 
   ngOnInit(): void {
