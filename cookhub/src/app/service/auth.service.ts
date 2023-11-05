@@ -26,3 +26,4 @@ export class AuthService {
     return sessionStorage.getItem('name')!=null;
   }
 }
+
