@@ -22,9 +22,6 @@ export class AuthService {
   Getall(){
     return this.http.get(this.apiurl);
   }
-  updateuser(email:any,inputdata:any){
-    return this.http.put(this.apiurl+'/'+email,inputdata);
-  }
   isloggedin(){
     return sessionStorage.getItem('name')!=null;
   }

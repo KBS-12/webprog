@@ -39,29 +39,4 @@ export class FoodService {
     const recipeArray: Food[] = recipe.recipe;
     return recipeArray;
  }
-  getAllF(): Food[] {
-    return [
-      {
-        
-        id: 1,
-        name: 'Leberkäse',
-        price: 5,
-        ingredientsquantity: '',
-        difficulty:'',
-        cookingtime: 20,
-        imageUrl: '/assets/images/food/Leberkäse.jpg',
-        tags: ['unter10Euro', 'Lunch'],   },
-      {
-        id: 2,
-        name: 'Leberkäse',
-        price: 5,
-        ingredientsquantity: '',
-        difficulty:'',
-        cookingtime: 20,
-        imageUrl: '/assets/images/food/Leberkäse.jpg',
-        tags: ['unter10Euro', 'Lunch'],
-      },
-      
-    ];
-  }
 }
