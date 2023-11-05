@@ -7,9 +7,9 @@
       "id": 1
     },
     {
-      "name": "test",
-      "email": "test",
-      "password": "halloasdooas",
+      "name": "Tino",
+      "email": "test@test.de",
+      "password": "test",
       "id": 2
     },
     {
@@ -17,16 +17,94 @@
       "email": "paul@paul.de",
       "password": "PAULPAUL",
       "id": 3
+    },
+    {
+      "name": "hallo",
+      "email": "hallo@hallo.de",
+      "password": "Hallohallo",
+      "id": 4
     }
   ],
   "recipe": [
     {
-      "difficulty": "easy",
-      "cookingtime": 20,
-      "cost": 1,
-      "ingredientsquantity": "blabla",
-      "preparation": "blablabla2",
+      "name": "",
+      "price": 2,
+      "cookingtime": 1,
+      "ingredientsquantity": "a",
+      "imageUrl": "assets/images/food/lachs.jpg",
+      "preparation": "q",
+      "difficulty": "1",
       "id": 1
+    },
+    {
+      "name": "Lachs",
+      "price": 20,
+      "cookingtime": 20,
+      "ingredientsquantity": "a",
+      "imageUrl": "assets/images/food/lachs.jpg",
+      "preparation": "ahsdisaksjdksadjsakdjaskdjasdkjsakdjasd",
+      "difficulty": "Schwer",
+      "id": 2
+    },
+    {
+      "name": "BackofenFisch",
+      "price": 10,
+      "cookingtime": 5,
+      "ingredientsquantity": "kjakasjdksajdksajdkasjdsak",
+      "imageUrl": "",
+      "preparation": "kjsadjsahfasdjsadhsjakd",
+      "difficulty": "1",
+      "id": 3
+    },
+    {
+      "name": "Pizza",
+      "price": 20,
+      "cookingtime": 5,
+      "ingredientsquantity": "",
+      "imageUrl": "",
+      "preparation": "",
+      "difficulty": "3",
+      "id": 4
+    },
+    {
+      "name": "Lachs",
+      "price": 20,
+      "cookingtime": 20,
+      "ingredientsquantity": "a",
+      "imageUrl": "assets/images/food/lachs.jpg",
+      "preparation": "ahsdisaksjdksadjsakdjaskdjasdkjsakdjasd",
+      "difficulty": "Schwer",
+      "id": 5
+    },
+    {
+      "name": "Lachs",
+      "price": 20,
+      "cookingtime": 20,
+      "ingredientsquantity": "a",
+      "imageUrl": "assets/images/food/lachs.jpg",
+      "preparation": "ahsdisaksjdksadjsakdjaskdjasdkjsakdjasd",
+      "difficulty": "Schwer",
+      "id": 6
+    },
+    {
+      "name": "",
+      "price": 231,
+      "cookingtime": 23,
+      "ingredientsquantity": "asdasdasdasd",
+      "imageUrl": "",
+      "preparation": "asdasdasdads",
+      "difficulty": "2",
+      "id": 7
+    },
+    {
+      "name": "",
+      "price": 2,
+      "cookingtime": 2,
+      "ingredientsquantity": "update",
+      "imageUrl": "",
+      "preparation": "update",
+      "difficulty": "2",
+      "id": 8
     }
   ]
 }

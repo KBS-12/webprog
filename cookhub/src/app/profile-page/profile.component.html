@@ -40,14 +40,14 @@
               <img src="assets/images/Benutzer.png" class="img-fluid img-thumbnail mt-4 mb-2"
                    style="width: 150px; z-index: 1">
               <div class="d-flex">
-                <a href="#" routerLink="/new-recipe-page" class="btn btn-outline-dark me-2" data-mdb-ripple-color="dark" style="z-index: 1;">Rezept hinzufügen</a>
-                <a href="#" class="btn btn-outline-dark" data-mdb-ripple-color="dark" style="z-index: 1;">Ausloggen</a>
+                <a routerLink="/new-recipe-page" class="btn btn-outline-dark me-2" data-mdb-ripple-color="dark" style="z-index: 1;">Rezept hinzufügen</a>
+                <a onclick="deleteSessionStorage()" routerLink="/login-page" class="btn btn-outline-dark" data-mdb-ripple-color="dark" style="z-index: 1;" >Ausloggen</a>
 
               </div>
             </div>
 
             <div class="ms-3" style="margin-top: 130px; color: black">
-              <h5>User Name</h5>
+              <h5>{{ get() }}</h5>
             </div>
           </div>
           <div class="p-4 text-black" style="background-color: #f8f9fa;">

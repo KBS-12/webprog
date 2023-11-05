@@ -3,6 +3,7 @@ import {FormArray, FormBuilder, FormControl, FormGroup} from '@angular/forms';
 import { RestapiService } from '../service/restapi.service';
 import {Router} from "@angular/router";
 import {HttpClient} from "@angular/common/http";
+import { ToastrService } from 'ngx-toastr';
 
 @Component({
   selector: 'app-new-recipe-page',
@@ -12,26 +13,36 @@ import {HttpClient} from "@angular/common/http";
 
 export class NewRecipePageComponent {
 
-  constructor(private recipe: RestapiService) {
+  constructor(private recipe: RestapiService, private router: Router, private toastr: ToastrService) {
   }
 
     recipeform = new FormGroup({
-    title: new FormControl(''),  
-    difficulty: new FormControl(''),
+
+    name: new FormControl(''),
+    price: new FormControl(''),
     cookingtime: new FormControl(''),
-    cost: new FormControl(''),
     ingredientsquantity: new FormControl(''),
+    imageUrl: new FormControl(''),
     preparation: new FormControl(''),
-    image: new FormControl('')
+    difficulty: new FormControl(''),
 
   });
 
+  updateRecipe(){
+
+    return this.recipeform.value;
+    }
   addRecipe() {
+    if(this.recipeform.value.price == ""){
+      this.toastr.error('Bitte Preis eingeben!');
+    }else{
     this.recipe.addRecipeData(this.recipeform.value).subscribe((result) =>{
       console.log(result);
       this.recipeform.reset(); 
     });
-
+    this.router.navigate(['profile-page']);
+    
+  }
   }
 
   previewImage(event: any) {

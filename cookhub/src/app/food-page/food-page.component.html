@@ -83,17 +83,12 @@
                 </ol>
             </div>
         </div>
-    </div>
-    
-<footer class="text-center mt-4">
-    <div class="button">
-        <button class="btn btn-primary" routerLink='/new-recipe-page'>Rezept bearbeiten</button>
-        <button class="btn btn-danger ml-2">Rezept löschen</button>
-    </div>
-</footer>
 
-    
-    
+        <footer>
+            <button class="button" routerLink="/new-recipe-page">Rezept bearbeiten</button>
+            <button class="button" (click)="deleteRecipe()" >Rezept löschen</button>
+        </footer>
+   
     
 
 </body>

@@ -3,6 +3,8 @@ export class Food{
     name!:string;
     price!:number;
     tags?:string[];
+    ingredientsquantity!:string;
     imageUrl!:string;
-    cookTime!:string;
+    cookingtime!:number;
+    difficulty!:string;
 }
