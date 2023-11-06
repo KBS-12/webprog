@@ -117,16 +117,6 @@
       "id": 13
     },
     {
-      "name": "Currywurstkuchen",
-      "price": 9,
-      "cookingtime": 60,
-      "ingredientsquantity": "600 g\tWürste (Bockwurst, Rindswurst, Bratwurst)\n400 ml\tKetchup (Gewürzketchup)\n1 EL\tCurrypaste, rote Thai-, je nach gewünschter Schärfe)\n1 EL\tSalz\n100 ml\tWasser\n2 Beutel\tGelatinepulver (für ca.1 Liter Gelatiniergut)\n400 g\tHefeteig\n1 EL\tCurrypulver",
-      "imageUrl": "/assets/images/food/wurstkuchen.jpeg",
-      "preparation": "Den Hefeteig nach bekannten Rezepten vorbereiten oder wahlweise fertig kaufen.\n\nDen Teig auf ca. 30 x 30 cm ausrollen und in eine runde, mit Backpapier ausgelegte Kuchenspringform geben, so dass ein \"Topf\" entsteht und die Ecken darüber hängen. Den Teig etwa 10 Minuten bei 230° goldbraun backen. \n\nRegionale Unterschiede fordern verschiedene Würste für die Currywurst. Im Falle der Bratwurst und Rindswurst müssen diese natürlich vorgebraten werden. Die Würste in Stücke schneiden und Ketchup, Thai-Currypaste, Salz und Wasser in einen Topf geben und für 20 Minuten kochen. Dann die Gelatine sorgfältig einrühren und die Masse in den \"Topf\" aus Teig füllen. \n\nDen Kuchen über Nacht im Kühlschrank fest werden lassen und am nächsten Tag mit dem Currypulver bestreuen.\n\nDer Kuchen reicht für ca. 8 Personen.",
-      "difficulty": "Schwer",
-      "id": 14
-    },
-    {
       "name": "Oma's Pizzasuppe",
       "price": 6,
       "cookingtime": 25,
