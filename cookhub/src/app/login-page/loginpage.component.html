@@ -1,27 +1,28 @@
-<mat-card>
-    <mat-card-header>
-      <img src="assets/images/logo.png" alt="Titelbild" class="img-fluid" style="width: auto; height: auto;">      
-        <h2>Login</h2>
-    </mat-card-header>
-    <mat-card-content>
-        <form class="example-form" [formGroup]="loginform" (ngSubmit)="proceedlogin()" >
-            <div><p> Email</p></div>
-              <mat-form-field class="example-full-width">
-                <mat-label>name@beispiel.com</mat-label>
-                <input matInput formControlName="email" >
-              </mat-form-field>
-              <p> Password</p>
-              <mat-form-field class="example-full-width">
-                <mat-label>Password mit 8 Zeichen</mat-label>
-                <input type="password" matInput formControlName="password" >
-              </mat-form-field>
-              
-              <div>
-                <button mat-raised-button color="primary">Login</button>
-                </div>
-                <div>
-                <a routerLink="/register-page" mat-raised-button color="primary">Account erstellen</a>
+
+<div class="mat-card">
+  <div class="mat-card-header">
+    <img src="assets/images/logo.png" alt="Titelbild" class="img-fluid" style="width: auto; height: auto;">      
+      <h2>Login</h2>
+  </div>
+  <div class="mat-content">
+      <form class="example-form" [formGroup]="loginform" (ngSubmit)="proceedlogin()" >
+          <div><p> Email</p></div>
+            <mat-form-field class="example-full-width">
+              <mat-label>name@beispiel.com</mat-label>
+              <input matInput formControlName="email" >
+            </mat-form-field>
+            <p> Password</p>
+            <mat-form-field class="example-full-width">
+              <mat-label>Password mit 8 Zeichen</mat-label>
+              <input type="password" matInput formControlName="password" >
+            </mat-form-field>
+            
+            <div>
+              <button mat-raised-button color="primary">Login</button>
               </div>
-          </form>
-    </mat-card-content>
-  </mat-card>
+              <div>
+              <a routerLink="/register-page" mat-raised-button color="primary">Account erstellen</a>
+            </div>
+        </form>
+      </div>
+    </div>
