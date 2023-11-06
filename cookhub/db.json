@@ -47,26 +47,6 @@
       "id": 2
     },
     {
-      "name": "BackofenFisch",
-      "price": 10,
-      "cookingtime": 5,
-      "ingredientsquantity": "kjakasjdksajdksajdkasjdsak",
-      "imageUrl": "",
-      "preparation": "kjsadjsahfasdjsadhsjakd",
-      "difficulty": "1",
-      "id": 3
-    },
-    {
-      "name": "Pizza",
-      "price": 20,
-      "cookingtime": 5,
-      "ingredientsquantity": "",
-      "imageUrl": "",
-      "preparation": "",
-      "difficulty": "3",
-      "id": 4
-    },
-    {
       "name": "Lachs",
       "price": 20,
       "cookingtime": 20,
@@ -85,26 +65,6 @@
       "preparation": "ahsdisaksjdksadjsakdjaskdjasdkjsakdjasd",
       "difficulty": "Schwer",
       "id": 6
-    },
-    {
-      "name": "",
-      "price": 231,
-      "cookingtime": 23,
-      "ingredientsquantity": "asdasdasdasd",
-      "imageUrl": "",
-      "preparation": "asdasdasdads",
-      "difficulty": "Schwer",
-      "id": 7
-    },
-    {
-      "name": "",
-      "price": 2,
-      "cookingtime": 2,
-      "ingredientsquantity": "update",
-      "imageUrl": "",
-      "preparation": "update",
-      "difficulty": "Schwer",
-      "id": 8
     },
     {
       "name": "Pasta mit Pesto alla genovese",
@@ -128,7 +88,7 @@
     },
     {
       "name": "Blumenkohlsuppe mit Würstchen",
-      "price": 5,      
+      "price": 5,
       "cookingtime": 15,
       "ingredientsquantity": "1 kg\tBlumenkohl\n500 ml\tWasser\n375 ml\tMilch\n1 TL\tGemüsebrühe, instant\n1 kl. Dose/n\tMais\n1\tZwiebel(n)\n2 EL\tButter oder Margarine\n20 g\tMehl\n100 g\tSchmelzkäse\nSalz und Pfeffer\nMuskat\n100 g\tErbsen (TK)\n1 Glas\tWürstchen (mini, 380 g)\nPetersilie",
       "imageUrl": "/assets/images/food/blumenkohlsuppe-mit-meerrettich-2.jpg",
