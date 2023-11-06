@@ -37,6 +37,7 @@ import { FooterComponent } from './footer/footer.component';
     FoodPageComponent,
     SearchComponent,
     FooterComponent
+
   ],
   imports: [
     BrowserModule,

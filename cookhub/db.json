@@ -93,7 +93,7 @@
       "ingredientsquantity": "asdasdasdasd",
       "imageUrl": "",
       "preparation": "asdasdasdads",
-      "difficulty": "2",
+      "difficulty": "Schwer",
       "id": 7
     },
     {
@@ -103,8 +103,88 @@
       "ingredientsquantity": "update",
       "imageUrl": "",
       "preparation": "update",
-      "difficulty": "2",
+      "difficulty": "Schwer",
       "id": 8
+    },
+    {
+      "name": "Pasta mit Pesto alla genovese",
+      "price": 5,
+      "cookingtime": 30,
+      "ingredientsquantity": "1 Bund Basilikum\n2 Stk. Knoblauchzehen\t\n80 g Pinienkerne\n200 ml Olivenöl\n100 g Parmesan\n500 g Spaghetti\n3 EL Salz\n1 Tasse Nudelwasser",
+      "imageUrl": "/assets/images/food/pasta-mit-pesto-alla-genovese-55609-2.jpg",
+      "preparation": "1.Pinienkerne in der Pfanne anrösten. Knoblauch schälen.\n\n2.Die gerösteten Pinienkerne, den Knoblauch, den frischen Basilikum, den Parmesan und das Olivenöl im Mini-Mixer oder im Mörser zusammen mixen. Lieber in zwei Schritten mixen, damit die Mischung nicht bitter wird.\n\n3.Wasser zum Kochen bringen und mit Salz abschmecken. Die Spaghetti dazu geben und 2 Minuten weniger kochen als auf der Packung angegeben. Während des Kochvorgangs eine Tasse Nudelwasser abschöpfen.\n\n4.Die Spaghetti abgießen. In der Pfanne das Pesto und das Nudelwasser vermischen und die Spaghetti noch 2 Minuten in der Mischung kochen. Vorm Servieren mit geriebenen Parmesan bestreuen.",
+      "difficulty": "Schwer",
+      "id": 9
+    },
+    {
+      "name": "Russische Pelmeni",
+      "price": 7,
+      "cookingtime": 60,
+      "ingredientsquantity": "\nFür den Teig:\n\n400 g\tMehl\n2\tEi(er)\n150 ml\tWasser\n½ TL\tSalz\nFür die Füllung:\n\n400 g\tHackfleisch, gemischtes\n50 g\tButter\n3 EL\tSahne\n2\tZwiebel(n)\nSalz und schwarzer Pfeffer\nKnoblauch, nach Bedarf\n\nFür die Sauce:\n\nKnoblauchzehe(n) oder Zwiebeln nach Bedarf\n2 EL\tButter\n3 EL\tEssig\nSalz und Pfeffer nach Geschmack\nSchmand\netwas\tBrühe aus Brühwürfel",
+      "imageUrl": "/assets/images/food/pelmeni-2.jpg",
+      "preparation": "Mehl in eine Rührschüssel geben, eine Vertiefung formen und das Wasser, Ei und Salz zugeben. Das Ganze zu einem festen Teig kneten (Nudelteig), mit einem Tuch abdecken und 20 - 30 Minuten ruhen lassen.\n\nDas Fleisch mit kleingehackten Zwiebeln, Butter, Sahne, Pfeffer und Gewürzen vermengen.\n\nDen Teig zu einem Strang (1,5 - 2 cm) rollen und Stücke abschneiden (1 - 1,5 cm). Aus diesen Teilen Plätzchen rollen. Man kann den Teig auch bis zu einer Dicke von ca. 2 mm ausrollen und dann mit einem Glas runde Stücke ausschneiden.\n\nDarauf mithilfe eines Löffels die Fleischmasse legen, das Fleisch im Teig einschließen und die Ränder zudrücken. Die Pelmeni in kochendes Salzwasser oder in Brühe legen. Nachdem das Wasser wieder aufkocht und die Pelmeni an die Oberfläche schwimmen, noch ca. 2 - 3 min ziehen lassen.\n\nWasser abgießen. Pelmini in eine Schüssel geben und mit Butterflocken bedecken. Die Pelmeni kann man mit Butter, mit Schmand, mit Essig oder mit der Mischung aus gehacktem Knoblauch oder Zwiebeln, Pflanzenöl, Essig, Salz und Pfeffer servieren.",
+      "difficulty": "Schwer",
+      "id": 10
+    },
+    {
+      "name": "Blumenkohlsuppe mit Würstchen",
+      "price": 5,      
+      "cookingtime": 15,
+      "ingredientsquantity": "1 kg\tBlumenkohl\n500 ml\tWasser\n375 ml\tMilch\n1 TL\tGemüsebrühe, instant\n1 kl. Dose/n\tMais\n1\tZwiebel(n)\n2 EL\tButter oder Margarine\n20 g\tMehl\n100 g\tSchmelzkäse\nSalz und Pfeffer\nMuskat\n100 g\tErbsen (TK)\n1 Glas\tWürstchen (mini, 380 g)\nPetersilie",
+      "imageUrl": "/assets/images/food/blumenkohlsuppe-mit-meerrettich-2.jpg",
+      "preparation": "Blumenkohl putzen, waschen und in Röschen teilen. Gut 500 ml leicht gesalzenes Wasser mit der Milch und der Gemüsebrühe aufkochen. Den Blumenkohl darin zugedeckt 10 - 15 Minuten garen. Dann abgießen und die Flüssigkeit auffangen.\n\nDen Mais abtropfen lassen. Die Zwiebel würfeln. \n\nDie Butter im Topf erhitzen. Die Zwiebelwürfel darin andünsten. Das Mehl darüber stäuben und anschwitzen. Mit der Kochflüssigkeit unter Rühren ablöschen. Aufkochen und ca. 5 Minuten köcheln lassen. Den Schmelzkäse zugeben und schmelzen lassen. Mit Salz, Pfeffer und evtl. etwas Muskat abschmecken.\n\nBlumenkohl, Erbsen, Mais und Würstchen in der Suppe 2 - 3 Minuten erhitzen, aber nicht mehr kochen lassen. Petersilie waschen und hacken. Die Suppe mit Petersilie bestreuen und servieren.",
+      "difficulty": "Schwer",
+      "id": 11
+    },
+    {
+      "name": "Gurkenzug",
+      "price": 5,
+      "cookingtime": 15,
+      "ingredientsquantity": "2\tGurke(n), (eine als Zug und eine für den Verschnitt)\n1\tMöhre(n)\n2\tRadieschen\nGemüse als Fracht für den Zug (Paprika, Radieschen, etc.)",
+      "imageUrl": "/assets/images/food/Gurkenzug-2.png",
+      "preparation": "Die Salatgurke wird einmal längs halbiert. Dabei beachten, dass die Spitze der Gurke noch zu sehen sein muss (das wird die Lok), daher vielleicht 2-3 cm neben der Gurkenspitze anfangen zu halbieren.\n\nNun die eine halbe Gurke in 3 gleichgroße Teile schneiden (Lok und 2 Hänger) und die Teile jeweils mit einem Zahnstocher verbinden. Damit man die Zahnstocher zwischen den Hängern nicht sieht, kann man Radieschenscheiben drauf stecken, es sieht aber auch ohne gut aus.\n\nNun 1/4 Gurke (von der noch unbenutzten Gurke) nehmen und als Fahrerhaus auf der Lok mit einem Zahnstocher befestigen und auf jeder Seite Fenster reinschneiden. Es kann dann noch zusätzlich ein Teil von der zu Beginn halbierten und nun übrig gebliebenen Gurke als Dach verwendet werden.\n\nEine Möhre schälen und in ca. 1-2 cm breite Stücke schneiden. Jeweils an der Lok und den Hängern 4 \"Räder\" mit einem Zahnstocher befestigen.\n\nDa es eine Dampflok werden soll, braucht man nun die Radieschen als Schornsteine. Dafür eignen sich eher längliche als ganz runde Radieschen. Diese nun vor dem Fahrerhaus mit Zahnstochern fixieren.\n\nZum Schluss die beiden Hänger etwas aushöhlen und Gemüse nach Geschmack als Fracht hineinlegen.",
+      "difficulty": "Schwer",
+      "id": 12
+    },
+    {
+      "name": "Apfelwurst",
+      "price": 4,
+      "cookingtime": 15,
+      "ingredientsquantity": "600 g\tFleischwurst, dicke\nMargarine, für die Form\n1 ½ EL\tSenf\n1 ½ EL\tTomatenketchup\nCurry\nZwiebelpulver oder geriebene Zwiebel\n2\tÄpfel, in Scheiben oder Stücken\n2 EL\tButter, zerlassene",
+      "imageUrl": "/assets/images/food/apfelwurst.jpg",
+      "preparation": "Die Haut der Fleischwurst abziehen und die Wurst in Abständen tief einschneiden. Feuerfeste Form einfetten. Wurst hineinlegen. Senf, Ketchup und Curry und Zwiebelpulver oder geriebene Zwiebel mischen. Einschnitte damit bestreichen. Apfelstücke in die Einschnitte stecken. Wurst mit zerlassener Butter einpinseln. \n\nForm in den vorgeheizten Ofen auf die mittlere Schiene stellen und etwa 30 Minuten braten.(E-Herd ca. 225 Grad/Gas Stufe 4/ Umluft 200 Grad) Ab und zu mit Butter begießen. \n\nWir mögen am liebsten Kartoffelpüree und einen grünen Salat dazu.\n\nEine Abwandlung: Die Wurst mit geriebenem Meerrettich würzen und zart geschnittene Lauchringe in die Einschnitte legen. Ist auch sehr lecker!",
+      "difficulty": "Schwer",
+      "id": 13
+    },
+    {
+      "name": "Currywurstkuchen",
+      "price": 9,
+      "cookingtime": 60,
+      "ingredientsquantity": "600 g\tWürste (Bockwurst, Rindswurst, Bratwurst)\n400 ml\tKetchup (Gewürzketchup)\n1 EL\tCurrypaste, rote Thai-, je nach gewünschter Schärfe)\n1 EL\tSalz\n100 ml\tWasser\n2 Beutel\tGelatinepulver (für ca.1 Liter Gelatiniergut)\n400 g\tHefeteig\n1 EL\tCurrypulver",
+      "imageUrl": "/assets/images/food/wurstkuchen.jpeg",
+      "preparation": "Den Hefeteig nach bekannten Rezepten vorbereiten oder wahlweise fertig kaufen.\n\nDen Teig auf ca. 30 x 30 cm ausrollen und in eine runde, mit Backpapier ausgelegte Kuchenspringform geben, so dass ein \"Topf\" entsteht und die Ecken darüber hängen. Den Teig etwa 10 Minuten bei 230° goldbraun backen. \n\nRegionale Unterschiede fordern verschiedene Würste für die Currywurst. Im Falle der Bratwurst und Rindswurst müssen diese natürlich vorgebraten werden. Die Würste in Stücke schneiden und Ketchup, Thai-Currypaste, Salz und Wasser in einen Topf geben und für 20 Minuten kochen. Dann die Gelatine sorgfältig einrühren und die Masse in den \"Topf\" aus Teig füllen. \n\nDen Kuchen über Nacht im Kühlschrank fest werden lassen und am nächsten Tag mit dem Currypulver bestreuen.\n\nDer Kuchen reicht für ca. 8 Personen.",
+      "difficulty": "Schwer",
+      "id": 14
+    },
+    {
+      "name": "Oma's Pizzasuppe",
+      "price": 6,
+      "cookingtime": 25,
+      "ingredientsquantity": "2 große\tZwiebel(n)\n500 g\tHackfleisch\n1 EL\tOlivenöl\n1\tPaprikaschote(n), rote\n1\tPaprikaschote(n), gelbe\n1 Dose\tChampignons\n1 Dose\tMais\n¾ Liter\tGemüsebrühe\n1 Becher\tSahne\n2 Pkt.\tTomatensauce (Tomato al gusto mit Kräutern)\n200 g\tSahneschmelzkäse\nSalz und Pfeffer\nOregano\nevtl.\tParmesan, geriebener",
+      "imageUrl": "/assets/images/food/c961c1eae42c4ce2b58242f1c12f2295_1445104_ID57702_BuntePizzasuppe03_online-2.jpg",
+      "preparation": "Die Zwiebeln würfeln und mit dem Hackfleisch in Olivenöl anbraten. Die Paprikaschoten ebenfalls würfeln und mit den Champignons sowie dem Mais zum Hackfleisch geben. Alles kurz anbraten, anschließend mit der Gemüsebrühe ablöschen. Die Sahne, die Tomatensauce und den Sahneschmelzkäse hinzugeben und ca. 10 Minuten köcheln lassen. Zum Schluss mit Salz, Pfeffer und Oregano abschmecken.\n\nBeim Servieren nach Belieben etwas geriebenen Parmesan auf die Suppe streuen.\n\nDazu passt am besten Baguette. \n\nTipp: Schmeckt auch als Nudelsauce gut, dann weniger Gemüsebrühe verwenden.",
+      "difficulty": "Schwer",
+      "id": 15
+    },
+    {
+      "name": "Gefüllte Paprika",
+      "price": 10,
+      "cookingtime": 30,
+      "ingredientsquantity": "10\tSpitzpaprika, gelbe, je nach Größe evtl. mehr\n500 g\tHackfleisch, gemischtes\n100 g\tReis, gekochter\n1\tEi(er)\n1\tZwiebel(n)\n1 Zehe/n\tKnoblauch\nSalz und Pfeffer, schwarzer, aus der Mühle\nPaprikapulver\n1 EL\tButter\n1 EL\tMehl\n500 ml\tGemüsebrühe\n1 kl. Dose/n\tTomatenmark\netwas\tZucker",
+      "imageUrl": "/assets/images/food/Paprika.jpg",
+      "preparation": "In die Hackmasse kommen 100 g bereits gekochter Reis. Verwendet man keine Spitzpaprika, sondern normale, in die mehr Füllung passt, nimmt man weniger Paprikaschoten.\n\nAus Hackfleisch, Reis, Ei, Zwiebel und Knoblauch einen Hackfleischteig herstellen und mit den Gewürzen abschmecken. In die Paprikaschoten füllen und aus dem Rest Hackfleischbällchen formen. \n\nDie Butter in einem Topf schmelzen, das Mehl dazugeben und etwas anrösten. Mit Gemüsebrühe ablöschen. Tomatenmark dazugeben und aufkochen lassen. Mit Salz, Pfeffer und etwas Zucker abschmecken. Die gefüllten Paprikaschoten und die Bällchen in die Sauce geben und entweder auf dem Herd oder im Backofen ca. 30 - 40 Min. schmoren.\n\nDazu gibt es Reis. \n\nAnmerkung: Alternativ kann man auch passierte Tomaten statt des Tomatenmarks verwenden. Dann etwas weniger Brühe nehmen.\n\nDie Mengenangaben sind etwas vage, meine Uri hat immer \"nach Gefühl\" gekocht. Ich habe versucht, das Rezept so gut wie möglich nachzuvollziehen.",
+      "difficulty": "Schwer",
+      "id": 16
     }
   ]
 }
