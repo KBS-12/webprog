@@ -7,19 +7,11 @@
         <div class="footer__section">
             <h3 class="footer__heading">Beliebte Kategorien</h3>
             <ul class="footer__list">
-                <li class="footer__list-item"><a href="#" class="footer__link">Startseite</a></li>
-                <li class="footer__list-item"><a href="#" class="footer__link">Suche</a></li>
-                <li class="footer__list-item"><a href="#" class="footer__link">Profil</a></li>
-                <li class="footer__list-item"><a href="#" class="footer__link">Logout</a></li>
-            </ul>
-        </div>
-        <div class="footer__section">
-            <h3 class="footer__heading">Sitelinks</h3>
-            <ul class="footer__list">
-                <li class="footer__list-item"><a href="#" class="footer__link">Startseite</a></li>
-                <li class="footer__list-item"><a href="#" class="footer__link">Suche</a></li>
-                <li class="footer__list-item"><a href="#" class="footer__link">Profil</a></li>
-                <li class="footer__list-item"><a href="#" class="footer__link">Logout</a></li>
+                <li class="footer__list-item"><a routerLink="/home-page" class="footer__link">Startseite</a></li>
+                <li class="footer__list-item"><a routerLink="/search-page" class="footer__link">Suche</a></li>
+                <li class="footer__list-item"><a routerLink="/profile-page" class="footer__link">Profil</a></li>
+                <li class="footer__list-item"><a class="footer__link" aria-disabled="true" onclick="deleteSessionStorage()" routerLink="/login-page" >Logout</a>
+                </li>
             </ul>
         </div>
         <div class="footer__section">
