@@ -6,7 +6,6 @@ import { HomepageComponent } from './home-page/homepage.component';
 import { ProfileComponent } from './profile-page/profile.component';
 import { LoginpageComponent } from './login-page/loginpage.component';
 import { SearchPageComponent } from './search-page/search-page.component';
-import { RecipePageComponent } from './recipe-page/recipe-page.component';
 import { RegisterPageComponent } from './register-page/register-page.component';
 import { NewRecipePageComponent } from './new-recipe-page/new-recipe-page.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -20,6 +19,7 @@ import { FoodPageComponent } from './food-page/food-page.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { SearchComponent } from './search/search.component';
 import { MatTableModule } from '@angular/material/table';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
@@ -30,14 +30,13 @@ import { MatTableModule } from '@angular/material/table';
     ProfileComponent,
     LoginpageComponent,
     SearchPageComponent,
-    RecipePageComponent,
     RegisterPageComponent,
     TagsComponent,
     NewRecipePageComponent,
     NotFoundComponent,
     FoodPageComponent,
     SearchComponent,
-    NewRecipePageComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
