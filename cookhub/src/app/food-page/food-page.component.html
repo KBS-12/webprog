@@ -1,8 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<app-not-found [visible]="!food" notFoundMessage="Gericht wurde nicht gefunden!" resetLinkText="Zurück zur Homepage"></app-not-found>
+
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <title>Rezeptseite</title>
     <style>
@@ -49,11 +46,9 @@
             border-color: #12CDD4;
         }
     </style>
-</head>
-<body>
 
-    <app-not-found [visible]="!food" notFoundMessage="Gericht wurde nicht gefunden!" resetLinkText="Zurück zur Homepage"></app-not-found>
-
+    
+<div *ngIf="food" class="container">
     <div class="row">
         <div class="col-lg-6">
             <div class="card" id="left">
@@ -93,15 +88,14 @@
                     </ol>
                 </div>
             </div>
-        </div>
-    </div>
-
-    <footer>
+        </div> 
+        <footer>
         <div class="button">
             <button class="btn btn-primary" routerLink="/new-recipe-page">Rezept bearbeiten</button>
             <button class="btn btn-danger" (click)="deleteRecipe()">Rezept löschen</button>
         </div>
     </footer>
-
-</body>
-</html>
+    </div>
+</div>
+   
+    

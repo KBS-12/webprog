@@ -2,7 +2,7 @@
 
 ## BESCHREIBUNG
 
-Cookhub ist eine Webseite zum Anschauen von verschiedenen Kochrezepten und bietet ebenfalls die Möglichkeit Repze über das eigene Konto hochzuladen und auch wieder zu Löschen.
+Cookhub ist eine Webseite zum Anschauen von verschiedenen Kochrezepten und bietet ebenfalls die möglichkeit Rezepte über das eigene Konto hochzuladen und auch wieder zu löschen.
 
 
 ## VERSIONEN
@@ -64,7 +64,7 @@ $ ng serve
 ```
 Hierdurch wird der Json Server für die Rest-Api gestartet
 ```terminal
-$ ng json-server --watch db.json
+$ npx json-server --watch db.json
 ```
    
 Im Browser deiner Wahl nun [Localhost:4200](http://localhost:4200/home-page) öffnen.
