@@ -19,6 +19,7 @@ import { FoodPageComponent } from './food-page/food-page.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { SearchComponent } from './search/search.component';
 import { MatTableModule } from '@angular/material/table';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
@@ -34,7 +35,8 @@ import { MatTableModule } from '@angular/material/table';
     NewRecipePageComponent,
     NotFoundComponent,
     FoodPageComponent,
-    SearchComponent
+    SearchComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
