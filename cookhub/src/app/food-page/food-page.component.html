@@ -70,6 +70,10 @@
                         <app-tags [foodPageTags]="food.tags" justifyContent="start"></app-tags>
                     </div>
                 </div>
+                <div class="button">
+                    <button class="btn btn-primary" routerLink="/new-recipe-page">Rezept bearbeiten</button>
+                    <button class="btn btn-danger" (click)="deleteRecipe()">Rezept löschen</button>
+                </div>
             </div>
         </div>
         <div class="col-lg-6">
@@ -89,12 +93,6 @@
                 </div>
             </div>
         </div> 
-        <footer>
-        <div class="button">
-            <button class="btn btn-primary" routerLink="/new-recipe-page">Rezept bearbeiten</button>
-            <button class="btn btn-danger" (click)="deleteRecipe()">Rezept löschen</button>
-        </div>
-    </footer>
     </div>
 </div>
    
