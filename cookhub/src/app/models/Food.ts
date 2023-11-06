@@ -7,4 +7,5 @@ export class Food{
     imageUrl!:string;
     cookingtime!:number;
     difficulty!:string;
+    preparation!:string;
 }
