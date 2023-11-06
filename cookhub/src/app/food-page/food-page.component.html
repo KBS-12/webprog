@@ -1,52 +1,7 @@
 <app-not-found [visible]="!food" notFoundMessage="Gericht wurde nicht gefunden!" resetLinkText="Zurück zur Homepage"></app-not-found>
 
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+ 
   <title>Rezeptseite</title>
-    <style>
-        .card {
-            margin-bottom: 20px;
-            border-color: white;
-        }
-    
-        .small-image {
-            width: 80%;
-            height: 200px;
-        }
-    
-        .cook-time {
-            margin-bottom: 10px;
-        }
-    
-        .price {
-            margin-bottom: 10px;
-        }
-    
-        .tags {
-            margin-bottom: 10px;
-        }
-    
-        .button {
-            display: flex;
-            justify-content: center;
-        }
-        .recipe-title {
-            display: flex;
-            margin-bottom: 10px;
-            margin-left: 20px;
-            font-family: 'Roboto', sans-serif;
-        }
-        .btn-primary {
-            margin-right: 10px;
-            background-color: #12CDD4;
-            border-color: #12CDD4;
-        }
-        .btn-danger {
-            margin-right: 10px;
-            background-color: #12CDD4;
-            border-color: #12CDD4;
-        }
-    </style>
-
     
 <div *ngIf="food" class="container">
     <div class="row">
