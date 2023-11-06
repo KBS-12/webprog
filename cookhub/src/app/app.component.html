@@ -2,97 +2,9 @@
 
 <style>
   
-  p {
-    margin: 0;
-  }
-  .spacera {
-    background: rgb(94, 146, 206);
-    
-}
-
-  .spacer {
   
-    display: right;
-    justify-content: space-between;
-    width: 100%;
-   align-items: center;
-  }
-
-  .toolbar {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 60px;
-    display: flex;
-    align-items: center;
-    background-color: #ffffff;
-    color: black;
-    font-weight: 600;
-  }
-
-  .content {
-    display: flex;
-    margin: 82px auto 32px;
-    padding: 0 16px;
-    max-width: 960px;
-    flex-direction: column;
-    align-items: center;
-  }
-
- 
-
-  
-  a,
-  a:visited,
-  a:hover {
-    color: #3b88d4;
-    text-decoration: none;
-  }
-
-  a:hover {
-    color: #125699;
-  }
-
-
-  /* Responsive Styles */
-  @media screen and (max-width: 767px) {
-    .card-container > *:not(.circle-link) ,
-    .terminal {
-      width: 100%;
-    }
-
-    .card:not(.highlight-card) {
-      height: 16px;
-      margin: 8px 0;
-    }
-
-    .card.highlight-card span {
-      margin-left: 72px;
-    }
-
-    svg#rocket-smoke {
-      right: 120px;
-      transform: rotate(-5deg);
-    }
-  }
-
-  @media screen and (max-width: 575px) {
-    svg#rocket-smoke {
-      display: none;
-      visibility: hidden;
-
-    .spacer a {
-    margin-right: 10px; 
-  }
-  
-
-    }
-  }
 </style>
 
-
-
+<router-outlet> </router-outlet>
   
-  <router-outlet> </router-outlet>
-  
+<app-footer></app-footer>
