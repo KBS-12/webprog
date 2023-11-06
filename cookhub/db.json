@@ -128,7 +128,7 @@
     },
     {
       "name": "Blumenkohlsuppe mit Würstchen",
-      "price": 5,      
+      "price": 5,
       "cookingtime": 15,
       "ingredientsquantity": "1 kg\tBlumenkohl\n500 ml\tWasser\n375 ml\tMilch\n1 TL\tGemüsebrühe, instant\n1 kl. Dose/n\tMais\n1\tZwiebel(n)\n2 EL\tButter oder Margarine\n20 g\tMehl\n100 g\tSchmelzkäse\nSalz und Pfeffer\nMuskat\n100 g\tErbsen (TK)\n1 Glas\tWürstchen (mini, 380 g)\nPetersilie",
       "imageUrl": "/assets/images/food/blumenkohlsuppe-mit-meerrettich-2.jpg",
@@ -165,16 +165,6 @@
       "preparation": "Den Hefeteig nach bekannten Rezepten vorbereiten oder wahlweise fertig kaufen.\n\nDen Teig auf ca. 30 x 30 cm ausrollen und in eine runde, mit Backpapier ausgelegte Kuchenspringform geben, so dass ein \"Topf\" entsteht und die Ecken darüber hängen. Den Teig etwa 10 Minuten bei 230° goldbraun backen. \n\nRegionale Unterschiede fordern verschiedene Würste für die Currywurst. Im Falle der Bratwurst und Rindswurst müssen diese natürlich vorgebraten werden. Die Würste in Stücke schneiden und Ketchup, Thai-Currypaste, Salz und Wasser in einen Topf geben und für 20 Minuten kochen. Dann die Gelatine sorgfältig einrühren und die Masse in den \"Topf\" aus Teig füllen. \n\nDen Kuchen über Nacht im Kühlschrank fest werden lassen und am nächsten Tag mit dem Currypulver bestreuen.\n\nDer Kuchen reicht für ca. 8 Personen.",
       "difficulty": "Schwer",
       "id": 14
-    },
-    {
-      "name": "Oma's Pizzasuppe",
-      "price": 6,
-      "cookingtime": 25,
-      "ingredientsquantity": "2 große\tZwiebel(n)\n500 g\tHackfleisch\n1 EL\tOlivenöl\n1\tPaprikaschote(n), rote\n1\tPaprikaschote(n), gelbe\n1 Dose\tChampignons\n1 Dose\tMais\n¾ Liter\tGemüsebrühe\n1 Becher\tSahne\n2 Pkt.\tTomatensauce (Tomato al gusto mit Kräutern)\n200 g\tSahneschmelzkäse\nSalz und Pfeffer\nOregano\nevtl.\tParmesan, geriebener",
-      "imageUrl": "/assets/images/food/c961c1eae42c4ce2b58242f1c12f2295_1445104_ID57702_BuntePizzasuppe03_online-2.jpg",
-      "preparation": "Die Zwiebeln würfeln und mit dem Hackfleisch in Olivenöl anbraten. Die Paprikaschoten ebenfalls würfeln und mit den Champignons sowie dem Mais zum Hackfleisch geben. Alles kurz anbraten, anschließend mit der Gemüsebrühe ablöschen. Die Sahne, die Tomatensauce und den Sahneschmelzkäse hinzugeben und ca. 10 Minuten köcheln lassen. Zum Schluss mit Salz, Pfeffer und Oregano abschmecken.\n\nBeim Servieren nach Belieben etwas geriebenen Parmesan auf die Suppe streuen.\n\nDazu passt am besten Baguette. \n\nTipp: Schmeckt auch als Nudelsauce gut, dann weniger Gemüsebrühe verwenden.",
-      "difficulty": "Schwer",
-      "id": 15
     },
     {
       "name": "Gefüllte Paprika",

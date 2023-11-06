@@ -48,6 +48,9 @@
             background-color: #12CDD4;
             border-color: #12CDD4;
         }
+        .list-group-item {
+        white-space: pre-line;
+    }
     </style>
 </head>
 <body>
@@ -84,24 +87,20 @@
         
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item">{{food.ingredientsquantity}}</li>
-                    </ul>
-        
+                    </ul>        
                     <h2 class="card-title">Zubereitung</h2>
         
                     <ol class="list-group list-group-flush">
                         <li class="list-group-item">{{food.preparation}}</li>
                     </ol>
                 </div>
+                <div class="button">
+                    <button class="btn btn-primary" routerLink="/new-recipe-page">Rezept bearbeiten</button>
+                    <button class="btn btn-danger" (click)="deleteRecipe()">Rezept löschen</button>
+                </div>
             </div>
         </div>
     </div>
-
-    <footer>
-        <div class="button">
-            <button class="btn btn-primary" routerLink="/new-recipe-page">Rezept bearbeiten</button>
-            <button class="btn btn-danger" (click)="deleteRecipe()">Rezept löschen</button>
-        </div>
-    </footer>
 
 </body>
 </html>
