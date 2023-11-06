@@ -2,10 +2,10 @@ export class Food{
     id!:number;
     name!:string;
     price!:number;
-    tags?:string[];
-    ingredientsquantity!:string;
-    imageUrl!:string;
     cookingtime!:number;
+    ingredientsquantity!:string;
+    preparation?:string;
+    imageUrl!:string; 
     difficulty!:string;
-    preparation!:string;
+    tags?:string[];
 }
