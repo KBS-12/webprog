@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { RouterModule, Routes } from '@angular/router';
+import { RouterModule, Routes, ExtraOptions } from '@angular/router';
 import { HomepageComponent } from './home-page/homepage.component';
 import { LoginpageComponent } from './login-page/loginpage.component';
 import { RegisterPageComponent } from './register-page/register-page.component';
@@ -9,7 +9,9 @@ import { AuthGuard } from './guard/auth.guard';
 import { NewRecipePageComponent } from './new-recipe-page/new-recipe-page.component';
 import { FoodPageComponent } from './food-page/food-page.component';
 
-
+export const routerOptions: ExtraOptions = {
+  scrollPositionRestoration: 'enabled', // 'disabled' | 'enabled' | 'top'
+}
 
 const routes: Routes = [
  {path: '', redirectTo: 'home-page', pathMatch: 'full' }, //default route
@@ -25,7 +27,7 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes, routerOptions)],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }

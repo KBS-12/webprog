@@ -10,3 +10,7 @@ h1 {
   .form-card {
     margin-bottom: 20px;
   }
+
+  .btn-primary {
+    border-color: #12CDD4;
+  }

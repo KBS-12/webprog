@@ -1,21 +1,30 @@
-.card {
-    margin: 20px;
-  }
-
-  .card-text {
-    margin: 10px 0;
-    text-align: center;
-    color: #12CDD4;
-    font-weight: bold;
-    font-size: 16px;
-    font-family: 'Roboto', sans-serif;
-}
-
 h2 {
   font-size: 24px;
   font-family: 'Roboto', sans-serif;
   color: #12CDD4;
   font-weight: bold;
   text-align: center;
-  margin-top: 10px; /* Ändere den oberen Abstand */
+  margin-top: 10px; 
 }
+
+header {
+  text-align: center;
+}
+
+header.img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+h5 {
+  font-weight: bold;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  color: #12CDD4;
+  text-align: center;
+  margin-top: 10px;
+}
+
+
