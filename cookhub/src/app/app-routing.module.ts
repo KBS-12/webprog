@@ -15,6 +15,7 @@ export const routerOptions: ExtraOptions = {
 
 const routes: Routes = [
  {path: '', redirectTo: 'home-page', pathMatch: 'full' }, //default route
+ { path: 'food-page/:id', component: FoodPageComponent }, // Hier wird die Rezept-ID als Parameter übergeben
  {component:LoginpageComponent,path:'login-page'},
  {component:RegisterPageComponent,path:'register-page'},
  {component:HomepageComponent, path:'home-page'},
