@@ -1,13 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <title>Nicht mehr Startseite</title>
-
-</head>
-<body>
+<title>Neues Rezept</title>
 
 <div class="container">
   <div class="row">
@@ -20,10 +11,9 @@
 <div class="container text-center mb-4">
   <input type="file" id="fileUpload" style="display: none;" (change)="previewImage($event)">
   <label for="fileUpload" style="display: inline-block; cursor: pointer;">
-    <img src="/assets/images/addphoto.jpg" alt="Bild öffnen" style="width: 400px; height: 300px; border: 1px solid #DFDFDF; border-radius: 10px;" id="imagePreview">
+    <img src="/assets/images/addphoto.jpg" alt="Bild öffnen" style="width: 380px; height: 300px; border: 1px solid #DFDFDF; border-radius: 10px;" id="imagePreview">
   </label>
 </div>
-
 
 <div class="container">
   <form [formGroup]="recipeform" (ngSubmit)="addRecipe()">
@@ -95,21 +85,12 @@
             </div>
           </div>
         </div>
-
-
-        
+      </div>
         <div class="form-card text-center d-flex justify-content-center">
           <button type="submit" class="btn btn-primary" style="background-color: #12CDD4; color: white; margin-right: 10px;">Rezept speichern</button>
-          <button type="reset" class="btn btn-primary" style="background-color: #12CDD4; color: white; margin-left: 10px;">Abbrechen</button>
+          <button type="reset" class="btn btn-primary" routerLink="/profile-page" style="background-color: #12CDD4; color: white; margin-left: 10px;">Abbrechen</button>
         </div>
       </div>
-    </div>
   </form>
 </div>
 
-
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-</body>
-</html>

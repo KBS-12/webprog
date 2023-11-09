@@ -1,4 +1,4 @@
-<app-not-found [visible]="!food" notFoundMessage="Gericht wurde nicht gefunden!" resetLinkText="Zurück zur Homepage"></app-not-found>
+<app-not-found [visible]="!food" notFoundMessage="Gericht wurde nicht gefunden!" resetLinkText="Zurück zu den Suchergebnissen"></app-not-found>
 
  
   <title>Rezeptseite</title>
@@ -8,7 +8,7 @@
         <div class="col-lg-6">
             <div class="card" id="left">
                 <div class="recipe-title" >
-                    <h2 class="card-text"><strong>Rezeptname: {{food.name}}</strong></h2>
+                    <h2 class="card-text"><strong>{{food.name}}</strong></h2>
                 </div>
                 <img [src]="food.imageUrl" [alt]="food.name" class="card-img-top small-image" />
     
@@ -35,7 +35,6 @@
             <div class="card">
                 <div class="card-body" id="Zutaten">
                     <h2 class="card-title">Zutaten</h2>
-        
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item">{{food.ingredientsquantity}}</li>
                     </ul>
