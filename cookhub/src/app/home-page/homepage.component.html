@@ -2,7 +2,7 @@
   <title>Startseite</title>
  
   <header>
-    <img src="assets/images/frontpage.png" alt="Titelbild" style="max-width: 60%; height: auto; display: block; margin: 0 auto;">
+    <img src="assets/images/frontpage.png" alt="Titelbild" style="max-width: 60%; height: auto; display: block; margin: 0 auto; ">
   </header>
 <app-search></app-search>
 
@@ -19,26 +19,32 @@
   <div class="row g-3">
     <div class="col-md-4 mb-3">
       <div class="card">
+        <a routerLink="/tag/RezeptDesTages">
         <img src="assets/images/food/ChickenWings.jpg" class="card-img-top" alt="image 1">
         <div class="card-body">
           <h5>Rezept des Tages</h5>
         </div>
+        </a>
       </div>
     </div>
     <div class="col-md-4 mb-3">
       <div class="card">
+        <a routerLink="/tag/unter10Euro">
         <img src="assets/images/food/Paprika.jpg" class="card-img-top" alt="image 2">
         <div class="card-body">
           <h5>Gesundes unter 5€</h5>
         </div>
+        </a>
       </div>
     </div>
     <div class="col-md-4 mb-3">
       <div class="card">
-        <img src="assets/images/food/Müsli.jpg" class="card-img-top" alt="image 3">
-        <div class="card-body">
-          <h5>Schnelle Rezepte</h5>
-        </div>
+        <a routerLink="/tag/FürDenSchnellenHunger">
+          <img src="assets/images/food/Müsli.jpg" class="card-img-top" alt="image 3">
+          <div class="card-body">
+            <h5>Schnelle Rezepte</h5>
+          </div>
+        </a>
       </div>
     </div>
   </div>
