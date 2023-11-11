@@ -1,3 +1,4 @@
+/* Bestehende Stile */
 .mb-3 {
     padding-top: 20px;
 }
@@ -9,11 +10,12 @@
 .input-group:not(.has-validation)>:not(:last-child):not(.dropdown-toggle):not(.dropdown-menu):not(.form-floating) {
     border-radius: 15px;
 }
-div{
+
+div {
     cursor: pointer;
 }
 
-ul{
+.food-list {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,7 +24,7 @@ ul{
     padding: 0;
 }
 
-ul li a{
+.food-card {
     height: 18rem;
     width: 20rem;
     border: 1px solid whitesmoke;
@@ -31,33 +33,33 @@ ul li a{
     display: flex;
     flex-direction: column;
     overflow: hidden;
-    color: #12CDD4;
+    color: black;
+    text-decoration: none;
 }
-li a:hover{
+
+.food-card:hover {
     opacity: 0.9;
     cursor: pointer;
 }
 
-.content{
+.content {
     padding: .5rem 1rem;
 }
 
-.product-item-footer{
+.product-item-footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.price{
-    flex:9;
+
+.card-text {
+    font-size: 14px; 
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
-.price span{
-    border-radius: 2rem;
-    display: inline-block;
-    margin-right: .3rem;
-}
-
-.cook-time{
-    flex: 3;
-    text-align: right;
+h5 {
+    font-size: 16px;
+    margin-left: 10px;
+    margin-top: 5px;
 }
