@@ -34,12 +34,13 @@ export class NewRecipePageComponent {
     }
   addRecipe() {
     if(this.recipeform.value.price == ""){
-      this.toastr.error('Bitte Preis eingeben!');
+      this.toastr.error('Bitte Felder nicht leer lassen!');
     }else{
     this.recipe.addRecipeData(this.recipeform.value).subscribe((result) =>{
       console.log(result);
       this.recipeform.reset(); 
     });
+    this.toastr.success('Das Rezept wurde Erfolgreich hinzugefügt!');
     this.router.navigate(['profile-page']);
     
   }
