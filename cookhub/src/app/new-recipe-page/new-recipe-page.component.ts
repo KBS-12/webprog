@@ -1,9 +1,13 @@
 import { Component, OnInit } from '@angular/core';
 import {FormArray, FormBuilder, FormControl, FormGroup} from '@angular/forms';
 import { RestapiService } from '../service/restapi.service';
-import {Router} from "@angular/router";
+import {ActivatedRoute, Router} from "@angular/router";
 import {HttpClient} from "@angular/common/http";
 import { ToastrService } from 'ngx-toastr';
+
+interface RecipeResponse {
+  id: number;
+}
 
 @Component({
   selector: 'app-new-recipe-page',
@@ -32,19 +36,22 @@ export class NewRecipePageComponent {
 
     return this.recipeform.value;
     }
-  addRecipe() {
-    if(this.recipeform.value.price == ""){
-      this.toastr.error('Bitte Felder nicht leer lassen!');
-    }else{
-    this.recipe.addRecipeData(this.recipeform.value).subscribe((result) =>{
-      console.log(result);
-      this.recipeform.reset(); 
-    });
-    this.toastr.success('Das Rezept wurde Erfolgreich hinzugefügt!');
-    this.router.navigate(['profile-page']);
+
+    addRecipe() {
+      if (this.recipeform.value.price == "") {
+        this.toastr.error('Bitte Preis eingeben!');
+      } else {
+        this.recipe.addRecipeData(this.recipeform.value).subscribe((result: RecipeResponse) => {
+          const newRecipeId = result.id;
+          console.log(result);
+          this.recipeform.reset();
+          this.toastr.success('Das Rezept wurde Erfolgreich hinzugefügt!');
+          this.router.navigate(['food-page', newRecipeId]);
+        });
+      }
+    }
+
     
-  }
-  }
 
   previewImage(event: any) {
     const imagePreview = document.getElementById('imagePreview') as HTMLImageElement;

@@ -1,9 +1,9 @@
 
   <title>Startseite</title>
  
-<div class="jumbotron text-center">
-  <img src="assets/images/frontpage.png" alt="Titelbild"  style="width: auto; height: auto; display: block; margin-left: auto; margin-right: auto;">
-</div>
+  <header>
+    <img src="assets/images/frontpage.png" alt="Titelbild" style="max-width: 60%; height: auto; display: block; margin: 0 auto; ">
+  </header>
 <app-search></app-search>
 
 <div class="container">
@@ -15,29 +15,37 @@
   </div>
 </div>
 
-<div class="container" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr)); gap: 1rem;">
-  <div class="card" style="width: 18rem;" routerLink="/tag/unter10Euro">
-    <img class="card-img-top" src="assets/images/essen.png" alt="Card image cap">
-    <div class="card-body">
-      <p class="card-text">Gesundes unter 5€</p>
+<div class="card-body p-3 text-black">
+  <div class="row g-3">
+    <div class="col-md-4 mb-3">
+      <div class="card">
+        <a routerLink="/tag/RezeptDesTages">
+        <img src="assets/images/food/ChickenWings.jpg" class="card-img-top" alt="image 1">
+        <div class="card-body">
+          <h5>Rezept des Tages</h5>
+        </div>
+        </a>
+      </div>
     </div>
-  </div>
-  <div class="card" style="width: 18rem;" routerLink="/tag/RezeptDesTages">
-    <img class="card-img-top" src="assets/images/essen.png" alt="Card image cap">
-    <div class="card-body">
-      <p class="card-text">Rezept des Tages</p>
+    <div class="col-md-4 mb-3">
+      <div class="card">
+        <a routerLink="/tag/unter10Euro">
+        <img src="assets/images/food/Paprika.jpg" class="card-img-top" alt="image 2">
+        <div class="card-body">
+          <h5>Gesundes unter 5€</h5>
+        </div>
+        </a>
+      </div>
     </div>
-  </div>
-  <div class="card" style="width: 18rem;" routerLink="/tag/FürDenSchnellenHunger">
-    <img class="card-img-top" src="assets/images/essen.png" alt="Card image cap">
-    <div class="card-body">
-      <p class="card-text">Für den schnellen Hunger</p>
+    <div class="col-md-4 mb-3">
+      <div class="card">
+        <a routerLink="/tag/FürDenSchnellenHunger">
+          <img src="assets/images/food/Müsli.jpg" class="card-img-top" alt="image 3">
+          <div class="card-body">
+            <h5>Schnelle Rezepte</h5>
+          </div>
+        </a>
+      </div>
     </div>
   </div>
 </div>
-
-
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-

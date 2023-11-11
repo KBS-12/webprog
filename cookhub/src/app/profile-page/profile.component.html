@@ -1,38 +1,33 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Profil</title>
  
-<section class="h-100 gradient-custom-2">
-  <div class="container py-5 h-100">
-    <div class="row d-flex justify-content-center align-items-center h-100">
-      <div class="col col-lg-9 col-xl-7">
-        <div class="card">
 
-  <div class="rounded-top text-white d-flex flex-row" style="background-color: #12CDD4; height:200px;">  
-        <div class="ms-4 mt-5 d-flex flex-column" style="width: 150px;">
-          <img src="assets/images/Benutzer.png" class="img-fluid img-thumbnail mt-4 mb-2" style="width: 150px; z-index: 1">
-          <div class="d-flex">
-            <a routerLink="/new-recipe-page" class="btn btn-outline-dark me-2" data-mdb-ripple-color="dark" style="z-index: 1;">Rezept hinzufügen</a>
-            <a (click)="deleteSessionStorage()" routerLink="/login-page" class="btn btn-outline-dark" data-mdb-ripple-color="dark" style="z-index: 1;">Ausloggen</a>
+  <div class="card">
+    <div class="card-header" style="background-color: #12CDD4;">
+      <div class="d-flex justify-content-between align-items-center">
+        <div class="d-flex">
+          <img src="assets/images/profilepicture.jpeg" class="img-fluid img-thumbnail" style="max-width: 150px;">
+          <div class="ms-3">
+            <h5 style="font-size: 40px; color: white;"> Hi {{get()}}! 😎</h5>
+
           </div>
         </div>
-
-        <div class="ms-3" style="margin-top: 130px; color: black">
-          <h5>{{get()}}</h5>
-        </div>
-  </div>
-
-  <div class="p-4 text-black" style="background-color: #f8f9fa;">
-    <div class="d-flex justify-content-end text-center py-1">
+      </div>
     </div>
   </div>
+
+  <div class="d-flex" >
+    <button class="btn btn-add" routerLink="/new-recipe-page">Rezept hinzufügen</button>
+    <button (click)="deleteSessionStorage()" class="btn btn-logout" routerLink="/login-page">Logout</button>
+</div>
 
   <div class="card-body p-4 text-black">
     <div class="d-flex justify-content-between align-items-center mb-4">
-      <p class="lead fw-bold mb-0" style="color: black; font-size: 18px;">Eigenkreation</p>
+      <p class="lead fw-bold mb-0" style="color: black; font-size: 23px;">Eigenkreation</p>
     </div>
     <div class="row g-2">
       <div class="col mb-2">
-        <div class="card">
+        <div class="card food-card" routerLink="/food/18">
           <img src="assets/images/food/Leberkäse.jpg" class="card-img-top" alt="image 1">
           <div class="card-body">
             <h5>Bayrischer Leberkäse</h5>
@@ -41,7 +36,7 @@
         </div>
       </div>
       <div class="col mb-2">
-        <div class="card">
+        <div class="card food-card" routerLink="/food/17">
           <img src="assets/images/food/pancakes.jpg" class="card-img-top" alt="image 2">
           <div class="card-body">
             <h5>Pancakes</h5>
@@ -52,7 +47,7 @@
     </div>
     <div class="row g-2">
       <div class="col mb-2">
-        <div class="card">
+        <div class="card food-card" routerLink="/food/20">
           <img src="assets/images/food/ChickenWings.jpg" class="card-img-top" alt="image 3">
           <div class="card-body">
             <h5>Chicken Wings</h5>
@@ -61,10 +56,10 @@
         </div>
       </div>
       <div class="col mb-2">
-        <div class="card">
+        <div class="card food-card" routerLink="/food/19">
           <img src="assets/images/food/lachs.jpg" class="card-img-top" alt="image 4">
           <div class="card-body">
-            <h5>Lachs mit Soße</h5>
+            <h5>Lachs mit Soße</h5>  
             <p class="card-text">Zubereitungszeit: 25 Min. | Schwierigkeit: schwierig | Kosten 10€</p>
           </div>
         </div>
