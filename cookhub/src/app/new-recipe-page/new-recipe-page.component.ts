@@ -45,10 +45,12 @@ export class NewRecipePageComponent {
           const newRecipeId = result.id;
           console.log(result);
           this.recipeform.reset();
+          this.toastr.success('Das Rezept wurde Erfolgreich hinzugefügt!');
           this.router.navigate(['food-page', newRecipeId]);
         });
       }
     }
+
     
 
   previewImage(event: any) {

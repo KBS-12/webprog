@@ -1,6 +1,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Profil</title>
  
+
   <div class="card">
     <div class="card-header" style="background-color: #12CDD4;">
       <div class="d-flex justify-content-between align-items-center">
@@ -8,6 +9,7 @@
           <img src="assets/images/profilepicture.jpeg" class="img-fluid img-thumbnail" style="max-width: 150px;">
           <div class="ms-3">
             <h5 style="font-size: 40px; color: white;"> Hi {{get()}}! 😎</h5>
+
           </div>
         </div>
       </div>
@@ -16,7 +18,7 @@
 
   <div class="d-flex" >
     <button class="btn btn-add" routerLink="/new-recipe-page">Rezept hinzufügen</button>
-    <button class="btn btn-logout" routerLink="/login-page">Logout</button>
+    <button (click)="deleteSessionStorage()" class="btn btn-logout" routerLink="/login-page">Logout</button>
 </div>
 
   <div class="card-body p-4 text-black">
