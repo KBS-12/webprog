@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { AuthService } from '../service/auth.service';
+import { ToastrService } from 'ngx-toastr';
 
 @Component({
   selector: 'app-header',
@@ -8,7 +9,7 @@ import { AuthService } from '../service/auth.service';
 })
 export class HeaderComponent implements OnInit {
 
-  constructor(public service:AuthService){  }
+  constructor(public service:AuthService, private toastr: ToastrService){  }
 
 loginStatus;
   ngOnInit() {
@@ -21,6 +22,7 @@ loginStatus;
   }
   
   logout() {
+    this.toastr.success('Erfolgreich Abgemeldet!');
     this.service.logoutUser();
   }
   login() {

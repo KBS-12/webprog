@@ -23,7 +23,6 @@ export class RestapiService {
     console.log(data);
   })}
   updateRecipeData(data:any,params:any){
-    debugger;
     return this.http.put(this.url+'/'+params,data).subscribe(data => {
       console.log(data);
     });

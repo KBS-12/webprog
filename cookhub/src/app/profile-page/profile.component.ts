@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { AuthService } from '../service/auth.service';
+import { ToastrService } from 'ngx-toastr';
 
 
 @Component({
@@ -9,7 +10,7 @@ import { AuthService } from '../service/auth.service';
 })
 export class ProfileComponent {
 
-  constructor(public service: AuthService){}
+  constructor(public service: AuthService, private toastr: ToastrService){}
   
   get(){
     return sessionStorage.getItem('name');
@@ -17,5 +18,6 @@ export class ProfileComponent {
   deleteSessionStorage(){
     this.service.logoutUser();
     sessionStorage.clear();
+    this.toastr.success('Erfolgreich Abgemeldet!');
   }
 }
