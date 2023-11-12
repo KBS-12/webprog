@@ -27,8 +27,7 @@
       "difficulty": "Schwer",
       "id": 9,
       "tags": [
-        "unter10Euro",
-        "All"
+        "unter10Euro"
       ]
     },
     {
@@ -41,8 +40,7 @@
       "difficulty": "Schwer",
       "id": 10,
       "tags": [
-        "unter10Euro",
-        "All"
+        "unter10Euro"
       ]
     },
     {
@@ -53,12 +51,11 @@
       "imageUrl": "/assets/images/food/blumenkohlsuppe-mit-meerrettich-2.jpg",
       "preparation": "Blumenkohl putzen, waschen und in Röschen teilen. Gut 500 ml leicht gesalzenes Wasser mit der Milch und der Gemüsebrühe aufkochen. Den Blumenkohl darin zugedeckt 10 - 15 Minuten garen. Dann abgießen und die Flüssigkeit auffangen.\n\nDen Mais abtropfen lassen. Die Zwiebel würfeln. \n\nDie Butter im Topf erhitzen. Die Zwiebelwürfel darin andünsten. Das Mehl darüber stäuben und anschwitzen. Mit der Kochflüssigkeit unter Rühren ablöschen. Aufkochen und ca. 5 Minuten köcheln lassen. Den Schmelzkäse zugeben und schmelzen lassen. Mit Salz, Pfeffer und evtl. etwas Muskat abschmecken.\n\nBlumenkohl, Erbsen, Mais und Würstchen in der Suppe 2 - 3 Minuten erhitzen, aber nicht mehr kochen lassen. Petersilie waschen und hacken. Die Suppe mit Petersilie bestreuen und servieren.",
       "difficulty": "Schwer",
+      "id": 11,
       "tags": [
         "unter10Euro",
-        "FürDenSchnellenHunger",
-        "All"
-      ],
-      "id": 11
+        "FürDenSchnellenHunger"
+      ]
     },
     {
       "name": "Gurkenzug",
@@ -68,12 +65,11 @@
       "imageUrl": "/assets/images/food/Gurkenzug-2.png",
       "preparation": "Die Salatgurke wird einmal längs halbiert. Dabei beachten, dass die Spitze der Gurke noch zu sehen sein muss (das wird die Lok), daher vielleicht 2-3 cm neben der Gurkenspitze anfangen zu halbieren.\n\nNun die eine halbe Gurke in 3 gleichgroße Teile schneiden (Lok und 2 Hänger) und die Teile jeweils mit einem Zahnstocher verbinden. Damit man die Zahnstocher zwischen den Hängern nicht sieht, kann man Radieschenscheiben drauf stecken, es sieht aber auch ohne gut aus.\n\nNun 1/4 Gurke (von der noch unbenutzten Gurke) nehmen und als Fahrerhaus auf der Lok mit einem Zahnstocher befestigen und auf jeder Seite Fenster reinschneiden. Es kann dann noch zusätzlich ein Teil von der zu Beginn halbierten und nun übrig gebliebenen Gurke als Dach verwendet werden.\n\nEine Möhre schälen und in ca. 1-2 cm breite Stücke schneiden. Jeweils an der Lok und den Hängern 4 \"Räder\" mit einem Zahnstocher befestigen.\n\nDa es eine Dampflok werden soll, braucht man nun die Radieschen als Schornsteine. Dafür eignen sich eher längliche als ganz runde Radieschen. Diese nun vor dem Fahrerhaus mit Zahnstochern fixieren.\n\nZum Schluss die beiden Hänger etwas aushöhlen und Gemüse nach Geschmack als Fracht hineinlegen.",
       "difficulty": "Schwer",
+      "id": 12,
       "tags": [
         "unter10Euro",
-        "FürDenSchnellenHunger",
-        "All"
-      ],
-      "id": 12
+        "FürDenSchnellenHunger"
+      ]
     },
     {
       "name": "Apfelwurst",
@@ -83,12 +79,11 @@
       "imageUrl": "/assets/images/food/apfelwurst.jpg",
       "preparation": "Die Haut der Fleischwurst abziehen und die Wurst in Abständen tief einschneiden. Feuerfeste Form einfetten. Wurst hineinlegen. Senf, Ketchup und Curry und Zwiebelpulver oder geriebene Zwiebel mischen. Einschnitte damit bestreichen. Apfelstücke in die Einschnitte stecken. Wurst mit zerlassener Butter einpinseln. \n\nForm in den vorgeheizten Ofen auf die mittlere Schiene stellen und etwa 30 Minuten braten.(E-Herd ca. 225 Grad/Gas Stufe 4/ Umluft 200 Grad) Ab und zu mit Butter begießen. \n\nWir mögen am liebsten Kartoffelpüree und einen grünen Salat dazu.\n\nEine Abwandlung: Die Wurst mit geriebenem Meerrettich würzen und zart geschnittene Lauchringe in die Einschnitte legen. Ist auch sehr lecker!",
       "difficulty": "Schwer",
+      "id": 13,
       "tags": [
         "unter10Euro",
-        "FürDenSchnellenHunger",
-        "All"
-      ],
-      "id": 13
+        "FürDenSchnellenHunger"
+      ]
     },
     {
       "name": "Currywurstkuchen",
@@ -98,11 +93,10 @@
       "imageUrl": "/assets/images/food/wurstkuchen.jpeg",
       "preparation": "Den Hefeteig nach bekannten Rezepten vorbereiten oder wahlweise fertig kaufen.\n\nDen Teig auf ca. 30 x 30 cm ausrollen und in eine runde, mit Backpapier ausgelegte Kuchenspringform geben, so dass ein \"Topf\" entsteht und die Ecken darüber hängen. Den Teig etwa 10 Minuten bei 230° goldbraun backen. \n\nRegionale Unterschiede fordern verschiedene Würste für die Currywurst. Im Falle der Bratwurst und Rindswurst müssen diese natürlich vorgebraten werden. Die Würste in Stücke schneiden und Ketchup, Thai-Currypaste, Salz und Wasser in einen Topf geben und für 20 Minuten kochen. Dann die Gelatine sorgfältig einrühren und die Masse in den \"Topf\" aus Teig füllen. \n\nDen Kuchen über Nacht im Kühlschrank fest werden lassen und am nächsten Tag mit dem Currypulver bestreuen.\n\nDer Kuchen reicht für ca. 8 Personen.",
       "difficulty": "Schwer",
+      "id": 14,
       "tags": [
-        "unter10Euro",
-        "All"
-      ],
-      "id": 14
+        "unter10Euro"
+      ]
     },
     {
       "name": "Oma's Pizzasuppe",
@@ -112,12 +106,11 @@
       "imageUrl": "/assets/images/food/c961c1eae42c4ce2b58242f1c12f2295_1445104_ID57702_BuntePizzasuppe03_online-2.jpg",
       "preparation": "Die Zwiebeln würfeln und mit dem Hackfleisch in Olivenöl anbraten. Die Paprikaschoten ebenfalls würfeln und mit den Champignons sowie dem Mais zum Hackfleisch geben. Alles kurz anbraten, anschließend mit der Gemüsebrühe ablöschen. Die Sahne, die Tomatensauce und den Sahneschmelzkäse hinzugeben und ca. 10 Minuten köcheln lassen. Zum Schluss mit Salz, Pfeffer und Oregano abschmecken.\n\nBeim Servieren nach Belieben etwas geriebenen Parmesan auf die Suppe streuen.\n\nDazu passt am besten Baguette. \n\nTipp: Schmeckt auch als Nudelsauce gut, dann weniger Gemüsebrühe verwenden.",
       "difficulty": "Schwer",
+      "id": 15,
       "tags": [
         "unter10Euro",
-        "FürDenSchnellenHunger",
-        "All"
-      ],
-      "id": 15
+        "FürDenSchnellenHunger"
+      ]
     },
     {
       "name": "Gefüllte Paprika",
@@ -127,9 +120,6 @@
       "imageUrl": "/assets/images/food/Paprika.jpg",
       "preparation": "In die Hackmasse kommen 100 g bereits gekochter Reis. Verwendet man keine Spitzpaprika, sondern normale, in die mehr Füllung passt, nimmt man weniger Paprikaschoten.\n\nAus Hackfleisch, Reis, Ei, Zwiebel und Knoblauch einen Hackfleischteig herstellen und mit den Gewürzen abschmecken. In die Paprikaschoten füllen und aus dem Rest Hackfleischbällchen formen. \n\nDie Butter in einem Topf schmelzen, das Mehl dazugeben und etwas anrösten. Mit Gemüsebrühe ablöschen. Tomatenmark dazugeben und aufkochen lassen. Mit Salz, Pfeffer und etwas Zucker abschmecken. Die gefüllten Paprikaschoten und die Bällchen in die Sauce geben und entweder auf dem Herd oder im Backofen ca. 30 - 40 Min. schmoren.\n\nDazu gibt es Reis. \n\nAnmerkung: Alternativ kann man auch passierte Tomaten statt des Tomatenmarks verwenden. Dann etwas weniger Brühe nehmen.\n\nDie Mengenangaben sind etwas vage, meine Uri hat immer \"nach Gefühl\" gekocht. Ich habe versucht, das Rezept so gut wie möglich nachzuvollziehen.",
       "difficulty": "Schwer",
-      "tags": [
-        "All"
-      ],
       "id": 16
     },
     {
@@ -143,8 +133,7 @@
       "id": 17,
       "tags": [
         "unter10Euro",
-        "FürDenSchnellenHunger",
-        "All"
+        "FürDenSchnellenHunger"
       ]
     },
     {
@@ -155,10 +144,7 @@
       "imageUrl": "/assets/images/food/Leberkaese.jpg",
       "preparation": "Das Hackfleisch wird mit allen Zutaten, außer den Champignons, mit dem Flachrührer/Knethaken der Küchenmaschine 4-5 Min. bei mittlerer Geschwindigkeit unter Zugabe der in Mineralwasser aufgelösten Stärke leimig geknetet – es muss ein richtig schmieriges Brät ergeben. Die Champignons werden dann von Hand untergemischt, damit sie nicht zermatscht werden. Das Brät wird sodann in eine Form gefüllt (hier eine Kastenform), mit nassen Händen glatt gestrichen und mit einem Schlesinger ein Rautenmuster eingedrückt.\nIm vorgeheizten Ofen ca. 15 Min. bei 160° backen, dann runterschalten auf 120°. Da jeder Backofen anders heizt, sollte man mit einem Einstichthermometer arbeiten (Kerntemperatur 70-72°) - im Allgemeinen rechnet man ca. 60 Min. pro kg. Den Fleischkäse bäckt man auf dem Rost und stellt darunter ein mit Wasser gefülltes Backblech, damit er nicht austrocknet. Wer will, kann eine braune Kruste drauf backen, indem man jede Seite zusätzlich ca. 3 Min. grillt.\n\nFormen müssen vor dem Füllen ringsum mit Öl eingepinselt werden. Konserveneinlagen müssen mit kochendem Wasser überbrüht werden, damit die Einlagen sich gut mit dem Brät verbinden.",
       "difficulty": "Mittel",
-      "id": 18,
-      "tags": [
-        "All"
-      ]
+      "id": 18
     },
     {
       "name": "Tiramisu",
@@ -170,8 +156,7 @@
       "difficulty": "Einfach",
       "id": 19,
       "tags": [
-        "FürDenSchnellenHunger",
-        "All"
+        "FürDenSchnellenHunger"
       ]
     },
     {
@@ -182,10 +167,7 @@
       "imageUrl": "/assets/images/food/gulasch.jpg",
       "preparation": "Die Zwiebeln in 0,5 cm große Würfel schneiden, Karotte und Sellerie würfeln. Alles in 2 EL Butterschmalz kräftig anbraten. Tomatenmark zugeben und andünsten bis sich eine homogene Masse bildet, das Mark darf ruhig ein bisschen ansetzen. Paprikapulver kurz mitrösten (Vorsicht, darf nicht verbrennen!). Mit dem Rotwein und der Brühe ablöschen und zum Kochen bringen. Jetzt erst das gewürfelte Fleisch dazu geben, wieder aufkochen und bei kleiner Hitze mit den Lorbeerblättern ca. 2 Stunden köcheln lassen. \n\nDurch das Gemüse ist es normalerweise nicht nötig, die Sauce zu binden. Wenn sie allerdings zu flüssig ist, kann man das Gulasch mit 1 EL in kaltem Wasser aufgelöstem Stärkemehl andicken. Dann noch abschmecken mit Salz und Pfeffer. Die Lorbeerblätter fische ich nach Möglichkeit vor dem Servieren raus. \n\nDies ist ein Grundrezept für Gulasch, man kann es wunderbar abwandeln, indem man z. B. eine halbe Stunde vor Ende der Garzeit noch Sahne, Kartoffeln und/oder Paprikaschoten zugibt. Ich gebe auch immer noch Knoblauch dazu, den mochte aber meine Oma nicht. \n\nDazu schmecken Knödel jeglicher Art, Kartoffeln oder Nudeln.",
       "difficulty": "Mittel",
-      "id": 20,
-      "tags": [
-        "All"
-      ]
+      "id": 20
     },
     {
       "name": "French Toast mit Nutella",
@@ -198,8 +180,7 @@
       "id": 21,
       "tags": [
         "unter10Euro",
-        "FürDenSchnellenHunger",
-        "All"
+        "FürDenSchnellenHunger"
       ]
     },
     {
@@ -213,8 +194,7 @@
       "id": 22,
       "tags": [
         "unter10Euro",
-        "FürDenSchnellenHunger",
-        "All"
+        "FürDenSchnellenHunger"
       ]
     },
     {
@@ -228,8 +208,7 @@
       "id": 23,
       "tags": [
         "unter10Euro",
-        "FürDenSchnellenHunger",
-        "All"
+        "FürDenSchnellenHunger"
       ]
     },
     {
@@ -243,8 +222,7 @@
       "id": 24,
       "tags": [
         "unter10Euro",
-        "FürDenSchnellenHunger",
-        "All"
+        "FürDenSchnellenHunger"
       ]
     },
     {
@@ -258,8 +236,7 @@
       "id": 25,
       "tags": [
         "unter10Euro",
-        "FürDenSchnellenHunger",
-        "All"
+        "FürDenSchnellenHunger"
       ]
     },
     {
@@ -273,7 +250,6 @@
       "id": 26,
       "tags": [
         "FürDenSchnellenHunger",
-        "All",
         "RezeptDesTages"
       ]
     },
@@ -288,8 +264,7 @@
       "id": 27,
       "tags": [
         "unter10Euro",
-        "FürDenSchnellenHunger",
-        "All"
+        "FürDenSchnellenHunger"
       ]
     },
     {
@@ -303,8 +278,7 @@
       "id": 28,
       "tags": [
         "unter10Euro",
-        "FürDenSchnellenHunger",
-        "All"
+        "FürDenSchnellenHunger"
       ]
     },
     {
@@ -318,8 +292,7 @@
       "id": 29,
       "tags": [
         "unter10Euro",
-        "FürDenSchnellenHunger",
-        "All"
+        "FürDenSchnellenHunger"
       ]
     },
     {
@@ -333,8 +306,7 @@
       "id": 30,
       "tags": [
         "unter10Euro",
-        "FürDenSchnellenHunger",
-        "All"
+        "FürDenSchnellenHunger"
       ]
     },
     {
@@ -345,10 +317,7 @@
       "imageUrl": "/assets/images/food/schweinshaxe.jpg",
       "preparation": "Einen großen Topf mit Salzwasser aufsetzen. Lorbeerblätter, Wacholderbeeren, Pfeffer und die geviertelte Zwiebel hineingeben. Aufkochen lassen und dann die Hitze so einstellen, dass das Wasser nicht kocht, aber immer noch sehr heiß ist. Schweinehaxen hineingeben (Wichtig: nicht ins kalte Wasser, da sonst der Geschmack in der Brühe ist). Ca. 1,5 Stunden kochen.\n\nHerausnehmen und die Schwarte rautenförmig einschneiden. Mit Salz und Kümmel einreiben.\n\nIm Backofen den Rost in die mittlere Schiene schieben und darunter eine Fettpfanne oder Auflaufform stellen, die das Fett auffängt. Die Haxen auf den Rost legen und bei 200°C ca. 1,5 Stunden im vorgeheizten Ofen lassen. \n\nNach der Hälfte der Zeit die Haxen umdrehen. Wenn man möchte, kann man sie auch mit dem aufgefangen Fett übergießen (aber ich mache das nie). \n\nTipp: Wenn man hat, kann man die letzten 15 Minuten den Backofengrill anschalten.\n\nDazu passt gut ein Kartoffelsalat (schwäbisch direkt mit der Brühe gemacht), Kartoffelpüree oder Knödel mit Bratensoße, ein Salat oder ganz einfach ein paar Scheiben Brot. \n\nWenn etwas übrig bleibt, schmeckt das Fleisch am nächsten Tag auch kalt sehr gut.",
       "difficulty": "Mittel",
-      "id": 31,
-      "tags": [
-        "All"
-      ]
+      "id": 31
     },
     {
       "name": "Mediterranes Ofengemüse",
@@ -360,8 +329,7 @@
       "difficulty": "Einfach",
       "id": 32,
       "tags": [
-        "unter10Euro",
-        "All"
+        "unter10Euro"
       ]
     },
     {
@@ -374,8 +342,7 @@
       "difficulty": "Einfach",
       "id": 33,
       "tags": [
-        "unter10Euro",
-        "All"
+        "unter10Euro"
       ]
     },
     {
@@ -389,8 +356,7 @@
       "id": 34,
       "tags": [
         "unter10Euro",
-        "FürDenSchnellenHunger",
-        "All"
+        "FürDenSchnellenHunger"
       ]
     },
     {
@@ -404,8 +370,7 @@
       "id": 35,
       "tags": [
         "unter10Euro",
-        "FürDenSchnellenHunger",
-        "All"
+        "FürDenSchnellenHunger"
       ]
     },
     {
@@ -419,8 +384,7 @@
       "id": 36,
       "tags": [
         "unter10Euro",
-        "FürDenSchnellenHunger",
-        "All"
+        "FürDenSchnellenHunger"
       ]
     },
     {
@@ -431,11 +395,7 @@
       "imageUrl": "/assets/images/food/Doener.jpg",
       "preparation": "Außer dem Hackfleisch werden alle Zutaten in einem Zerkleinerer klein geschnitten und danach mit dem Hackfleisch vermischt und geknetet. Das Hackfleisch wird zu einer Rolle geformt, in Frischhaltefolie eingewickelt für mindestens drei Stunden in das Tiefkühlfach gegeben. Am besten ist es, wenn das Fleisch eine Nacht im Tiefkühlfach bleibt.\n\nDas Fleisch aus der Tiefkühltruhe heraus nehmen, in ganz dünne Scheiben schneiden und einer beschichteten Pfanne mit Öl anbraten. \n\nDas Brot aufschneiden, erst mit dem Fleisch füllen, darüber gemischten Salt geben und beliebig mit Soßen abschmecken.\n\nTipp: Ihr könnt das Fleisch anbraten, in kleinen Portionen einfrieren und bei Bedarf herausnehmen und kurz in der Pfanne anbraten.",
       "difficulty": "Mittel",
-      "id": 37,
-      "tags": [
-        
-        "All"
-      ]
+      "id": 37
     },
     {
       "name": "Kartoffelsuppe",
@@ -447,8 +407,7 @@
       "difficulty": "Einfach",
       "id": 38,
       "tags": [
-        "unter10Euro",
-        "All"
+        "unter10Euro"
       ]
     },
     {
@@ -462,8 +421,7 @@
       "id": 39,
       "tags": [
         "unter10Euro",
-        "FürDenSchnellenHunger",
-        "All"
+        "FürDenSchnellenHunger"
       ]
     },
     {
@@ -476,8 +434,7 @@
       "difficulty": "Mittel",
       "id": 40,
       "tags": [
-        "unter10Euro",
-        "All"
+        "unter10Euro"
       ]
     }
   ]
