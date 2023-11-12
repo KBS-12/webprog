@@ -1,8 +1,8 @@
 # WEBPROGRAMMIERUNG COOKHUB
 
-## BESCHREIBUNG
+## BESCHREIBUNG 
 
-Cookhub ist eine Webseite zum Anschauen von verschiedenen Kochrezepten und bietet ebenfalls die möglichkeit Rezepte über das eigene Konto hochzuladen und auch wieder zu löschen.
+CookHub ist eine Webseite zum Anschauen von verschiedenen Kochrezepten und bietet ebenfalls die Möglichkeit, Rezepte über das eigene Konto hochzuladen und auch wieder zu löschen.
 
 
 ## VERSIONEN
@@ -16,7 +16,7 @@ angular/material 16.2.9
 json-server v. 0.17.
 
 
-## INSTALLATIONEN
+## INSTALLATIONEN 💻
 ### Node.js
 [NodeJS Download](https://nodejs.org/en/download)
 Bitte aktuellste Version
@@ -28,11 +28,11 @@ $ npm install
 ```terminal
 $ npm install -g @angular/cli 
 ```
-Angular-Materials wird mit Folgenen Befehl hinzugefügt:
+Angular-Materials wird mit folgendem Befehl hinzugefügt:
 ```terminal
 $ ng add @angular/material 
 ```
-Guides und Verschiedene Komponenten für Angular sind hier zu finden: [Angular Material](https://material.angular.io/) 
+Guides und verschiedene Komponenten für Angular sind hier zu finden: [Angular Material](https://material.angular.io/) 
 
 ### Rest-Api
 Fake Rest-Api with json-server v. 0.17.4
@@ -44,31 +44,31 @@ oder
 $ npm i json-server
 ```
 Der Json-Server läuft über die IP/Port lochalhost:3000 
-Ebenfalls muss die JSON Datei ausgewählt werden, die von dem Json-Server Überwacht wird
+Ebenfalls muss die JSON Datei ausgewählt werden, die von dem Json-Server Überwacht wird.
 ```terminal
 $ json-server --watch db.json
 ```
-Hier wird die db.json die im Projekt liegt und als Datenbank benutzt wird, ausgewählt.
-Zum Starten der Webanwenung muss im Terminal "ng serve" ausgehührt werden.
+Hier wird die db.json, die im Projekt liegt und als Datenbank benutzt wird, ausgewählt.
+Zum Starten der Webanwendung muss im Terminal "ng serve" ausgeführt werden.
 
 ### ngx-toastr
 ```terminal
 $ npm install ngx-toastr
 ```
-Toastr wird gebnutzt um Notifikationen und Fehlermeldungen über Angular anzuzeigen
+Toastr wird genutzt, um Benachrichtigungen und Fehlermeldungen über Angular anzuzeigen.
 
-## START DER ANWENDUNG
-Hierdurch wird der Webservice gestartet
+## START DER ANWENDUNG 🚀
+Hierdurch wird der Webservice gestartet:
 ```terminal
 $ ng serve  
 ```
-Hierdurch wird der Json Server für die Rest-Api gestartet
+Hierdurch wird der Json Server für die Rest-Api gestartet:
 ```terminal
 $ npx json-server --watch db.json
 ```
    
-Im Browser deiner Wahl nun [Localhost:4200](http://localhost:4200/home-page) öffnen.
+Im Browser deiner Wahl kann die Webseite unter dem Link [Localhost:4200](http://localhost:4200/home-page) aufgerufen werden.
 
- ## AUTHOREN
+ ## AUTOREN ✍️
 
- Tino Stojanoski
+ Tino Stojanoski, Nadine Blaas
