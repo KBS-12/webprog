@@ -2,8 +2,17 @@
 
 ## BESCHREIBUNG 
 
-CookHub ist eine Webseite zum Anschauen von verschiedenen Kochrezepten und bietet ebenfalls die Möglichkeit, Rezepte über das eigene Konto hochzuladen und auch wieder zu löschen.
+CookHub ist eine Webseite zum Anschauen von verschiedenen Kochrezepten und bietet ebenfalls die Möglichkeit, Rezepte über das eigene Konto hochzuladen und auch wieder zu löschen. 
 
+Das Hochladen von eigenen Rezepten ist über die eigene Profilseite möglich. Rezepte können nur hochgeladen werden, wenn man als Benutzer eingeloggt ist.
+
+Um sich mit de eigenen Benutzerdaten einloggen zu können, bietet CookHub die Möglichkeit, einen eigenen Account anzulegen. Das ist über die Registrier-Seite möglich.
+
+Nach dem Login können Rezepte hochgeladen, gelöscht und jederzeit angeschaut werden. 
+
+Auf der Suchseite sind alle Rezepte zu finden. Einige Rezepte sind mit "Tags" versehen, womit man auf der Suchseite nach diesen filtern kann. 
+
+Zur Navigation über die Webseite kann man Header oder Footer verwenden. 
 
 ## VERSIONEN
 Services in Benutzung für dieses Projekt:
@@ -58,6 +67,10 @@ $ npm install ngx-toastr
 Toastr wird genutzt, um Benachrichtigungen und Fehlermeldungen über Angular anzuzeigen.
 
 ## START DER ANWENDUNG 🚀
+Sicherstellen, dass das richtige Verzeichnis ausgewählt ist:
+```terminal
+$ cd cookhub  
+```
 Hierdurch wird der Webservice gestartet:
 ```terminal
 $ ng serve  

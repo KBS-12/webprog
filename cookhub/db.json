@@ -25,7 +25,10 @@
       "imageUrl": "/assets/images/food/pasta-mit-pesto-alla-genovese-55609-2.jpg",
       "preparation": "1.Pinienkerne in der Pfanne anrösten. Knoblauch schälen.\n\n2.Die gerösteten Pinienkerne, den Knoblauch, den frischen Basilikum, den Parmesan und das Olivenöl im Mini-Mixer oder im Mörser zusammen mixen. Lieber in zwei Schritten mixen, damit die Mischung nicht bitter wird.\n\n3.Wasser zum Kochen bringen und mit Salz abschmecken. Die Spaghetti dazu geben und 2 Minuten weniger kochen als auf der Packung angegeben. Während des Kochvorgangs eine Tasse Nudelwasser abschöpfen.\n\n4.Die Spaghetti abgießen. In der Pfanne das Pesto und das Nudelwasser vermischen und die Spaghetti noch 2 Minuten in der Mischung kochen. Vorm Servieren mit geriebenen Parmesan bestreuen.",
       "difficulty": "Schwer",
-      "id": 9
+      "id": 9,
+      "tags": [
+        "unter10Euro"
+      ]
     },
     {
       "name": "Russische Pelmeni",
@@ -35,7 +38,10 @@
       "imageUrl": "/assets/images/food/pelmeni-2.jpg",
       "preparation": "Mehl in eine Rührschüssel geben, eine Vertiefung formen und das Wasser, Ei und Salz zugeben. Das Ganze zu einem festen Teig kneten (Nudelteig), mit einem Tuch abdecken und 20 - 30 Minuten ruhen lassen.\n\nDas Fleisch mit kleingehackten Zwiebeln, Butter, Sahne, Pfeffer und Gewürzen vermengen.\n\nDen Teig zu einem Strang (1,5 - 2 cm) rollen und Stücke abschneiden (1 - 1,5 cm). Aus diesen Teilen Plätzchen rollen. Man kann den Teig auch bis zu einer Dicke von ca. 2 mm ausrollen und dann mit einem Glas runde Stücke ausschneiden.\n\nDarauf mithilfe eines Löffels die Fleischmasse legen, das Fleisch im Teig einschließen und die Ränder zudrücken. Die Pelmeni in kochendes Salzwasser oder in Brühe legen. Nachdem das Wasser wieder aufkocht und die Pelmeni an die Oberfläche schwimmen, noch ca. 2 - 3 min ziehen lassen.\n\nWasser abgießen. Pelmini in eine Schüssel geben und mit Butterflocken bedecken. Die Pelmeni kann man mit Butter, mit Schmand, mit Essig oder mit der Mischung aus gehacktem Knoblauch oder Zwiebeln, Pflanzenöl, Essig, Salz und Pfeffer servieren.",
       "difficulty": "Schwer",
-      "id": 10
+      "id": 10,
+      "tags": [
+        "unter10Euro"
+      ]
     },
     {
       "name": "Blumenkohlsuppe mit Würstchen",
@@ -45,12 +51,11 @@
       "imageUrl": "/assets/images/food/blumenkohlsuppe-mit-meerrettich-2.jpg",
       "preparation": "Blumenkohl putzen, waschen und in Röschen teilen. Gut 500 ml leicht gesalzenes Wasser mit der Milch und der Gemüsebrühe aufkochen. Den Blumenkohl darin zugedeckt 10 - 15 Minuten garen. Dann abgießen und die Flüssigkeit auffangen.\n\nDen Mais abtropfen lassen. Die Zwiebel würfeln. \n\nDie Butter im Topf erhitzen. Die Zwiebelwürfel darin andünsten. Das Mehl darüber stäuben und anschwitzen. Mit der Kochflüssigkeit unter Rühren ablöschen. Aufkochen und ca. 5 Minuten köcheln lassen. Den Schmelzkäse zugeben und schmelzen lassen. Mit Salz, Pfeffer und evtl. etwas Muskat abschmecken.\n\nBlumenkohl, Erbsen, Mais und Würstchen in der Suppe 2 - 3 Minuten erhitzen, aber nicht mehr kochen lassen. Petersilie waschen und hacken. Die Suppe mit Petersilie bestreuen und servieren.",
       "difficulty": "Schwer",
+      "id": 11,
       "tags": [
         "unter10Euro",
-        "FürDenSchnellenHunger",
-        "RezeptDesTages"
-      ],
-      "id": 11
+        "FürDenSchnellenHunger"
+      ]
     },
     {
       "name": "Gurkenzug",
@@ -60,12 +65,11 @@
       "imageUrl": "/assets/images/food/Gurkenzug-2.png",
       "preparation": "Die Salatgurke wird einmal längs halbiert. Dabei beachten, dass die Spitze der Gurke noch zu sehen sein muss (das wird die Lok), daher vielleicht 2-3 cm neben der Gurkenspitze anfangen zu halbieren.\n\nNun die eine halbe Gurke in 3 gleichgroße Teile schneiden (Lok und 2 Hänger) und die Teile jeweils mit einem Zahnstocher verbinden. Damit man die Zahnstocher zwischen den Hängern nicht sieht, kann man Radieschenscheiben drauf stecken, es sieht aber auch ohne gut aus.\n\nNun 1/4 Gurke (von der noch unbenutzten Gurke) nehmen und als Fahrerhaus auf der Lok mit einem Zahnstocher befestigen und auf jeder Seite Fenster reinschneiden. Es kann dann noch zusätzlich ein Teil von der zu Beginn halbierten und nun übrig gebliebenen Gurke als Dach verwendet werden.\n\nEine Möhre schälen und in ca. 1-2 cm breite Stücke schneiden. Jeweils an der Lok und den Hängern 4 \"Räder\" mit einem Zahnstocher befestigen.\n\nDa es eine Dampflok werden soll, braucht man nun die Radieschen als Schornsteine. Dafür eignen sich eher längliche als ganz runde Radieschen. Diese nun vor dem Fahrerhaus mit Zahnstochern fixieren.\n\nZum Schluss die beiden Hänger etwas aushöhlen und Gemüse nach Geschmack als Fracht hineinlegen.",
       "difficulty": "Schwer",
+      "id": 12,
       "tags": [
         "unter10Euro",
-        "FürDenSchnellenHunger",
-        "RezeptDesTages"
-      ],
-      "id": 12
+        "FürDenSchnellenHunger"
+      ]
     },
     {
       "name": "Apfelwurst",
@@ -75,12 +79,11 @@
       "imageUrl": "/assets/images/food/apfelwurst.jpg",
       "preparation": "Die Haut der Fleischwurst abziehen und die Wurst in Abständen tief einschneiden. Feuerfeste Form einfetten. Wurst hineinlegen. Senf, Ketchup und Curry und Zwiebelpulver oder geriebene Zwiebel mischen. Einschnitte damit bestreichen. Apfelstücke in die Einschnitte stecken. Wurst mit zerlassener Butter einpinseln. \n\nForm in den vorgeheizten Ofen auf die mittlere Schiene stellen und etwa 30 Minuten braten.(E-Herd ca. 225 Grad/Gas Stufe 4/ Umluft 200 Grad) Ab und zu mit Butter begießen. \n\nWir mögen am liebsten Kartoffelpüree und einen grünen Salat dazu.\n\nEine Abwandlung: Die Wurst mit geriebenem Meerrettich würzen und zart geschnittene Lauchringe in die Einschnitte legen. Ist auch sehr lecker!",
       "difficulty": "Schwer",
+      "id": 13,
       "tags": [
         "unter10Euro",
-        "FürDenSchnellenHunger",
-        "RezeptDesTages"
-      ],
-      "id": 13
+        "FürDenSchnellenHunger"
+      ]
     },
     {
       "name": "Currywurstkuchen",
@@ -90,12 +93,10 @@
       "imageUrl": "/assets/images/food/wurstkuchen.jpeg",
       "preparation": "Den Hefeteig nach bekannten Rezepten vorbereiten oder wahlweise fertig kaufen.\n\nDen Teig auf ca. 30 x 30 cm ausrollen und in eine runde, mit Backpapier ausgelegte Kuchenspringform geben, so dass ein \"Topf\" entsteht und die Ecken darüber hängen. Den Teig etwa 10 Minuten bei 230° goldbraun backen. \n\nRegionale Unterschiede fordern verschiedene Würste für die Currywurst. Im Falle der Bratwurst und Rindswurst müssen diese natürlich vorgebraten werden. Die Würste in Stücke schneiden und Ketchup, Thai-Currypaste, Salz und Wasser in einen Topf geben und für 20 Minuten kochen. Dann die Gelatine sorgfältig einrühren und die Masse in den \"Topf\" aus Teig füllen. \n\nDen Kuchen über Nacht im Kühlschrank fest werden lassen und am nächsten Tag mit dem Currypulver bestreuen.\n\nDer Kuchen reicht für ca. 8 Personen.",
       "difficulty": "Schwer",
+      "id": 14,
       "tags": [
-        "unter10Euro",
-        "FürDenSchnellenHunger",
-        "RezeptDesTages"
-      ],
-      "id": 14
+        "unter10Euro"
+      ]
     },
     {
       "name": "Oma's Pizzasuppe",
@@ -105,12 +106,11 @@
       "imageUrl": "/assets/images/food/c961c1eae42c4ce2b58242f1c12f2295_1445104_ID57702_BuntePizzasuppe03_online-2.jpg",
       "preparation": "Die Zwiebeln würfeln und mit dem Hackfleisch in Olivenöl anbraten. Die Paprikaschoten ebenfalls würfeln und mit den Champignons sowie dem Mais zum Hackfleisch geben. Alles kurz anbraten, anschließend mit der Gemüsebrühe ablöschen. Die Sahne, die Tomatensauce und den Sahneschmelzkäse hinzugeben und ca. 10 Minuten köcheln lassen. Zum Schluss mit Salz, Pfeffer und Oregano abschmecken.\n\nBeim Servieren nach Belieben etwas geriebenen Parmesan auf die Suppe streuen.\n\nDazu passt am besten Baguette. \n\nTipp: Schmeckt auch als Nudelsauce gut, dann weniger Gemüsebrühe verwenden.",
       "difficulty": "Schwer",
+      "id": 15,
       "tags": [
         "unter10Euro",
-        "FürDenSchnellenHunger",
-        "RezeptDesTages"
-      ],
-      "id": 15
+        "FürDenSchnellenHunger"
+      ]
     },
     {
       "name": "Gefüllte Paprika",
@@ -120,11 +120,6 @@
       "imageUrl": "/assets/images/food/Paprika.jpg",
       "preparation": "In die Hackmasse kommen 100 g bereits gekochter Reis. Verwendet man keine Spitzpaprika, sondern normale, in die mehr Füllung passt, nimmt man weniger Paprikaschoten.\n\nAus Hackfleisch, Reis, Ei, Zwiebel und Knoblauch einen Hackfleischteig herstellen und mit den Gewürzen abschmecken. In die Paprikaschoten füllen und aus dem Rest Hackfleischbällchen formen. \n\nDie Butter in einem Topf schmelzen, das Mehl dazugeben und etwas anrösten. Mit Gemüsebrühe ablöschen. Tomatenmark dazugeben und aufkochen lassen. Mit Salz, Pfeffer und etwas Zucker abschmecken. Die gefüllten Paprikaschoten und die Bällchen in die Sauce geben und entweder auf dem Herd oder im Backofen ca. 30 - 40 Min. schmoren.\n\nDazu gibt es Reis. \n\nAnmerkung: Alternativ kann man auch passierte Tomaten statt des Tomatenmarks verwenden. Dann etwas weniger Brühe nehmen.\n\nDie Mengenangaben sind etwas vage, meine Uri hat immer \"nach Gefühl\" gekocht. Ich habe versucht, das Rezept so gut wie möglich nachzuvollziehen.",
       "difficulty": "Schwer",
-      "tags": [
-        "unter10Euro",
-        "FürDenSchnellenHunger",
-        "RezeptDesTages"
-      ],
       "id": 16
     },
     {
@@ -135,7 +130,11 @@
       "imageUrl": "/assets/images/food/pancakes.jpg",
       "preparation": "Das Mehl mit dem Zucker, Backpulver und Salz vermischen. Eier und Milch hinzugeben und alles zu einem glatten Teig verrühren.  Etwas Öl in eine Pfanne geben und auf mittlerer Stufe erhitzen. Je 2 EL Teig in die Pfanne geben. Die Pancakes sollten etwa einen Durchmesser von ca. 10 cm haben.\nJeden Pancake ca. 2 Minuten ausbacken, bis sich kleine Bläschen bilden, dann wenden und von der anderen Seite ebenfalls so lange ausbacken. American Pancakes mit Beeren und Ahornsirup garnieren und servieren.",
       "difficulty": "Einfach",
-      "id": 17
+      "id": 17,
+      "tags": [
+        "unter10Euro",
+        "FürDenSchnellenHunger"
+      ]
     },
     {
       "name": "Bayrischer Leberkäse",
@@ -146,6 +145,297 @@
       "preparation": "Das Hackfleisch wird mit allen Zutaten, außer den Champignons, mit dem Flachrührer/Knethaken der Küchenmaschine 4-5 Min. bei mittlerer Geschwindigkeit unter Zugabe der in Mineralwasser aufgelösten Stärke leimig geknetet – es muss ein richtig schmieriges Brät ergeben. Die Champignons werden dann von Hand untergemischt, damit sie nicht zermatscht werden. Das Brät wird sodann in eine Form gefüllt (hier eine Kastenform), mit nassen Händen glatt gestrichen und mit einem Schlesinger ein Rautenmuster eingedrückt.\nIm vorgeheizten Ofen ca. 15 Min. bei 160° backen, dann runterschalten auf 120°. Da jeder Backofen anders heizt, sollte man mit einem Einstichthermometer arbeiten (Kerntemperatur 70-72°) - im Allgemeinen rechnet man ca. 60 Min. pro kg. Den Fleischkäse bäckt man auf dem Rost und stellt darunter ein mit Wasser gefülltes Backblech, damit er nicht austrocknet. Wer will, kann eine braune Kruste drauf backen, indem man jede Seite zusätzlich ca. 3 Min. grillt.\n\nFormen müssen vor dem Füllen ringsum mit Öl eingepinselt werden. Konserveneinlagen müssen mit kochendem Wasser überbrüht werden, damit die Einlagen sich gut mit dem Brät verbinden.",
       "difficulty": "Mittel",
       "id": 18
+    },
+    {
+      "name": "Tiramisu",
+      "price": 7,
+      "cookingtime": 30,
+      "ingredientsquantity": "500 g\tMascarpone\n100 g\tPuderzucker\n200 g\tLöffelbiskuits\n4\tEigelb\n2\tEiweiß\n3 Tasse/n\tKaffee, gekochter, abgekühlt\n2 EL\tAmaretto, evtl. auch 3\nKakaopulver, ungesüßtes, zum Bestreuen",
+      "imageUrl": "/assets/images/food/tiramisu.jpg",
+      "preparation": "Eigelb, und Puderzucker weiß-schaumig schlagen. Amaretto unterrühren. Mascarpone vorsichtig unterrühren. Nicht mit dem Mixer, sonst wird die Masse flüssig. Lieber einen großen Schneebesen oder Kochlöffel benutzen. Das Eiweiß zu steifem Schnee schlagen und unterheben. \n\nLöffelbiskuits kurz in kalten Kaffee tunken und auf Küchenpapier etwas abtropfen lassen. \nEine Lage Creme in eine Form geben, darauf eine Lage Biskuits usw. \n\n2–4 Stunden (am besten sogar über Nacht) kalt stellen, kurz vor dem Servieren mit Kakaopulver bestreuen.\n\nIst wirklich so gut wie beim Italiener!",
+      "difficulty": "Einfach",
+      "id": 19,
+      "tags": [
+        "FürDenSchnellenHunger"
+      ]
+    },
+    {
+      "name": "Gulasch",
+      "price": 14,
+      "cookingtime": 120,
+      "ingredientsquantity": "2 EL\tButterschmalz\n4 große\tZwiebel(n), gewürfelt\n2 EL\tTomatenmark\n1\tKarotte(n), gewürfelt\n50 g\tKnollensellerie, gewürfelt\n0,7 Liter\tRotwein\n1 kg\tRindfleisch, gewürfelt\n300 ml\tRinderbrühe\n1 TL, gehäuft\tPaprikapulver, edelsüßes\n1 TL, gehäuft\tPaprikapulver, rosenscharfes\nSalz und Pfeffer\n2\tLorbeerblätter\nevtl.\tSaucenbinder",
+      "imageUrl": "/assets/images/food/gulasch.jpg",
+      "preparation": "Die Zwiebeln in 0,5 cm große Würfel schneiden, Karotte und Sellerie würfeln. Alles in 2 EL Butterschmalz kräftig anbraten. Tomatenmark zugeben und andünsten bis sich eine homogene Masse bildet, das Mark darf ruhig ein bisschen ansetzen. Paprikapulver kurz mitrösten (Vorsicht, darf nicht verbrennen!). Mit dem Rotwein und der Brühe ablöschen und zum Kochen bringen. Jetzt erst das gewürfelte Fleisch dazu geben, wieder aufkochen und bei kleiner Hitze mit den Lorbeerblättern ca. 2 Stunden köcheln lassen. \n\nDurch das Gemüse ist es normalerweise nicht nötig, die Sauce zu binden. Wenn sie allerdings zu flüssig ist, kann man das Gulasch mit 1 EL in kaltem Wasser aufgelöstem Stärkemehl andicken. Dann noch abschmecken mit Salz und Pfeffer. Die Lorbeerblätter fische ich nach Möglichkeit vor dem Servieren raus. \n\nDies ist ein Grundrezept für Gulasch, man kann es wunderbar abwandeln, indem man z. B. eine halbe Stunde vor Ende der Garzeit noch Sahne, Kartoffeln und/oder Paprikaschoten zugibt. Ich gebe auch immer noch Knoblauch dazu, den mochte aber meine Oma nicht. \n\nDazu schmecken Knödel jeglicher Art, Kartoffeln oder Nudeln.",
+      "difficulty": "Mittel",
+      "id": 20
+    },
+    {
+      "name": "French Toast mit Nutella",
+      "price": 6,
+      "cookingtime": 15,
+      "ingredientsquantity": "8 Scheibe/n\tToastbrot\n2\tEi(er)\n70 g\tZucker\n1 EL\tZimt\n1 EL\tButter\n150 g\tErdbeeren\nFür die Füllung: (Nutella-Füllung)\n\n100 g\tNutella\nFür die Füllung: (Cream-Cheese-Füllung)\n\n100 g\tFrischkäse\n20 g\tPuderzucker\n1 TL\tVanilleextrakt\n3 EL\tMilch\n\n",
+      "imageUrl": "/assets/images/food/nutella-french-toast.jpg",
+      "preparation": "Alle Toastscheiben mit einem Nudelholz dünn ausrollen. Die gewaschenen Erdbeeren halbieren und beiseitestellen. Die Hälfte der Toastscheiben mit Nutella bestreichen und darauf eine Reihe Erdbeeren verteilen. Warmes Nutella lässt sich übrigens deutlich besser verstreichen und ihr könnt sichergehen, dass die dünnen Toastscheiben nicht zerreißen. Die Toastscheiben vorsichtig einrollen und das Endstück (in etwa 1 cm) mit Nutella bestreichen, damit die Rolle am Ende besser zusammenklebt. \n\nFür die alternative Füllung Frischkäse mit 1 EL Milch, Vanilleextrakt sowie Puderzucker vermengen. Die übrigen vier Toastscheiben mit dieser Creme bestreichen, mit Erdbeeren belegen und einrollen.\n\nDie Rollen im verquirlten Ei wenden. \n\nButter in einer Pfanne bei mittlerer Hitze schmelzen und die French Toasts darin goldbraun braten. Abschließend in Zimtzucker wälzen. \n\nHinweis: Diese kleinen Rollen haben es in sich. Wer genug von Crêpes und langweiligen Zimt und Zucker-French Toasts hat, der kommt bei diesem kleinen Frühstück voll auf seine Kosten. Die kleinen mit Nutella und Erdbeeren oder mit süßem Cream cheese gefüllten Toastbrotscheiben lassen sich toll in Ei wenden und fallen nicht auseinander.",
+      "difficulty": "Einfach",
+      "id": 21,
+      "tags": [
+        "unter10Euro",
+        "FürDenSchnellenHunger"
+      ]
+    },
+    {
+      "name": "Nudelauflauf",
+      "price": 4,
+      "cookingtime": 20,
+      "ingredientsquantity": "75 g\tNudeln, Spiralnudeln aus Hartweizengrieß, Rohgewicht\n70 g\tZwiebel(n)\n70 g\tSchinken (Katenschinken), gewürfelt\n100 g\tSchmand\n20 g\tKäse, herzhaft, gerieben\netwas\tÖl",
+      "imageUrl": "/assets/images/food/nudelauflauf.jpg",
+      "preparation": "Nudeln nach Packungsvorschrift garen, nicht ganz abtropfen lassen. \nDie Zwiebel und den Schinken würfeln, in Öl hellbraun anbraten. Schmand einrühren, etwas einköcheln lassen. Die fertig gekochten Nudeln dazugeben, mit dem geriebenen Käse bestreuen, rühren, bis der Käse geschmolzen ist.",
+      "difficulty": "Einfach",
+      "id": 22,
+      "tags": [
+        "unter10Euro",
+        "FürDenSchnellenHunger"
+      ]
+    },
+    {
+      "name": "Paprika-Reispfanne",
+      "price": 4,
+      "cookingtime": 15,
+      "ingredientsquantity": "2 Tasse/n\tReis\n4 Tasse/n\tGemüsebrühe\n2\tZwiebel(n)\n2 Zehe/n\tKnoblauch\n1\tChilischote(n)\n3 EL\tTomatenmark\n3\tPaprikaschote(n), nach Belieben bunt gemischt\n1 TL\tPaprikapulver, edelsüßes\n1 TL\tPaprikapulver, rosenscharfes\n1 Handvoll\tKräuter, gemischte (Basilikum und Petersilie), frisch\n300 g\tJoghurt\n2 Zehe/n\tKnoblauch\nSalz und Pfeffer",
+      "imageUrl": "/assets/images/food/Paprika-Reis.jpg",
+      "preparation": "Den Reis in der Gemüsebrühe garen (eine Tasse mit ca. 200 - 250 ml Inhalt als Maß nehmen).\n\nDie Chilischote längs halbieren, von den Kernen befreien und hacken. Die Paprikaschoten putzen und würfeln. Die Zwiebeln fein würfeln und in einer Pfanne in etwas Öl glasig dünsten. Den gepressten Knoblauch, die Chilischote und das Tomatenmark hinzugeben und kurz mit anschwitzen. Die Paprikawürfel in die Pfanne geben und ein paar Minuten lang anbraten, dabei ab und zu die Pfanne schwenken. Mit Paprikapulver, Salz und Pfeffer würzen. Den Reis hinzugeben, untermengen und heiß werden lassen. Die Kräuter hacken und zuletzt untermischen. Nochmals abschmecken. \n\nJoghurt und gepressten Knoblauch verrühren, mit Salz und Pfeffer abschmecken. Den Reis mit einem Klecks von der Joghurtsauce servieren.\n\nVon der Menge werden ca. 3 - 4 Personen satt. Der Reis kann auch als Beilage gegessen werden.\n\nDie Kräutermenge kann nach Belieben erhöht werden.",
+      "difficulty": "Einfach",
+      "id": 23,
+      "tags": [
+        "unter10Euro",
+        "FürDenSchnellenHunger"
+      ]
+    },
+    {
+      "name": "Gebratene Nudeln",
+      "price": 5,
+      "cookingtime": 10,
+      "ingredientsquantity": "250 g\tchinesische Eiernudeln, gekocht\n200 g\tSojasprossen oder Mungobohnenkeimlinge\n1 kleine\tLauchzwiebel(n), klein geschnitten\nn. B.\tÖl\nn. B.\tSojasauce\nn. B.\tSambal Oelek\nn. B.\tPaprikapulver\nn. B.\tCurrypulver\nn. B.\tChilipulver\n200 g\tGeflügelfleisch",
+      "imageUrl": "/assets/images/food/gebrateneNudeln.jpg",
+      "preparation": "Das Fleisch in feine Streifen schneiden und mit Sojasauce und Sambal Oelek vorwürzen. \n\n5 EL Öl und 1 TL Sojasauce vermischen und in einen Wok oder eine Pfanne geben. Das Fleisch anbraten und dann die Sprossen sowie Lauchzwiebeln dazugeben. Kurz danach die Nudeln zufügen. Ca. 5 Minuten weiter braten lassen und dabei regelmäßig wenden. Zum Schluss mit den angegebenen Gewürzen nach Geschmack würzen.\n\nAnmerkung: Man verwendet hier bereits gekochte Nudeln.",
+      "difficulty": "Einfach",
+      "id": 24,
+      "tags": [
+        "unter10Euro",
+        "FürDenSchnellenHunger"
+      ]
+    },
+    {
+      "name": "Grießbrei",
+      "price": 3,
+      "cookingtime": 10,
+      "ingredientsquantity": "800 ml\tMilch\n80 g\tWeichweizengrieß\n2 EL\tZucker\n1 Pck.\tVanillezucker\n1 Prise(n)\tSalz\n1\tEi(er)\n25 g\tButter",
+      "imageUrl": "/assets/images/food/griessbrei.jpg",
+      "preparation": "Die Milch mit Zucker, Vanillezucker und einer Prise Salz in einem weiten Topf zum Kochen bringen. Den Weizengrieß unter Rühren mit einem Schneebesen einrieseln lassen und nochmals aufkochen lassen. Dann den Topf vom Herd nehmen und den Grieß zugedeckt 5 Minuten ziehen lassen.\n\nIn der Zwischenzeit das Eigelb vom Eiweiß trennen. Das Eiweiß zu steifem Schnee schlagen. Das Eigelb in den Grießbrei rühren. Die Butter ebenfalls in den Grießbrei geben und so lange rühren, bis die Butter geschmolzen ist. Zum Schluss den Eischnee vorsichtig unter den fertigen Grießbrei heben. \n\nDazu schmeckt Kompott nach Wahl, Zimt und Zucker oder braune Butter.\n\nSo hat ihn meine Omi gemacht und ich liebe diesen luftig lockeren Grießbrei.",
+      "difficulty": "Einfach",
+      "id": 25,
+      "tags": [
+        "unter10Euro",
+        "FürDenSchnellenHunger"
+      ]
+    },
+    {
+      "name": "Philadelphia Cheese Steak Sandwich",
+      "price": 10,
+      "cookingtime": 20,
+      "ingredientsquantity": "Öl zum Braten\n2 m.-große\tZwiebel(n), in ganz dünne Scheiben geschnittene\n100 g\tChampignons, in dünne Scheiben geschnittene\n1 große\tPaprikaschote(n), grüne, in dünne Streifen geschnittene\n2 TL\tKnoblauch, in ganz feine Scheiben geschnittener\nSalz und Pfeffer, schwarzer\n250 g\tSteak(s), in ganz dünne Scheiben geschnittenes\n220 g\tProvolone oder Mozzarella, dünn geschnittener\n2 große\tBaguettebrötchen",
+      "imageUrl": "/assets/images/food/Philly-Cheesesteak.jpg",
+      "preparation": "Eine Pfanne auf mittlerer Stufe erhitzen, das Öl hineingeben. Zwiebel, Pilze und Paprika hineingeben und ca. 8 Minuten braten, leicht bräunen lassen, gelegentlich umrühren. Knoblauch, Salz und Pfeffer hinzufügen und noch 30 Sekunden braten. Alles auf eine Seite der Pfanne geben. \n\nDie Steakstreifen auf die freie Fläche der Pfanne geben und maximal 2 Minuten braten, danach alles zusammenmischen. Nun in 2 Portionen in der Pfanne teilen und auf jede Hälfte den Käse geben. \n\nIn der Zwischenzeit die Baguettes einmal längs durchschneiden und etwas aushöhlen. Wenn der Käse auf der Fleischmischung geschmolzen ist, die Mischung auf jeweils ein Unterteil eines Baguette geben und mit dem oberen Teil bedecken. \n\nTipp: Optional kann man noch auf die Fleischmischung etwas Ketchup geben, bevor der Brötchendeckel darauf kommt.",
+      "difficulty": "Mittel",
+      "id": 26,
+      "tags": [
+        "FürDenSchnellenHunger",
+        "RezeptDesTages"
+      ]
+    },
+    {
+      "name": "Schnelles Spinat-Kichererbsen-Gericht",
+      "price": 5,
+      "cookingtime": 10,
+      "ingredientsquantity": "1 Pck.\tBlattspinat, TK, ca. 400 - 450 g\n2\tZwiebel(n)\n2\tKnoblauchzehe(n)\n2\tTomate(n), frisch, oder 1/2 Dose stückige Tomaten (von einer 400 g Dose)\n1 kl. Dose/n\tKichererbsen, gut abgetropft, 400 g Dose\n1 kl. Stück(e)\tIngwerwurzel, etwa so groß wie eine halbe Knoblauchzehe\n1 Dose\tKokosmilch, cremig, 400 g\n2 EL\tKokosöl\n½ TL\tSalz\n½ TL\tPaprikapulver\n½ TL\tKurkumapulver\n½ TL\tKorianderblätter, gerebelt\nChiliflocken",
+      "imageUrl": "/assets/images/food/Kichererbsen.jpg",
+      "preparation": "Den Blattspinat auftauen (evtl. in der Mikrowelle) und das Wasser abgießen. \n\nZwiebel, Knoblauch und Ingwer schälen. Die Tomaten am Stielansatz anschneiden, mit heißem Wasser übergießen und nach kurzer Zeit die Schale abziehen. Wenn es ganz schnell gehen soll, kann man auch gehackte Dosentomaten nehmen. Dafür 1/2 Dose verwenden, aber den Saft unbedingt abgießen, damit das Gericht keinen tomatigen Geschmack und keine rötliche Farbe annimmt. \n\nZwiebel und Tomaten in Würfel schneiden, (Dosentomaten abgießen), Knoblauch und Ingwer sehr fein hacken.\n\nIn einer hohen Pfanne das Kokosöl erhitzen. Zwiebel, Knoblauch und Ingwer hineingeben und glasig dünsten. Spinat, Tomaten und Kokosmilch (inkl. dem Wasser) hineingeben, würzen, einmal gut umrühren und zudecken. \n\nAlles bei schwacher Hitze, leicht blubbernd ca. 10 Min. köcheln lassen. Zum Schluss die Kichererbsen dazugeben, verrühren und kurz ziehen lassen. Eventuell alles noch mal abschmecken und mit Chiliflocken bestreut servieren.",
+      "difficulty": "Einfach",
+      "id": 27,
+      "tags": [
+        "unter10Euro",
+        "FürDenSchnellenHunger"
+      ]
+    },
+    {
+      "name": "Veganer Schokokuchen",
+      "price": 5,
+      "cookingtime": 10,
+      "ingredientsquantity": "200 g\tMehl\n35 g\tBackkakao\n180 g\tZucker oder Xucker (hier verwendet als kalorienreduzierte Variante)\n1 TL\tVanilleextrakt\n½ Pck.\tBackpulver\n240 ml\tWasser\n100 ml\tSonnenblumenöl",
+      "imageUrl": "/assets/images/food/schokokuchen.jpg",
+      "preparation": "Eine runde Springform mit 20 cm Durchmesser mit etwas Öl einfetten.\nDen Backofen auf 180 °C Ober/-Unterhitze vorheizen.\n\nMehl, Kakao, Zucker/Xucker, Vanillearoma und Backpulver in einer Schüssel kurz vermengen. Anschließend Wasser und Öl dazugeben und gut unterrühren, bis ein glatter Teig entsteht.\nDen Teig in die Form füllen und den Kuchen 35 - 40 Minuten backen. Er ist fertig, wenn bei der Stäbchenprobe kein Teig am Holzstäbchen hängen bleibt.\n\nTipp:\nIhr könnt gerne noch verschiedene Nüsse mit in den Kuchen geben, je nach Bedarf und Geschmack.\n\nVeganer Kuchen schmeckt doch nicht. Das habe ich oft gehört und jeden vom Gegenteil überzeugt. Er schmeckt genauso lecker nach Schokolade, nur ohne tierische Produkte. Überzeugt euch davon und probiert es unbedingt aus.",
+      "difficulty": "Einfach",
+      "id": 28,
+      "tags": [
+        "unter10Euro",
+        "FürDenSchnellenHunger"
+      ]
+    },
+    {
+      "name": "Couscous Salat",
+      "price": 4,
+      "cookingtime": 10,
+      "ingredientsquantity": "250 g\tCouscous\n250 ml\tGemüsebrühe oder Gemüsefond\n1 EL\tTomatenmark\n1\tPaprikaschote(n), rote\n1\tPaprikaschote(n), gelbe\n1 Dose/n\tMais\n4\tLauchzwiebel(n)\n2 EL\tReisessig\n3 EL\tOlivenöl oder Sonnenblumenöl\n1 EL\tCurrypaste, rote, vegane\n1 EL\tSojasauce\nSalz und Pfeffer\nChilipulver\nKreuzkümmel\nZucker\nPetersilie, glatte\nSchnittlauchröllchen oder Zwiebellauchgrün",
+      "imageUrl": "/assets/images/food/couscous-salat.jpg",
+      "preparation": "Den Couscous mit dem aufgekochten Fond übergießen und 10 Min. ziehen lassen. \nTipp: Die Flüssigkeitszugabe mit der Anweisung des Herstellers abgleichen. Je nach Typ und Hersteller kann eine unterschiedliche Menge nötig sein. Ggf. die Flüssigkeitsmenge erhöhen. \n\nIn der Zwischenzeit das Gemüse und die Kräuter waschen und klein schnippeln. \n\nTomatenmark, Currypaste (Veganer/Vegetarier aufpassen, kann Garnelen enthalten - ggfs. mehr Tomatenmark verwenden). Reisessig, Öl und Sojasauce mit Couscous vermengen, das geht mit den Händen am besten. Das Gemüse untermischen und mit Salz, Pfeffer, Chilipulver, Kreuzkümmel und etwas Zucker abschmecken. Etwas glatte Petersilie und Zwiebellauchgrünringe dazugeben.",
+      "difficulty": "Einfach",
+      "id": 29,
+      "tags": [
+        "unter10Euro",
+        "FürDenSchnellenHunger"
+      ]
+    },
+    {
+      "name": "Schneller Flammkuchen",
+      "price": 7,
+      "cookingtime": 20,
+      "ingredientsquantity": "\nFür den Teig:\n\n2 EL\tÖl\n125 ml\tWasser\n1 Prise(n)\tSalz\n250 g\tMehl\nFür den Belag:\n\n2\tZwiebel(n), in halbe Ringe dünn geschnitten\n1 Becher\tCrème double\n100 g\tSpeckwürfel\n1 Becher\tSchmand, 24 % Fett\nSalz oder Fondor und Pfeffer\nSchnittlauchröllchen",
+      "imageUrl": "/assets/images/food/flammkuchen.jpg",
+      "preparation": "Knetteig bereiten, ganz dünn ausrollen. Schmand und Crème double mischen, würzen und auf dem Teig verstreichen. \n\nZwiebeln mit ganz wenig Wasser 1 Minute bei 600 Watt in der Mikrowelle dünsten (durch die hohen Temperaturen beim Backen kann es leicht passieren, dass die Zwiebeln verbrennen - das wird durch diesen Trick vermieden). Zusammen mit dem Speck auf dem Belag verteilen. \n\nIm heißen Ofen bei 250 °C Ober-/Unterhitze auf der unteren Einschubleiste 20 Minuten backen. Mit Schnittlauchröllchen bestreut servieren.\n\nTipp: Wer Kalorien sparen möchte, ersetzt Crème double durch 20%igen Quark.\n\nReicht für 2 - 3 Personen, je nach Hunger.",
+      "difficulty": "Einfach",
+      "id": 30,
+      "tags": [
+        "unter10Euro",
+        "FürDenSchnellenHunger"
+      ]
+    },
+    {
+      "name": "Gegrillte Schweinshaxe",
+      "price": 15,
+      "cookingtime": 180,
+      "ingredientsquantity": "2\tSchweinehaxe(n) je 700 g mit Knochen (roh, nicht geräuchert oder gepökelt)\nSalz\nKümmel\n4\tLorbeerblätter\n4\tWacholderbeere(n)\n1 TL\tPfefferkörner\n1\tZwiebel(n), geviertelt",
+      "imageUrl": "/assets/images/food/schweinshaxe.jpg",
+      "preparation": "Einen großen Topf mit Salzwasser aufsetzen. Lorbeerblätter, Wacholderbeeren, Pfeffer und die geviertelte Zwiebel hineingeben. Aufkochen lassen und dann die Hitze so einstellen, dass das Wasser nicht kocht, aber immer noch sehr heiß ist. Schweinehaxen hineingeben (Wichtig: nicht ins kalte Wasser, da sonst der Geschmack in der Brühe ist). Ca. 1,5 Stunden kochen.\n\nHerausnehmen und die Schwarte rautenförmig einschneiden. Mit Salz und Kümmel einreiben.\n\nIm Backofen den Rost in die mittlere Schiene schieben und darunter eine Fettpfanne oder Auflaufform stellen, die das Fett auffängt. Die Haxen auf den Rost legen und bei 200°C ca. 1,5 Stunden im vorgeheizten Ofen lassen. \n\nNach der Hälfte der Zeit die Haxen umdrehen. Wenn man möchte, kann man sie auch mit dem aufgefangen Fett übergießen (aber ich mache das nie). \n\nTipp: Wenn man hat, kann man die letzten 15 Minuten den Backofengrill anschalten.\n\nDazu passt gut ein Kartoffelsalat (schwäbisch direkt mit der Brühe gemacht), Kartoffelpüree oder Knödel mit Bratensoße, ein Salat oder ganz einfach ein paar Scheiben Brot. \n\nWenn etwas übrig bleibt, schmeckt das Fleisch am nächsten Tag auch kalt sehr gut.",
+      "difficulty": "Mittel",
+      "id": 31
+    },
+    {
+      "name": "Mediterranes Ofengemüse",
+      "price": 5,
+      "cookingtime": 30,
+      "ingredientsquantity": "viel\tOlivenöl\n500 g\tKartoffel(n), kleine\n400 g\tSpitzpaprika, rot\nThymian\nMajoran\nOregano\nRosmarin\n150 g\tCherrytomate(n)\n200 g\tChampignons\n100 g\tFeta-Käse\n1\tZwiebel(n)\n6\tKnoblauchzehe(n)\nMeersalz und Pfeffer\nKümmel\nPaprikapulver, rosenscharfes",
+      "imageUrl": "/assets/images/food/Ofengemuese.jpg",
+      "preparation": "Den Ofen auf 200 °C Ober-/Unterhitze vorheizen. \n\nEine Pfanne mit reichlich gutem Olivenöl erhitzen. Die gewaschenen und geschälten Kartoffeln halbieren und in der Pfanne kurz durchschwenken. Die Spitzpaprika halbieren, entkernen und klein schneiden, ebenfalls kurz hinzugeben. Alles mit den Kräutern mischen und in eine ofenfeste Form geben. \n\nCherrytomaten vierteln, Champignons halbieren und Feta-Käse in Würfel schneiden. Zwiebel in Ringe schneiden und Knoblauch nur schälen (evtl. auch mehr oder weniger Knoblauch nehmen, aber bei dieser Art Zubereitung bleibt kein extremer Knoblauchgeschmack übrig). Alle diese Zutaten in die Form geben, durchrühren und mit Meersalz, Pfeffer, Kümmel und scharfem Paprikapulver würzen. \n\nIm vorgeheizten Backofen ca. 30 Minuten auf der mittleren Schiene backen. Ab und zu umrühren. \n\nWenn die Kartoffeln weich sind, kann serviert werden.",
+      "difficulty": "Einfach",
+      "id": 32,
+      "tags": [
+        "unter10Euro"
+      ]
+    },
+    {
+      "name": "Nudelsalat",
+      "price": 5,
+      "cookingtime": 30,
+      "ingredientsquantity": "\nFür den Salat:\n\n250 g\tSpirelli\n2 Handvoll\tErbsen, TK\n200 g\tFleischwurst oder 4 Wiener Würstchen, klein geschnitten\n200 g\tGouda oder Edamer, gewürfelt\n2\tTomate(n), feste\n6\tGewürzgurke(n), in Scheiben geschnitten\nFür die Marinade:\n\n250 g\tSalatcreme (Miracel Whip) Balance\n1 EL\tKetchup\n1 TL\tSenf\n½ TL\tPaprikapulver, edelsüßes\nSalz und Pfeffer\nGurkenflüssigkeit",
+      "imageUrl": "/assets/images/food/nudelsalat.jpg",
+      "preparation": "Die Nudeln bissfest kochen, ca. 3 Minuten vor Ende der Kochzeit die TK-Erbsen dazugeben. Gemeinsam abgießen und kalt abschrecken.\n\nIn einer großen Schüssel Miracel Whip, Ketchup, Senf, Paprika, Salz und Pfeffer verrühren und mit etwas Gurkenwasser von den sauren Gurken aufgießen, so dass das Ganze eine ungefähre Konsistenz von Buttermilch hat. Es ist wichtig, am Anfang mehr Flüssigkeit zu haben, weil die Nudeln noch viel aufsaugen.\n\nDie Wurstscheiben, Käsewürfel, Tomatenwürfel, Gurkenscheiben und die abgekühlte Nudel-Erbsen-Mischung in die Marinade geben, durchrühren und mindestens 3 Stunden kaltstellen. \nTipp: Am besten über Nacht, dann schmeckts am besten. Die Flüssigkeit ist dann eingezogen und die Konsistenz ist optimal.",
+      "difficulty": "Einfach",
+      "id": 33,
+      "tags": [
+        "unter10Euro"
+      ]
+    },
+    {
+      "name": "Schnelle Muffins",
+      "price": 4,
+      "cookingtime": 20,
+      "ingredientsquantity": "200 g\tMehl\n150 g\tZucker\n4\tEi(er)\n50 ml\tMilch\n1 Pck.\tBackpulver\n1 Pck.\tVanillinzucker\n150 ml\tÖl",
+      "imageUrl": "/assets/images/food/Muffins.jpeg",
+      "preparation": "Alle Zutaten - egal, in welcher Reihenfolge - in eine Schüssel geben (ich siebe das Mehl, der Teig wird feiner). Ca. 3 Minuten verquirlen, dann jeweils eine kleine Saucenkelle vollTeig in Muffinförmchen aus Papier füllen (diese stelle ich vorher allerdings in eine feste Muffinform, dann bekommen sie eine schönere Form).\n\nIm heißen Backofen bei 180 °C Ober-/Unterhitze auf der mittleren Schiene ca. 20 min. backen (ich schau ab und zu mal rein und lasse sie goldgelb werden).\n\nNach Belieben mit Zuckerguss (wir färben sie immer mit Lebensmittelfarbe) und Streusel, Smarties etc. verzieren.\n\nKinderleicht und superlecker, ich werde immer wieder nach dem Rezept gefragt. Ergibt ca. 14 Muffins.",
+      "difficulty": "Einfach",
+      "id": 34,
+      "tags": [
+        "unter10Euro",
+        "FürDenSchnellenHunger"
+      ]
+    },
+    {
+      "name": "Shakshuka",
+      "price": 3,
+      "cookingtime": 15,
+      "ingredientsquantity": "3 EL\tOlivenöl\n1 m.-große\tZwiebel(n), gehackt\n1 Zehe/n\tKnoblauch, gehackt, nach Belieben\n1\tPaprikaschote(n), gewürfelt\n5\tTomate(n), reife, gewürfelt, oder eine Dose Tomaten\n2 EL\tTomatenmark\n1 TL, gestr.\tKreuzkümmel\n1 TL, gestr.\tPaprikapulver, edelsüßes\n1 TL, gestr.\tSalz\nn. B.\tChilipulver, Cayennepfeffer oder Pfeffer nach Geschmack\n4\tEi(er)\nn. B.\tKoriandergrün oder glatte Petersilie",
+      "imageUrl": "/assets/images/food/shakshuka.jpg",
+      "preparation": "Olivenöl in einer Pfanne erhitzen. Zwiebel, Knoblauch und Paprikawürfel unter Rühren ca. 5 Minuten glasig dünsten. Tomaten, Tomatenmark und Gewürze zugeben und ca. 10 Minuten offen köcheln lassen. \n\nJetzt mit einem Esslöffel 4 Mulden für die Eier in die Tomatenmasse drücken und jeweils ein Ei hineinschlagen. Deckel auflegen und ca. 5 Minuten weiter köcheln lassen. Das Ei soll innen noch leicht flüssig sein. Kräuter nach Geschmack darüber streuen und servieren. \n\nDazu passt Weißbrot oder Pita um die leckere Soße aufzusaugen. \n\nMit einem israelischen oder grünem Salat wird aus dem Snack ein leichtes Gericht. Nach Geschmack Chorizo, Tofu oder Feta dazugeben.\n\nTipp: Man kann die Tomatensoße auch in 4 feuerfeste Förmchen geben, dann je ein Ei dazugeben und im Ofen backen, bis das Ei gestockt ist.",
+      "difficulty": "Einfach",
+      "id": 35,
+      "tags": [
+        "unter10Euro",
+        "FürDenSchnellenHunger"
+      ]
+    },
+    {
+      "name": "Kartoffelgratin",
+      "price": 4,
+      "cookingtime": 25,
+      "ingredientsquantity": "500 g\tKartoffeln, vorwiegend festkochende\n125 ml\tMilch\n125 ml\tsüße Sahne\n1\tKnoblauchzehe(n)\nSalz und Pfeffer\nRosmarin\nButter für die Form\n3 EL\tKäse, frisch geriebener z.B. Parmesan oder Pecorino",
+      "imageUrl": "/assets/images/food/kartoffelgratin.jpg",
+      "preparation": "Die Kartoffeln schälen und in ca. 2 mm dünne Scheiben schneiden.\n\nMilch und Sahne vermischen, Knoblauch fein gehackt oder gepresst dazugeben. Etwas Salz und Pfeffer sowie Rosmarin beifügen und mit den Kartoffelscheiben sanft aufkochen lassen, dann unter häufigem vorsichtigem Rühren ca. 10 Minuten köcheln lassen.\n\nEine Auflaufform mit Butter ausstreichen, die Kartoffelmasse einfüllen und mit Käse bestreuen.\n\nIm vorgeheizten Ofen bei 220 °C Ober-/Unterhitze ca. 15 - 20 Minuten auf der mittleren Schiene überbacken.",
+      "difficulty": "Einfach",
+      "id": 36,
+      "tags": [
+        "unter10Euro",
+        "FürDenSchnellenHunger"
+      ]
+    },
+    {
+      "name": "Döner",
+      "price": 15,
+      "cookingtime": 45,
+      "ingredientsquantity": "3 EL\tJoghurt\n1\tZwiebel(n)\n1 Zehe/n\tKnoblauch\n2 EL\tGrieß\n1 EL\tPaprikapulver\n1 TL\tPfeffer\n1 TL\tPul Biber\n1 TL\tThymian\n1 TL\tBackpulver\nn. B.\tSalz\n500 g\tHackfleisch, Rind und Lamm gemischt\nAußerdem:\n\nn. B.\tPita-Brot(e) aus dem türkischen Lebensmittelladen\nn. B.\tSalat\nn. B.\tSauce nach Wahl",
+      "imageUrl": "/assets/images/food/Doener.jpg",
+      "preparation": "Außer dem Hackfleisch werden alle Zutaten in einem Zerkleinerer klein geschnitten und danach mit dem Hackfleisch vermischt und geknetet. Das Hackfleisch wird zu einer Rolle geformt, in Frischhaltefolie eingewickelt für mindestens drei Stunden in das Tiefkühlfach gegeben. Am besten ist es, wenn das Fleisch eine Nacht im Tiefkühlfach bleibt.\n\nDas Fleisch aus der Tiefkühltruhe heraus nehmen, in ganz dünne Scheiben schneiden und einer beschichteten Pfanne mit Öl anbraten. \n\nDas Brot aufschneiden, erst mit dem Fleisch füllen, darüber gemischten Salt geben und beliebig mit Soßen abschmecken.\n\nTipp: Ihr könnt das Fleisch anbraten, in kleinen Portionen einfrieren und bei Bedarf herausnehmen und kurz in der Pfanne anbraten.",
+      "difficulty": "Mittel",
+      "id": 37
+    },
+    {
+      "name": "Kartoffelsuppe",
+      "price": 5,
+      "cookingtime": 30,
+      "ingredientsquantity": "5 große\tKartoffel(n)\n1\tGelbrübe (Möhre bzw. Karotte)\n1 Stange/n\tLauch\n1\tZwiebel(n)\n1 Liter\tGemüsebrühe\nPetersilie\nPfeffer\n2\tWiener Würstchen\nWeißbrot, gewürfelt, geröstet\nSchnittlauch\nMajoran\nLorbeerblätter\nMuskat",
+      "imageUrl": "/assets/images/food/Kartoffelsuppe.jpg",
+      "preparation": "Am schnellsten geht es im Dampftopf: Kartoffeln und gelbe Rübe putzen und in grobe Würfel schneiden. Zwiebel würfeln. Lauch in Ringe schneiden. Zwiebeln in etwas Olivenöl glasig dünsten, Lauch dazugeben. Mit der Gemüsebrühe ablöschen. Die gewürfelten Kartoffeln und die Möhre zusammen mit dem Lorbeerblatt in die Brühe geben. Deckel schließen, Dampftopf auf Druck bringen und ca. 15 Min. kochen. Topf öffnen, das Lorbeerblatt rausfischen und die Kräuter hineingeben. Die Gemüsebrühe mit dem Zauberstab pürieren, mit Pfeffer und Muskat abschmecken. \n\nTipp: Nicht mit Majoran sparen. Er gibt der Kartoffelsuppe erst den besonderen Geschmack.\nDie in Scheiben geschnittenen Wiener in den Suppenteller geben und die heiße Kartoffelsuppe darüber gießen. Mit den gerösteten Weißbrotwürfeln anrichten.",
+      "difficulty": "Einfach",
+      "id": 38,
+      "tags": [
+        "unter10Euro"
+      ]
+    },
+    {
+      "name": "Süßkartoffelpommes",
+      "price": 4,
+      "cookingtime": 20,
+      "ingredientsquantity": "1 kg\tSüßkartoffel(n)\n1 TL\tSalz\n1 TL\tGewürzmischung (Chili-Knoblauchpulver) oder nur Knoblauchpulver\n1 EL\tPaprikapulver\n140 g\tStärkemehl\n200 g\tWasser",
+      "imageUrl": "/assets/images/food/Suesskartoffelpommes.jpg",
+      "preparation": "Zunächst die Süßkartoffeln schälen. Dann in Scheiben schneiden und daraus gleichmäßige Stifte schneiden. Man kann die Süßkartoffeln auch ungeschält verwenden, dann vor dem Schneiden gut waschen.\n\nDas Stärkemehl zum Wasser geben und klümpchenfrei verrühren. Salz, Chilli-Knoblauch und Paprikagewürz unterrühren.\n\nDie Süßkartoffelstifte zur Stärkemischung geben und gut vermengen. Alle Pommes sollten getränkt sein. Dann abgießen.\n\nDie Pommes in der Fritteuse 6 - 9 Minuten (je nach Dicke) bei 190 °C knusprig backen.",
+      "difficulty": "Einfach",
+      "id": 39,
+      "tags": [
+        "unter10Euro",
+        "FürDenSchnellenHunger"
+      ]
+    },
+    {
+      "name": "Falafel",
+      "price": 5,
+      "cookingtime": 45,
+      "ingredientsquantity": "200 g\tKichererbsen, getrocknete\n1 Scheibe/n\tToastbrot, altbackenes\n1\tZwiebel(n)\n4\tKnoblauchzehe(n)\n½ Bund\tPetersilie\n2 TL\tKorianderpulver\n2 TL\tKreuzkümmelpulver\nSalz und Pfeffer\n1 TL\tBackpulver\n2 EL\tMehl\n1 Liter\tÖl zum Frittieren\n1\tZitrone(n)",
+      "imageUrl": "/assets/images/food/falafel.jpg",
+      "preparation": "Die Kichererbsen in einer Schüssel mit reichlich kaltem Wasser bedecken und 12 Stunden quellen lassen. Anschließend abtropfen lassen. Das Brot zerkrümeln. Zwiebel und Knoblauch schälen und grob zerkleinern. Petersilie waschen und die Blättchen abzupfen. Brot, Zwiebel, Knoblauch, Petersilie und Kichererbsen im Mixer fein zerkleinern. \n\nDas Püree mit Koriander, Kreuzkümmel, Pfeffer und Salz abschmecken und mit Mehl und Backpulver verkneten. Aus dem Teig walnussgroße Bällchen formen. \n\nDas Öl zum Frittieren erhitzen. Es ist heiß genug, wenn an einem hölzernen Kochlöffelstiel, den man ins Fett hält, viele Bläschen aufsteigen. Die Falafel darin portionsweise in 4 - 5 Minuten goldbraun frittieren. Jeweils auf einer dicken Lage Küchenpapier abtropfen lassen. \n\nDie Zitrone in Schnitze schneiden und die heißen Falafel damit servieren.",
+      "difficulty": "Mittel",
+      "id": 40,
+      "tags": [
+        "unter10Euro"
+      ]
     }
   ]
 }

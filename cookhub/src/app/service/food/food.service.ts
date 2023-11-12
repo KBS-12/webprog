@@ -22,9 +22,9 @@ export class FoodService {
   }
   getAllTags(): Tag[] {
     return [
-      { name: 'All', count: 20 },
-      { name: 'unter10Euro', count: 7 },
-      { name: 'FürDenSchnellenHunger', count: 5 },
+      { name: 'All', count: 32 },
+      { name: 'unter10Euro', count: 25 },
+      { name: 'FürDenSchnellenHunger', count: 20 },
       { name: 'RezeptDesTages', count: 1 },
     ];
   }
