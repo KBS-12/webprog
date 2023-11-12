@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {FormArray, FormBuilder, FormControl, FormGroup} from '@angular/forms';
+import {FormArray, FormBuilder, FormControl, FormGroup, Validators} from '@angular/forms';
 import { RestapiService } from '../service/restapi.service';
 import {ActivatedRoute, Router} from "@angular/router";
 import {HttpClient} from "@angular/common/http";
@@ -22,13 +22,13 @@ export class NewRecipePageComponent {
 
     recipeform = new FormGroup({
 
-    name: new FormControl(''),
-    price: new FormControl(''),
-    cookingtime: new FormControl(''),
-    ingredientsquantity: new FormControl(''),
+    name: new FormControl('', Validators.required),
+    price: new FormControl('', Validators.required),
+    cookingtime: new FormControl('', Validators.required),
+    ingredientsquantity: new FormControl('', Validators.required),
     imageUrl: new FormControl(''),
-    preparation: new FormControl(''),
-    difficulty: new FormControl(''),
+    preparation: new FormControl('', Validators.required),
+    difficulty: new FormControl('', Validators.required),
 
   });
 
@@ -38,8 +38,8 @@ export class NewRecipePageComponent {
     }
 
     addRecipe() {
-      if (this.recipeform.value.price == "") {
-        this.toastr.error('Bitte Preis eingeben!');
+      if (this.recipeform.invalid) {
+        this.toastr.error('Bitte Pflichfelder* nicht leer lassen!');
       } else {
         this.recipe.addRecipeData(this.recipeform.value).subscribe((result: RecipeResponse) => {
           const newRecipeId = result.id;
