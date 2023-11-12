@@ -14,6 +14,7 @@ import { ToastrService } from 'ngx-toastr';
 })
 export class FoodPageComponent implements OnInit {
 
+  showButton:boolean=false
   food!: Food;
   params!: ''; 
   constructor(private activatedRoute:ActivatedRoute, private foodService: FoodService, private router: Router, private recipe: RestapiService, @Optional() private newrecipe: NewRecipePageComponent, private toastr: ToastrService) { 
@@ -21,6 +22,10 @@ export class FoodPageComponent implements OnInit {
       if(params.id)
       this.food = foodService.getFoodById(params.id);
       this.params = params.id;
+
+      if(sessionStorage.getItem('name') != null){
+        this.showButton = true;
+      }
     })
 
   }
@@ -35,6 +40,5 @@ export class FoodPageComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
 
 }

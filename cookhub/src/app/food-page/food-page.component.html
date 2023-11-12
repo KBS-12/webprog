@@ -25,8 +25,8 @@
                     </div>
                 </div>
                 <div class="button">
-                    <button class="btn btn-primary" routerLink="/new-recipe-page">Neues Rezept</button>
-                    <button class="btn btn-danger" (click)="deleteRecipe()">Rezept löschen</button>
+                    <button class="btn btn-primary" routerLink="/new-recipe-page" *ngIf="showButton">Neues Rezept</button>
+                    <button class="btn btn-danger" (click)="deleteRecipe()" *ngIf="showButton">Rezept löschen</button>
                 </div>
             </div>
         </div>
