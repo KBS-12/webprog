@@ -1,12 +1,12 @@
-<mat-card>
+<div class="mat-card">
     <div class="jumbotron text-center">
-        <img src="assets/images/logo.png" alt="Titelbild" class="img-fluid" style="width: 50%; height: auto;">
+        <img src="assets/images/logo.png" alt="Titelbild" style="width: auto; height: auto; display: block; margin-left: auto; margin-right: auto;">
       </div>
       
-    <mat-card-header>
+    <div class="mat-card-header">
         <h2>Registrieren</h2>
-    </mat-card-header>
-    <mat-card-content>
+    </div>
+    <div class="mat-card-content">
         <form class="example-form" [formGroup]="registerform" (ngSubmit)="proceedregistration()">
             <p> Name</p>
             <mat-form-field class="example-full-width">
@@ -16,7 +16,7 @@
               <p> Email</p>
               <mat-form-field class="example-full-width">
                 <mat-label>name@beispiel.com*</mat-label>
-                <input matInput formControlName="email" >
+                <input matInput formControlName="id" >
               </mat-form-field>
               <p> Password</p>
               <mat-form-field class="example-full-width">
@@ -31,5 +31,5 @@
                 <a routerLink="/login-page" mat-raised-button color="primary">Zurück zum Login</a>
               </div>
           </form>
-    </mat-card-content>
-  </mat-card>
+        </div>
+      </div>

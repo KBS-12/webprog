@@ -1,26 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <title>Nicht mehr Startseite</title>
-  <style>
-    h1 {
-      font-size: 30px;
-      font-family: 'Roboto', sans-serif;
-      color: #12CDD4;
-      font-weight: bold;
-      text-align: center;
-      margin-top: 10px;
-    }
-
-    .form-card {
-      margin-bottom: 20px;
-    }
-  </style>
-</head>
-<body>
+<title>Neues Rezept</title>
 
 <div class="container">
   <div class="row">
@@ -33,10 +11,9 @@
 <div class="container text-center mb-4">
   <input type="file" id="fileUpload" style="display: none;" (change)="previewImage($event)">
   <label for="fileUpload" style="display: inline-block; cursor: pointer;">
-    <img src="/assets/images/addphoto.jpg" alt="Bild öffnen" style="width: 400px; height: 300px; border: 1px solid #DFDFDF; border-radius: 10px;" id="imagePreview">
+    <img src="/assets/images/addphoto.jpg" alt="Bild öffnen" style="width: 380px; height: 300px; border: 1px solid #DFDFDF; border-radius: 10px;" id="imagePreview">
   </label>
 </div>
-
 
 <div class="container">
   <form [formGroup]="recipeform" (ngSubmit)="addRecipe()">
@@ -44,9 +21,9 @@
       <div class="form-card">
         <div class="card">
           <div class="card-body">
-            <p class="card-title font-weight-bold">Titel</p>
+            <p class="card-title font-weight-bold">Titel*</p>
             <div class="form-group">
-              <input type="string" class="form-control" id="minutes" min="1" max="60" placeholder="Rezeptbeschreibung hinzufügen..." formControlName="title">
+              <input type="string" class="form-control" id="name"  placeholder="Rezeptbeschreibung hinzufügen..." formControlName="name">
             </div>
           </div>
         </div>
@@ -55,12 +32,12 @@
         <div class="form-card">
           <div class="card">
             <div class="card-body">
-              <p class="card-title font-weight-bold">Schwierigkeit</p>
+              <p class="card-title font-weight-bold">Schwierigkeit*</p>
               <div class="form-group">
                 <select class="form-control" id="difficulty" formControlName="difficulty">
-                  <option value="1">Einfach</option>
-                  <option value="2">Mittel</option>
-                  <option value="3">Schwer</option>
+                  <option value="Einfach">Einfach</option>
+                  <option value="Mittel">Mittel</option>
+                  <option value="Schwer">Schwer</option>
                 </select>
               </div>
             </div>
@@ -69,9 +46,9 @@
         <div class="form-card">
           <div class="card">
             <div class="card-body">
-              <p class="card-title font-weight-bold">Koch/Backzeit</p>
+              <p class="card-title font-weight-bold">Koch/Backzeit*</p>
               <div class="form-group">
-                <input type="number" class="form-control" id="minutes" min="1" max="60" placeholder="0" formControlName="cookingtime" inputmode="numeric">
+                <input type="number" class="form-control" id="minutes"  placeholder=0 formControlName="cookingtime" inputmode="numeric">
               </div>
             </div>
           </div>
@@ -79,9 +56,9 @@
         <div class="form-card">
           <div class="card">
             <div class="card-body">
-              <p class="card-title font-weight-bold">Kosten</p>
+              <p class="card-title font-weight-bold">Kosten*</p>
               <div class="form-group">
-                <input type="number" class="form-control" id="price" min="1" max="60" placeholder=0 formControlName="price" inputmode="numeric">
+                <input type="number" class="form-control" id="price"  placeholder=0 formControlName="price" inputmode="numeric">
               </div>
             </div>
           </div>
@@ -91,7 +68,7 @@
         <div class="form-card">
           <div class="card">
             <div class="card-body">
-              <p class="card-title font-weight-bold">Zutaten & Menge</p>
+              <p class="card-title font-weight-bold">Zutaten & Menge*</p>
               <div class="form-group">
                 <textarea class="form-control" id="ingredients" placeholder="Zutaten hinzufügen...." rows="4" formControlName="ingredientsquantity"></textarea>
               </div>
@@ -101,28 +78,19 @@
         <div class="form-card">
           <div class="card">
             <div class="card-body">
-              <p class="card-title font-weight-bold">Zubereitung</p>
+              <p class="card-title font-weight-bold">Zubereitung*</p>
               <div class="form-group">
                 <textarea class="form-control" id="preparation" placeholder="Beschreibung hinzufügen...." rows="4" formControlName="preparation"></textarea>
               </div>
             </div>
           </div>
         </div>
-
-
-        
+      </div>
         <div class="form-card text-center d-flex justify-content-center">
           <button type="submit" class="btn btn-primary" style="background-color: #12CDD4; color: white; margin-right: 10px;">Rezept speichern</button>
-          <button type="reset" class="btn btn-primary" style="background-color: #12CDD4; color: white; margin-left: 10px;">Abbrechen</button>
+          <button type="reset" class="btn btn-primary" routerLink="/profile-page" style="background-color: #12CDD4; color: white; margin-left: 10px;">Abbrechen</button>
         </div>
       </div>
-    </div>
   </form>
 </div>
 
-
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-</body>
-</html>

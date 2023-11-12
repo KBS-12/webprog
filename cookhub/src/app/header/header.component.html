@@ -18,7 +18,8 @@
         <a class="nav-link" routerLink="/profile-page">Profil</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" aria-disabled="true" onclick="deleteSessionStorage()" routerLink="/login-page" >Logout</a>
+        <a class="nav-link" aria-disabled="true" (click)="deleteSessionStorage()"  *ngIf="!loginStatus"  routerLink="/login-page" >Login</a>
+        <a class="nav-link" aria-disabled="true" (click)="deleteSessionStorage()"  *ngIf="loginStatus" (click)="logout()" routerLink="/login-page" >Logout</a>
       </li>
     </ul>
   </section>
